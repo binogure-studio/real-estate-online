@@ -10,8 +10,47 @@ en:
   BUTTON_SPLIT_SCREEN_TYPE: Split screen
   BUTTON_LAN_TYPE: Local game
   BUTTON_ONLINE_TYPE: Online game
+  BUTTON_CLOSE: Close
+  BUTTON_PAY: Pay
 
   LABEL_IP_ADDRESS: IP Address
+
+  LABEL_NEW_RENT: "New rent: $%s"
+  LABEL_BUY_BACK_VALUE: Can be redeemed for $%s
+  LABEL_BUY_FOR: Buy for $%s
+  LABEL_PAY: Pay $%s
+  LABEL_AIRPORT_PAY: Buy a ticket for $%s
+
+  LABEL_LAND_ONLY: Land only
+  LABEL_1_HOUSE: One house
+  LABEL_2_HOUSE: Two houses
+  LABEL_3_HOUSE: Three houses
+  LABEL_4_HOUSE: Four houses
+  LABEL_1_HOSTEL: One hostel
+  LABEL_X_HOUSES: "%s houses"
+
+  LABEL_AIRPORT_DESCRIPTION: |
+    You have the option of flying to the vacant
+    location of your choice.
+
+    The airfare is [b]$%s[/b]
+  LABEL_JAIL: Jail
+  LABEL_GO_TO_JAIL: |
+    Go straight to jail, don't go through the starting gate, don't get [b]$%s[/b].
+    You will stay in jail for a maximum of [b]%s[/b] rounds.
+  LABEL_JAIL_REMAINING_TURN: |
+    Remaining turn in jail: [b]%s[/b]
+  LABEL_JAIL_ANNOUNCE: |
+    You're in jail.
+    To release from jail you take a roll of the dice to make a double.
+    Or you can pay [b]$%s[/b] immediately to get out on the next turn.
+
+    What do you want to do?
+  LABEL_JAIL_LAST_TURN: |
+    You're in jail.
+    You must pay [b]$%s[/b] immediately to get out on the next turn.
+  LABEL_WONDER_COMBO: |
+    If you own [b]%s[/b], then double the rent for [b]%s[/b]
 
   LABEL_CASE_AIRPORT: Airport
   LABEL_CASE_ALGER: Alger
@@ -71,7 +110,7 @@ en:
     Not yet translated
   LABEL_CARD_ANARCHY_1_TITLE: Not yet translated
   LABEL_CARD_ANARCHY_1_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_ANARCHY_2_TITLE: Not yet translated
   LABEL_CARD_ANARCHY_2_DESCRIPTION: |
     Not yet translated
@@ -89,7 +128,7 @@ en:
     Not yet translated
   LABEL_CARD_ANARCHY_7_TITLE: Not yet translated
   LABEL_CARD_ANARCHY_7_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_ANARCHY_8_TITLE: Not yet translated
   LABEL_CARD_ANARCHY_8_DESCRIPTION: |
     Not yet translated
@@ -98,23 +137,23 @@ en:
     Not yet translated
   LABEL_CARD_ANARCHY_10_TITLE: Not yet translated
   LABEL_CARD_ANARCHY_10_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_ANARCHY_11_TITLE: Not yet translated
   LABEL_CARD_ANARCHY_11_DESCRIPTION: |
     Not yet translated
 
   LABEL_CARD_RANDOM_0_TITLE: Not yet translated
   LABEL_CARD_RANDOM_0_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_RANDOM_1_TITLE: Not yet translated
   LABEL_CARD_RANDOM_1_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_RANDOM_2_TITLE: Not yet translated
   LABEL_CARD_RANDOM_2_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_RANDOM_3_TITLE: Not yet translated
   LABEL_CARD_RANDOM_3_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s, %s
   LABEL_CARD_RANDOM_4_TITLE: Not yet translated
   LABEL_CARD_RANDOM_4_DESCRIPTION: |
     Not yet translated
@@ -123,16 +162,16 @@ en:
     Not yet translated
   LABEL_CARD_RANDOM_6_TITLE: Not yet translated
   LABEL_CARD_RANDOM_6_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_RANDOM_7_TITLE: Not yet translated
   LABEL_CARD_RANDOM_7_DESCRIPTION: |
     Not yet translated
   LABEL_CARD_RANDOM_8_TITLE: Not yet translated
   LABEL_CARD_RANDOM_8_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_RANDOM_9_TITLE: Not yet translated
   LABEL_CARD_RANDOM_9_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_RANDOM_10_TITLE: Not yet translated
   LABEL_CARD_RANDOM_10_DESCRIPTION: |
     Not yet translated

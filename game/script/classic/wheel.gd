@@ -62,11 +62,11 @@ func _input(event):
       relative_rotation += event.relative.y / -500.0
 
     __angular_velocity = relative_rotation
-    $circles.rotate(relative_rotation)
+    $wheel/circles.rotate(relative_rotation)
 
 func _physics_process(delta):
   if __current_state == SPINNING_WHEEL_STATE.WAITING_FOR_SPINNING:
-    $circles.rotate(__angular_velocity)
+    $wheel/circles.rotate(__angular_velocity)
     __angular_velocity -= __angular_velocity * delta
 
     if __angular_velocity < 0.0001:
@@ -84,7 +84,7 @@ func _update_label():
       $result.set_text('Player is spinning the fortune wheel')
 
     SPINNING_WHEEL_STATE.SPINNING_DONE:
-      var computed_angle = int(rad2deg(($circles/wheel.global_rotation - ($circles/wheel.global_position.angle_to_point($pin/triangle/collision/sprite/anchor.global_position) + PI / 2.0)) + (2 * PI))) % 360
+      var computed_angle = int(rad2deg(($wheel/circles/wheel.global_rotation - ($wheel/circles/wheel.global_position.angle_to_point($wheel/pin/triangle/collision/sprite/anchor.global_position) + PI / 2.0)) + (2 * PI))) % 360
       var case_index = int(floor(computed_angle / ANGLE_PER_CASES))
       var case_data = static_data.wheel[case_index]
 

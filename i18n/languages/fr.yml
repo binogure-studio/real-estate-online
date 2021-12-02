@@ -10,8 +10,49 @@ fr:
   BUTTON_SPLIT_SCREEN_TYPE: Écran partagé
   BUTTON_LAN_TYPE: Réseau local
   BUTTON_ONLINE_TYPE: Partie en ligne
+  BUTTON_CLOSE: Fermer
+  BUTTON_PAY: Payer
 
   LABEL_IP_ADDRESS: Adresse IP
+
+  LABEL_NEW_RENT: "Nouveau loyer: $%s"
+  LABEL_BUY_BACK_VALUE: Pourra être racheté pour $%s
+  LABEL_BUY_FOR: Acheter pour $%s
+  LABEL_PAY: Payer $%s
+  LABEL_AIRPORT_PAY: Acheter un billet pour $%s
+
+  LABEL_LAND_ONLY: Terrain seul
+  LABEL_1_HOUSE: Une maison
+  LABEL_2_HOUSE: Deux maisons
+  LABEL_3_HOUSE: Trois maisons
+  LABEL_4_HOUSE: Quatre maisons
+  LABEL_1_HOSTEL: Un hôtel
+  LABEL_X_HOUSES: "%s maisons"
+
+  LABEL_AIRPORT_DESCRIPTION: |
+    Vous pouvez choisir de prendre l'avion pour vous rendre
+    sur la case libre de votre choix.
+
+    Le prix du billet est de [b]$%s[/b]
+  LABEL_JAIL: Prison
+  LABEL_GO_TO_JAIL: |
+    Allez directement en prison, ne passez pas par la case départ, ne recevez pas [b]$%s[/b].
+    Vous resterez au plus [b]%s[/b] tours en prison.
+
+  LABEL_JAIL_REMAINING_TURN: |
+    Nombre de tour en prison restant: [b]%s[/b]
+  LABEL_JAIL_ANNOUNCE: |
+    Vous êtes en prison.
+    Pour sortir vous pouvez essayer de lancer les dés pour faire un double.
+    Ou vous pouvez payer [b]$%s[/b] immédiatement pour sortir au prochain tour.
+
+    Que voulez-vous faire?
+  LABEL_JAIL_LAST_TURN: |
+    Vous êtes en prison.
+    Vous devez immédiatement payer [b]$%s[/b] pour pouvoir sortir au prochain tour.
+
+  LABEL_WONDER_COMBO: |
+    Si vous possédez également [b]%s[/b], alors le loyer de [b]%s[/b] sera doublé
 
   LABEL_CASE_AIRPORT: Aéroport
   LABEL_CASE_ALGER: Alger

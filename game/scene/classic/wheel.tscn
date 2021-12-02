@@ -1,14 +1,119 @@
-[gd_scene load_steps=6 format=3 uid="uid://be2m10klio5ae"]
+[gd_scene load_steps=10 format=3 uid="uid://be2m10klio5ae"]
 
 [ext_resource type="Texture2D" uid="uid://bfsrhl83jk2nt" path="res://assets/theme/icon/wheel-1024x1024.png" id="1_e0evt"]
 [ext_resource type="Script" path="res://script/classic/wheel.gd" id="1_nqqwf"]
-[ext_resource type="Texture2D" uid="uid://bqwjam17kit7q" path="res://assets/theme/icon/wheel-tilt-208x256.png" id="3_s5veg"]
+[ext_resource type="Texture2D" uid="uid://cis37p0ujmcsm" path="res://assets/theme/icon/wheel-socle-645x432.png" id="2_mnnrx"]
 [ext_resource type="PackedScene" uid="uid://cbqbht1ly2bfi" path="res://scene/classic/wheel-pin.tscn" id="3_y4kve"]
+[ext_resource type="Texture2D" uid="uid://ciq2vs0w4bxv5" path="res://assets/theme/icon/wheel-tilt-172x256.png" id="4_miqbj"]
+[ext_resource type="PackedScene" uid="uid://dxau872w5r4sn" path="res://scene/classic/wheel-light-bulb.tscn" id="6_sn1oi"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ojd1a"]
 rough = true
 bounce = 1.0
 absorbent = true
+
+[sub_resource type="Animation" id="Animation_e3gsa"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("wheel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2224, 540)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("wheel:skew")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("wheel/pin/pinHead:sync_to_physics")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("wheel/pin:sync_to_physics")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_5tut0"]
+resource_name = "setup"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("wheel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(2224, 540), Vector2(960, 540), Vector2(924, 540), Vector2(960, 540)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("wheel:skew")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.349066, 0.261799, 0.0, -0.0872665, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("wheel/pin/pinHead:sync_to_physics")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, false, true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("wheel/pin:sync_to_physics")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, false, true]
+}
 
 [node name="main" type="CenterContainer"]
 rect_min_size = Vector2(1920, 1080)
@@ -17,8 +122,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="circles" type="AnimatableBody2D" parent="."]
-position = Vector2(960, 540)
+[node name="wheel" type="Node2D" parent="."]
+position = Vector2(2224, 540)
+
+[node name="socle" type="Sprite2D" parent="wheel"]
+position = Vector2(6.10352e-05, 224)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource( "2_mnnrx" )
+
+[node name="circles" type="AnimatableBody2D" parent="wheel"]
 rotation = 0.261799
 collision_layer = 0
 collision_mask = 0
@@ -27,55 +139,62 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="wheel" type="Sprite2D" parent="circles"]
+[node name="wheel" type="Sprite2D" parent="wheel/circles"]
 scale = Vector2(0.5, 0.5)
 texture = ExtResource( "1_e0evt" )
 
-[node name="0" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="0" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(2.78857, -244.508)
 
-[node name="1" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="1" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(126.254, -214.504)
 
-[node name="2" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="2" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(215.287, -125.999)
 
-[node name="3" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="3" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(248.38, 1.78577)
 
-[node name="4" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="4" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(217.373, 121.379)
 
-[node name="5" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="5" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(125.998, 215.287)
 
-[node name="6" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="6" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(-1.78577, 248.38)
 
-[node name="7" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="7" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(-129.123, 219.379)
 
-[node name="8" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="8" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(-216.29, 122.126)
 
-[node name="9" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="9" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(-248.38, -1.78574)
 
-[node name="10" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="10" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(-214.504, -126.254)
 
-[node name="11" parent="circles" instance=ExtResource( "3_y4kve" )]
+[node name="11" parent="wheel/circles" instance=ExtResource( "3_y4kve" )]
 position = Vector2(-125.998, -215.287)
 
-[node name="pin" type="AnimatableBody2D" parent="."]
-position = Vector2(960, 216)
+[node name="pin" type="AnimatableBody2D" parent="wheel"]
+position = Vector2(0, -324)
 collision_layer = 0
 collision_mask = 0
+sync_to_physics = false
+__meta__ = {
+"_edit_lock_": true
+}
 
-[node name="pinHead" type="AnimatableBody2D" parent="pin"]
+[node name="pinHead" type="AnimatableBody2D" parent="wheel/pin"]
 position = Vector2(0, 84)
+collision_layer = 0
+collision_mask = 0
+sync_to_physics = false
 
-[node name="triangle" type="RigidDynamicBody2D" parent="pin"]
+[node name="triangle" type="RigidDynamicBody2D" parent="wheel/pin"]
 physics_material_override = SubResource( "PhysicsMaterial_ojd1a" )
 gravity_scale = 0.0
 custom_integrator = true
@@ -83,30 +202,59 @@ continuous_cd = 1
 can_sleep = false
 freeze_mode = 1
 
-[node name="collision" type="CollisionPolygon2D" parent="pin/triangle"]
+[node name="collision" type="CollisionPolygon2D" parent="wheel/pin/triangle"]
 polygon = PackedVector2Array(-32, 0, 32, 0, 0, 80)
 
-[node name="sprite" type="Sprite2D" parent="pin/triangle/collision"]
+[node name="sprite" type="Sprite2D" parent="wheel/pin/triangle/collision"]
 show_behind_parent = true
 scale = Vector2(0.33, 0.33)
-texture = ExtResource( "3_s5veg" )
+texture = ExtResource( "4_miqbj" )
 offset = Vector2(0, 120)
 
-[node name="anchor" type="Node2D" parent="pin/triangle/collision/sprite"]
+[node name="anchor" type="Node2D" parent="wheel/pin/triangle/collision/sprite"]
 position = Vector2(0, 242.424)
 
-[node name="pinTriangleJoin" type="PinJoint2D" parent="pin"]
+[node name="pinTriangleJoin" type="PinJoint2D" parent="wheel/pin"]
 node_a = NodePath("..")
 node_b = NodePath("../triangle")
 bias = 0.2
 
-[node name="pinHeadTriangleJoin" type="PinJoint2D" parent="pin"]
+[node name="pinHeadTriangleJoin" type="PinJoint2D" parent="wheel/pin"]
 position = Vector2(0, 80)
 node_a = NodePath("../triangle")
 node_b = NodePath("../pinHead")
 softness = 16.0
 
+[node name="guirlande" type="Node2D" parent="."]
+
+[node name="0" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+
+[node name="1" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(308, -96)
+
+[node name="2" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(520, -96)
+
+[node name="3" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(732, -96)
+
+[node name="4" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(944, -96)
+
+[node name="5" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(1156, -96)
+
+[node name="6" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(1368, -96)
+
+[node name="7" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(1580, -96)
+
+[node name="8" parent="guirlande" instance=ExtResource( "6_sn1oi" )]
+position = Vector2(1792, -96)
+
 [node name="result" type="Label" parent="."]
+visible = false
 offset_left = 832.0
 offset_top = 508.0
 offset_right = 1088.0
@@ -115,3 +263,11 @@ rect_min_size = Vector2(256, 64)
 theme_override_font_sizes/font_size = 16
 align = 1
 valign = 1
+
+[node name="wheelAnimation" type="AnimationPlayer" parent="."]
+autoplay = "setup"
+playback_process_mode = 0
+playback_default_blend_time = 2.0
+method_call_mode = 1
+anims/RESET = SubResource( "Animation_e3gsa" )
+anims/setup = SubResource( "Animation_5tut0" )

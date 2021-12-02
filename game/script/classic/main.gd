@@ -104,18 +104,25 @@ func _initialize_property_data(case_node, case_data, player_index):
       button_node.visible = case_node.is_option_visible(player_index, index)
 
       if index >= 5:
-        button_node.set_text('1 hôtel\n%s' % [
+        button_node.set_text('%s\n%s' % [
+          tr('LABEL_1_HOSTEL'),
           number_utils.format_currency(costs)
         ])
 
+      elif index == 1:
+        button_node.set_text('%s\n%s' % [
+          tr('LABEL_1_HOUSE'), number_utils.format_currency(costs)
+        ])
       else:
-        button_node.set_text('%s maison(s)\n%s' % [
-          index, number_utils.format_currency(costs)
+        button_node.set_text('%s\n%s' % [
+          tr('LABEL_X_HOUSES') % [index],
+          number_utils.format_currency(costs)
         ])
 
     else:
       button_node.visible = case_data.game.houses == 0
-      button_node.set_text('Terrain seul\n%s' % [
+      button_node.set_text('%s\n%s' % [
+        tr('LABEL_LAND_ONLY'),
         number_utils.format_currency(costs)
       ])
 
@@ -136,12 +143,12 @@ func _player_in_jail(player_index, throw_dice_callback, end_of_turn_callback):
   if $canvas/inJail/center/panel/container/actions/throwDices.is_connected('pressed', _jail_throw_dices):
     $canvas/inJail/center/panel/container/actions/throwDices.disconnect('pressed', _jail_throw_dices)
 
-  $canvas/inJail/center/panel/container/title.set_text('Tour en prison restant: %s' % [
+  $canvas/inJail/center/panel/container/title.set_text(tr('LABEL_JAIL_REMAINING_TURN') % [
     turn_in_prison_left
   ])
 
   if turn_in_prison_left > 0:
-    $canvas/inJail/center/panel/container/richTextLabel.set_text('Vous êtes en prison. Pour sortir vous pouvez essayer de lancer les dés pour faire un double.\nOu vous pouvez payer $%s immédiatement pour sortir au prochain tour. Que voulez-vous faire?' % [
+    $canvas/inJail/center/panel/container/richTextLabel.set_text(tr('LABEL_JAIL_ANNOUNCE') % [
       number_utils.format(prison_costs)
     ])
 
@@ -151,7 +158,7 @@ func _player_in_jail(player_index, throw_dice_callback, end_of_turn_callback):
 
   else:
     $canvas/inJail/center/panel/container/actions/throwDices.visible = false
-    $canvas/inJail/center/panel/container/richTextLabel.set_text('Vous êtes en prison. Vous devez immédiatement payer $%s pour pouvoir sortir au prochain tour.' % [
+    $canvas/inJail/center/panel/container/richTextLabel.set_text(tr('LABEL_JAIL_LAST_TURN') % [
       number_utils.format(prison_costs)
     ])
 
@@ -272,7 +279,7 @@ func _play_wonder(player_index, case_node, case_data, case_name, callback):
   var owned_wonders = get_cases_owned_by_player_and_type(player_index)
 
   $canvas/wonder/center/panel/container/title.set_text(case_name)
-  $canvas/wonder/center/panel/container/richTextLabel.text = 'Si vous possédez également %s, alors le loyer de %s sera doublé' % [
+  $canvas/wonder/center/panel/container/richTextLabel.text = tr('LABEL_WONDER_COMBO') % [
     tr(wonder_case_data.name), tr(wonder_case_data.name)
   ]
 
@@ -299,7 +306,7 @@ func _play_wonder(player_index, case_node, case_data, case_name, callback):
 
     $canvas/wonder/center/panel/container/actions/buy.connect('pressed', _buy_wonder, [player_index, case_node, $canvas/wonder, callback], CONNECT_ONESHOT)
     $canvas/wonder/center/panel/container/actions/buy.set_disabled(wonder_buy_costs > player_currency)
-    $canvas/wonder/center/panel/container/actions/buy.set_text('Acheter pour %s' % [number_utils.format_currency(wonder_buy_costs)])
+    $canvas/wonder/center/panel/container/actions/buy.set_text(tr('LABEL_BUY_FOR') % [number_utils.format(wonder_buy_costs)])
     $canvas/wonder/center/panel/container/actions/close.connect('pressed', _close_popup, [$canvas/wonder, callback], CONNECT_ONESHOT)
     $canvas/wonder/center/panel/marginContainer/close.connect('pressed', _close_popup, [$canvas/wonder, callback], CONNECT_ONESHOT)
 
@@ -311,7 +318,7 @@ func _play_wonder(player_index, case_node, case_data, case_name, callback):
     $canvas/wonder/center/panel/marginContainer/close.visible = false
 
     $canvas/wonder/center/panel/container/actions/buy.set_disabled(true)
-    $canvas/wonder/center/panel/container/actions/close.set_text('Payer %s' % [number_utils.format_currency(rental_costs)])
+    $canvas/wonder/center/panel/container/actions/close.set_text(tr('LABEL_PAY') % [number_utils.format_currency(rental_costs)])
     $canvas/wonder/center/panel/container/actions/close.connect('pressed', _pay_rent, [player_index, case_node, $canvas/wonder, callback], CONNECT_ONESHOT)
 
   else:
@@ -335,7 +342,7 @@ func _play_airport(player_index, case_node, case_data, case_name, callback):
   var airport_buy_costs = case_node.get_buy_price(player_index)
 
   $canvas/airport/center/panel/container/title.set_text(case_name)
-  $canvas/airport/center/panel/container/richTextLabel.text = 'Vous pouvez choisir d\'acheter un billet d\'avion pour seulement $%s. Grâce à lui, vous pourrez voyager ou bon vous semble' % [
+  $canvas/airport/center/panel/container/richTextLabel.text = tr('LABEL_AIRPORT_DESCRIPTION') % [
     number_utils.format(airport_buy_costs)
   ]
 
@@ -345,7 +352,7 @@ func _play_airport(player_index, case_node, case_data, case_name, callback):
 
   $canvas/airport/center/panel/container/actions/buy.connect('pressed', _buy_airport_ticket, [player_index, case_node, $canvas/airport, callback], CONNECT_ONESHOT)
   $canvas/airport/center/panel/container/actions/buy.set_disabled(airport_buy_costs > player_currency)
-  $canvas/airport/center/panel/container/actions/buy.set_text('Acheter un billet pour %s' % [number_utils.format_currency(airport_buy_costs)])
+  $canvas/airport/center/panel/container/actions/buy.set_text(tr('LABEL_AIRPORT_PAY') % [number_utils.format(airport_buy_costs)])
   $canvas/airport/center/panel/container/actions/close.connect('pressed', _close_popup, [$canvas/airport, callback], CONNECT_ONESHOT)
   $canvas/airport/center/panel/marginContainer/close.connect('pressed', _close_popup, [$canvas/airport, callback], CONNECT_ONESHOT)
 
@@ -407,9 +414,9 @@ func _update_property_costs(pressed_button, player_currency):
 
   # TODO
   # Cannot buy back a property with an hostel
-  $canvas/property/center/panel/container/costs.set_text('Nouveau loyer: %s' % [number_utils.format_currency(rent_value)])
-  $canvas/property/center/panel/container/actions/buy.set_text('Acheter pour %s' % [number_utils.format_currency(cost_value)])
-  $canvas/property/center/panel/container/buyback.set_text('Pourra être racheté pour %s' % [number_utils.format_currency(buy_back)])
+  $canvas/property/center/panel/container/costs.set_text(tr('LABEL_NEW_RENT') % [number_utils.format(rent_value)])
+  $canvas/property/center/panel/container/actions/buy.set_text(tr('LABEL_BUY_FOR') % [number_utils.format(cost_value)])
+  $canvas/property/center/panel/container/buyback.set_text(tr('LABEL_BUY_BACK_VALUE') % [number_utils.format(buy_back)])
   $canvas/property/center/panel/container/actions/buy.set_disabled(player_currency < cost_value)
 
 func _case_selected(case_node, event_type, player_index, original_case, callback):
@@ -504,7 +511,7 @@ func _player_jailed(player_index, callback):
 
   var player_node = $players.get_node(str(player_index))
 
-  $canvas/jail/center/panel/container/richTextLabel.text = 'Allez directement en prison, ne passez pas par la case départ, ne recevez pas $%s.\nVous resterez au plus %s tours en prison.' % [
+  $canvas/jail/center/panel/container/richTextLabel.text = tr('LABEL_GO_TO_JAIL') % [
     number_utils.format(static_data.world_tour_salary), player_node.get_turn_in_prison_left()
   ]
 

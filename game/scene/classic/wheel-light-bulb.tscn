@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dxau872w5r4sn"]
+
+[ext_resource type="Texture2D" uid="uid://bkdx8kkneatuu" path="res://assets/theme/icon/light-bulb-128x178.png" id="1_226si"]
+[ext_resource type="Script" path="res://script/classic/wheel-lightbulb.gd" id="2_37bal"]
+[ext_resource type="Texture2D" uid="uid://doe8b8pj8oqnu" path="res://assets/theme/icon/light-bulb-light-128x121.png" id="2_kriqb"]
+
+[node name="0" type="Sprite2D"]
+position = Vector2(96, -96)
+rotation = 3.14159
+scale = Vector2(0.5, 0.5)
+texture = ExtResource( "1_226si" )
+offset = Vector2(0, -64)
+script = ExtResource( "2_37bal" )
+
+[node name="light" type="PointLight2D" parent="."]
+energy = 0.0
+shadow_enabled = true
+texture = ExtResource( "2_kriqb" )
+offset = Vector2(0, -88)

@@ -10,7 +10,46 @@ BUTTON_JOIN,"Join","Rejoindre"
 BUTTON_SPLIT_SCREEN_TYPE,"Split screen","Écran partagé"
 BUTTON_LAN_TYPE,"Local game","Réseau local"
 BUTTON_ONLINE_TYPE,"Online game","Partie en ligne"
+BUTTON_CLOSE,"Close","Fermer"
+BUTTON_PAY,"Pay","Payer"
 LABEL_IP_ADDRESS,"IP Address","Adresse IP"
+LABEL_NEW_RENT,"New rent: $%s","Nouveau loyer: $%s"
+LABEL_BUY_BACK_VALUE,"Can be redeemed for $%s","Pourra être racheté pour $%s"
+LABEL_BUY_FOR,"Buy for $%s","Acheter pour $%s"
+LABEL_PAY,"Pay $%s","Payer $%s"
+LABEL_AIRPORT_PAY,"Buy a ticket for $%s","Acheter un billet pour $%s"
+LABEL_LAND_ONLY,"Land only","Terrain seul"
+LABEL_1_HOUSE,"One house","Une maison"
+LABEL_2_HOUSE,"Two houses","Deux maisons"
+LABEL_3_HOUSE,"Three houses","Trois maisons"
+LABEL_4_HOUSE,"Four houses","Quatre maisons"
+LABEL_1_HOSTEL,"One hostel","Un hôtel"
+LABEL_X_HOUSES,"%s houses","%s maisons"
+LABEL_AIRPORT_DESCRIPTION,"You have the option of flying to the vacant
+location of your choice.
+
+The airfare is [b]$%s[/b]","Vous pouvez choisir de prendre l'avion pour vous rendre
+sur la case libre de votre choix.
+
+Le prix du billet est de [b]$%s[/b]"
+LABEL_JAIL,"Jail","Prison"
+LABEL_GO_TO_JAIL,"Go straight to jail, don't go through the starting gate, don't get [b]$%s[/b].
+You will stay in jail for a maximum of [b]%s[/b] rounds.","Allez directement en prison, ne passez pas par la case départ, ne recevez pas [b]$%s[/b].
+Vous resterez au plus [b]%s[/b] tours en prison."
+LABEL_JAIL_REMAINING_TURN,"Remaining turn in jail: [b]%s[/b]","Nombre de tour en prison restant: [b]%s[/b]"
+LABEL_JAIL_ANNOUNCE,"You're in jail.
+To release from jail you take a roll of the dice to make a double.
+Or you can pay [b]$%s[/b] immediately to get out on the next turn.
+
+What do you want to do?","Vous êtes en prison.
+Pour sortir vous pouvez essayer de lancer les dés pour faire un double.
+Ou vous pouvez payer [b]$%s[/b] immédiatement pour sortir au prochain tour.
+
+Que voulez-vous faire?"
+LABEL_JAIL_LAST_TURN,"You're in jail.
+You must pay [b]$%s[/b] immediately to get out on the next turn.","Vous êtes en prison.
+Vous devez immédiatement payer [b]$%s[/b] pour pouvoir sortir au prochain tour."
+LABEL_WONDER_COMBO,"If you own [b]%s[/b], then double the rent for [b]%s[/b]","Si vous possédez également [b]%s[/b], alors le loyer de [b]%s[/b] sera doublé"
 LABEL_CASE_AIRPORT,"Airport","Aéroport"
 LABEL_CASE_ALGER,"Alger","Alger"
 LABEL_CASE_BEGIN,"Begin","Départ"
@@ -67,7 +106,7 @@ LABEL_CARD_ANARCHY_0_DESCRIPTION,"Not yet translated","Des jeunes squattent votr
 
 [i]À jouer durant le début de son tour, sur un adversaire.[/i]"
 LABEL_CARD_ANARCHY_1_TITLE,"Not yet translated","Office notarié"
-LABEL_CARD_ANARCHY_1_DESCRIPTION,"Not yet translated","Vous pouvez soudoyer le notaire pour [b]$%s[/b], ce qui va permettre de libérer une ville
+LABEL_CARD_ANARCHY_1_DESCRIPTION,"Not yet translated: %s","Vous pouvez soudoyer le notaire pour [b]$%s[/b], ce qui va permettre de libérer une ville
 au hasard sur le côte du plateau de votre choix
 
 [i]À jouer durant le début de son tour,[/i]"
@@ -98,7 +137,7 @@ LABEL_CARD_ANARCHY_6_DESCRIPTION,"Not yet translated","Vous sortez immédiatemen
 
 [i]À jouer durant le début de son tour.[/i]"
 LABEL_CARD_ANARCHY_7_TITLE,"Not yet translated","Finances publiques"
-LABEL_CARD_ANARCHY_7_DESCRIPTION,"Not yet translated","Vous forcez un de vos camarades à passer en mode d'impôsition fixe.
+LABEL_CARD_ANARCHY_7_DESCRIPTION,"Not yet translated: %s","Vous forcez un de vos camarades à passer en mode d'impôsition fixe.
 
 Lorsqu'il tombera sur la case Taxes & Impôts il devra payer
 un montant forfaitaire fixe de [b]$%s[/b].
@@ -114,7 +153,7 @@ LABEL_CARD_ANARCHY_9_DESCRIPTION,"Not yet translated","Un festival spontanné au
 
 [i]À jouer durant le début de son tour, sur une ville.[/i]"
 LABEL_CARD_ANARCHY_10_TITLE,"Not yet translated","Justine TV"
-LABEL_CARD_ANARCHY_10_DESCRIPTION,"Not yet translated","Des streamers connus organisent une campagne à but non-lucratif en votre nom, vous percevez [b]$%s[/b]
+LABEL_CARD_ANARCHY_10_DESCRIPTION,"Not yet translated: %s","Des streamers connus organisent une campagne à but non-lucratif en votre nom, vous percevez [b]$%s[/b]
 
 [i]À jouer durant le début de son tour.[/i]"
 LABEL_CARD_ANARCHY_11_TITLE,"Not yet translated","Décision d'injustice"
@@ -123,14 +162,14 @@ Le propriétaire perd la merveille instantannément.
 
 [i]À jouer durant le début de son tour, sur une case merveille[/i]"
 LABEL_CARD_RANDOM_0_TITLE,"Not yet translated","Banque"
-LABEL_CARD_RANDOM_0_DESCRIPTION,"Not yet translated","Erreur en votre faveur, la banque vous verse
+LABEL_CARD_RANDOM_0_DESCRIPTION,"Not yet translated: %s","Erreur en votre faveur, la banque vous verse
 des dividendes de [b]$%s[/b]."
 LABEL_CARD_RANDOM_1_TITLE,"Not yet translated","Agence de voyage"
-LABEL_CARD_RANDOM_1_DESCRIPTION,"Not yet translated","Rendez-vous à [b]%s[/b]."
+LABEL_CARD_RANDOM_1_DESCRIPTION,"Not yet translated: %s","Rendez-vous à [b]%s[/b]."
 LABEL_CARD_RANDOM_2_TITLE,"Not yet translated","Agence de voyage"
-LABEL_CARD_RANDOM_2_DESCRIPTION,"Not yet translated","Veuillez reculer de [b]%s[/b] cases"
+LABEL_CARD_RANDOM_2_DESCRIPTION,"Not yet translated: %s","Veuillez reculer de [b]%s[/b] cases"
 LABEL_CARD_RANDOM_3_TITLE,"Not yet translated","Décision de justice"
-LABEL_CARD_RANDOM_3_DESCRIPTION,"Not yet translated","[b]%s[/b] trouve que vous vous en sortez un peu trop bien, il a saisi le tribunal.
+LABEL_CARD_RANDOM_3_DESCRIPTION,"Not yet translated: %s, %s","[b]%s[/b] trouve que vous vous en sortez un peu trop bien, il a saisi le tribunal.
 Ce dernier vient de rendre son verdict:
 \tAllez en prison, ne passez pas par la case départ, ne revez pas [b]$%s[/b]!"
 LABEL_CARD_RANDOM_4_TITLE,"Not yet translated","WaterBnB"
@@ -142,7 +181,7 @@ complet pour protéger une de vos rues d'éventuelles catastrophes.
 
 Veuillez choisir la rue à protéger"
 LABEL_CARD_RANDOM_6_TITLE,"Not yet translated","Jouer comporte des risques"
-LABEL_CARD_RANDOM_6_DESCRIPTION,"Not yet translated","Vous jouez en bourse, et ça ne vous réussit pas vraiment.
+LABEL_CARD_RANDOM_6_DESCRIPTION,"Not yet translated: %s","Vous jouez en bourse, et ça ne vous réussit pas vraiment.
 
 Vous perdez immédiatement la moitié de vos liquidités, soit [b]$%s[/b]."
 LABEL_CARD_RANDOM_7_TITLE,"Not yet translated","Finances publiques"
@@ -151,12 +190,12 @@ LABEL_CARD_RANDOM_7_DESCRIPTION,"Not yet translated","Vous passez en mode d'imp�
 Lorsque vous tomberez sur la case Taxes & Impôts vous paierez
 une taxe proportionnelle à votre patrimoine financier."
 LABEL_CARD_RANDOM_8_TITLE,"Not yet translated","Finances publiques"
-LABEL_CARD_RANDOM_8_DESCRIPTION,"Not yet translated","Vous passez en mode d'impôsition fixe.
+LABEL_CARD_RANDOM_8_DESCRIPTION,"Not yet translated: %s","Vous passez en mode d'impôsition fixe.
 
 Lorsque vous tomberez sur la case Taxes & Impôts vous paierez
 un montant forfaitaire fixe de [b]$%s[/b]."
 LABEL_CARD_RANDOM_9_TITLE,"Not yet translated","Préfet de police"
-LABEL_CARD_RANDOM_9_DESCRIPTION,"Not yet translated","Il y a des manifestations dans [b]%s[/b], cette dernière ne vous
+LABEL_CARD_RANDOM_9_DESCRIPTION,"Not yet translated: %s","Il y a des manifestations dans [b]%s[/b], cette dernière ne vous
 rapportera rien durant vos deux prochains tours."
 LABEL_CARD_RANDOM_10_TITLE,"Not yet translated","MOVE DA BUS"
 LABEL_CARD_RANDOM_10_DESCRIPTION,"Not yet translated","Une émission de télé-réalité s'est installe dans une de vos villes.

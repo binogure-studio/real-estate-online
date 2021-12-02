@@ -374,8 +374,7 @@ rect_min_size = Vector2(128, 128)
 theme_override_font_sizes/font_size = 16
 toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
-text = "Terrain nu
-"
+text = "LABEL_LAND_ONLY"
 clip_text = true
 
 [node name="1" type="Button" parent="canvas/property/center/panel/container/options"]
@@ -386,8 +385,7 @@ rect_min_size = Vector2(128, 128)
 theme_override_font_sizes/font_size = 16
 toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
-text = "1 Maison
-"
+text = "LABEL_1_HOUSE"
 clip_text = true
 
 [node name="2" type="Button" parent="canvas/property/center/panel/container/options"]
@@ -398,8 +396,7 @@ rect_min_size = Vector2(128, 128)
 theme_override_font_sizes/font_size = 16
 toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
-text = "2 Maisons
-"
+text = "LABEL_2_HOUSE"
 clip_text = true
 
 [node name="3" type="Button" parent="canvas/property/center/panel/container/options"]
@@ -410,8 +407,7 @@ rect_min_size = Vector2(128, 128)
 theme_override_font_sizes/font_size = 16
 toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
-text = "3 Maisons
-"
+text = "LABEL_3_HOUSE"
 clip_text = true
 
 [node name="4" type="Button" parent="canvas/property/center/panel/container/options"]
@@ -423,8 +419,7 @@ rect_min_size = Vector2(128, 128)
 theme_override_font_sizes/font_size = 16
 toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
-text = "4 Maisons
-"
+text = "LABEL_4_HOUSE"
 clip_text = true
 
 [node name="5" type="Button" parent="canvas/property/center/panel/container/options"]
@@ -436,7 +431,7 @@ rect_min_size = Vector2(128, 128)
 theme_override_font_sizes/font_size = 16
 toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
-text = "1 Hotel
+text = "LABEL_1_HOSTEL
 "
 clip_text = true
 
@@ -746,7 +741,7 @@ offset_bottom = 210.0
 size_flags_horizontal = 7
 size_flags_vertical = 5
 theme_override_font_sizes/normal_font_size = 16
-text = "Vous pouvez choisir sur quelle case l'avion va se poser"
+text = "LABEL_AIRPORT_DESCRIPTION"
 bbcode_enabled = true
 fit_content_height = true
 scroll_active = false
@@ -863,7 +858,7 @@ offset_right = 446.0
 offset_bottom = 155.0
 theme_override_fonts/font = ExtResource( "5_nog1r" )
 theme_override_font_sizes/font_size = 32
-text = "LABEL_PRISON"
+text = "LABEL_JAIL"
 align = 1
 valign = 1
 autowrap_mode = 3
@@ -875,7 +870,7 @@ offset_bottom = 210.0
 size_flags_horizontal = 7
 size_flags_vertical = 5
 theme_override_font_sizes/normal_font_size = 16
-text = "Vous pouvez choisir sur quelle case l'avion va se poser"
+text = "PLACEHOLDER"
 bbcode_enabled = true
 fit_content_height = true
 scroll_active = false
@@ -980,7 +975,7 @@ offset_right = 446.0
 offset_bottom = 155.0
 theme_override_fonts/font = ExtResource( "5_nog1r" )
 theme_override_font_sizes/font_size = 32
-text = "LABEL_PRISON"
+text = "LABEL_JAIL"
 align = 1
 valign = 1
 autowrap_mode = 3
@@ -992,7 +987,7 @@ offset_bottom = 210.0
 size_flags_horizontal = 7
 size_flags_vertical = 5
 theme_override_font_sizes/normal_font_size = 16
-text = "Vous pouvez choisir sur quelle case l'avion va se poser"
+text = "PLACEHOLDER"
 bbcode_enabled = true
 fit_content_height = true
 scroll_active = false

@@ -1,10 +1,11 @@
-[gd_resource type="Theme" load_steps=6 format=3 uid="uid://3jk5cncrjgh2"]
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://3jk5cncrjgh2"]
 
 [ext_resource type="Font" uid="uid://woqrkj461ijl" path="res://font/normal/font.tres" id="1_3bm0p"]
 [ext_resource type="StyleBox" uid="uid://ccm6mhr2xuhw4" path="res://theme/button/green-disabled.tres" id="1_ds1n3"]
 [ext_resource type="StyleBox" uid="uid://ulsyqwtl0334" path="res://theme/button/green-hover.tres" id="2_44khp"]
 [ext_resource type="StyleBox" uid="uid://dv1w7fn8sfh20" path="res://theme/button/green-normal.tres" id="3_yv6sd"]
 [ext_resource type="StyleBox" uid="uid://clyydo44waco" path="res://theme/button/green-pressed.tres" id="4_l8q6f"]
+[ext_resource type="Font" uid="uid://bl8ltjlhrdjqe" path="res://font/bold/font.tres" id="5_iy4bc"]
 
 [resource]
 default_font = ExtResource( "1_3bm0p" )
@@ -27,3 +28,8 @@ Button/styles/focus = null
 Button/styles/hover = ExtResource( "2_44khp" )
 Button/styles/normal = ExtResource( "3_yv6sd" )
 Button/styles/pressed = ExtResource( "4_l8q6f" )
+RichTextLabel/fonts/bold_font = ExtResource( "5_iy4bc" )
+RichTextLabel/fonts/bold_italics_font = ExtResource( "1_3bm0p" )
+RichTextLabel/fonts/italics_font = ExtResource( "1_3bm0p" )
+RichTextLabel/fonts/mono_font = ExtResource( "1_3bm0p" )
+RichTextLabel/fonts/normal_font = ExtResource( "1_3bm0p" )
