@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="793.70081"
+   height="1122.5197"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="board-design.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient15542">
+      <stop
+         style="stop-color:#f9dad3;stop-opacity:1;"
+         offset="0"
+         id="stop15538" />
+      <stop
+         style="stop-color:#fbc5b9;stop-opacity:1"
+         offset="1"
+         id="stop15540" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient15435">
+      <stop
+         style="stop-color:#f76541;stop-opacity:1"
+         offset="0"
+         id="stop15431" />
+      <stop
+         style="stop-color:#cf3109;stop-opacity:1"
+         offset="1"
+         id="stop15433" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient15309">
+      <stop
+         style="stop-color:#621501;stop-opacity:1"
+         offset="0"
+         id="stop15305" />
+      <stop
+         style="stop-color:#501101;stop-opacity:1"
+         offset="1"
+         id="stop15307" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="roughen"
+       id="path-effect14782"
+       is_visible="true"
+       lpeversion="1.1"
+       method="size"
+       max_segment_size="2"
+       segments="2"
+       displace_x="0.65;1"
+       displace_y="10;1"
+       global_randomize="1;1"
+       handles="along"
+       shift_nodes="true"
+       fixed_displacement="false"
+       spray_tool_friendly="false" />
+    <inkscape:path-effect
+       effect="roughen"
+       id="path-effect14758"
+       is_visible="true"
+       lpeversion="1.1"
+       method="size"
+       max_segment_size="0.971019"
+       segments="2"
+       displace_x="10;1"
+       displace_y="10;1"
+       global_randomize="1;1"
+       handles="along"
+       shift_nodes="true"
+       fixed_displacement="false"
+       spray_tool_friendly="false" />
+    <inkscape:path-effect
+       effect="roughen"
+       id="path-effect14756"
+       is_visible="true"
+       lpeversion="1.1"
+       method="size"
+       max_segment_size="4"
+       segments="3"
+       displace_x="10;1"
+       displace_y="10;1"
+       global_randomize="1;1"
+       handles="along"
+       shift_nodes="true"
+       fixed_displacement="false"
+       spray_tool_friendly="false" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14652">
+      <stop
+         style="stop-color:#886203;stop-opacity:1"
+         offset="0"
+         id="stop14648" />
+      <stop
+         style="stop-color:#473404;stop-opacity:1"
+         offset="1"
+         id="stop14650" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14644">
+      <stop
+         style="stop-color:#faf0d9;stop-opacity:1;"
+         offset="0"
+         id="stop14640" />
+      <stop
+         style="stop-color:#fee6ae;stop-opacity:1"
+         offset="1"
+         id="stop14642" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14442">
+      <stop
+         style="stop-color:#fecd55;stop-opacity:1"
+         offset="0"
+         id="stop14438" />
+      <stop
+         style="stop-color:#efaa03;stop-opacity:1"
+         offset="1"
+         id="stop14440" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter100100-2"
+       x="-0.074338964"
+       y="-0.059129272"
+       width="1.1486779"
+       height="1.1182596">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.66961631"
+         id="feGaussianBlur100102-7" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient78725"
+       id="linearGradient112738"
+       gradientUnits="userSpaceOnUse"
+       x1="2561.6846"
+       y1="-2410.9207"
+       x2="2561.6846"
+       y2="-2308.9207" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient78725">
+      <stop
+         style="stop-color:#3b0a00;stop-opacity:1"
+         offset="0"
+         id="stop78721" />
+      <stop
+         style="stop-color:#2f120a;stop-opacity:1"
+         offset="1"
+         id="stop78723" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter79079"
+       x="-0.029413575"
+       y="-0.034511966"
+       width="1.060329"
+       height="1.0786357">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1848808"
+         id="feGaussianBlur79081" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14442"
+       id="linearGradient14444"
+       x1="229.57874"
+       y1="-303.96431"
+       x2="278.12962"
+       y2="-303.96431"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1070814,0,0,1.1070814,23.895338,32.537922)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14644"
+       id="linearGradient14646"
+       x1="275.60577"
+       y1="-291.2356"
+       x2="275.60577"
+       y2="-257.21298"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(51.084382)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14652"
+       id="linearGradient14654"
+       x1="254.2029"
+       y1="-321.01797"
+       x2="254.2029"
+       y2="-253.27565"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(51.084382)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15309"
+       id="linearGradient15311"
+       x1="238.87531"
+       y1="-321.32086"
+       x2="238.87531"
+       y2="-253.07373"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15435"
+       id="linearGradient15437"
+       x1="211.35672"
+       y1="-303.51787"
+       x2="262.01899"
+       y2="-303.51787"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15542"
+       id="linearGradient15544"
+       x1="236.92216"
+       y1="-289.75372"
+       x2="236.92216"
+       y2="-256.43784"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3103728"
+     inkscape:cx="-74.406308"
+     inkscape:cy="-454.45083"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     showborder="false"
+     inkscape:showpageshadow="false"
+     objecttolerance="10000"
+     inkscape:snap-path-clip="true"
+     inkscape:snap-path-mask="true"
+     guidetolerance="10000"
+     inkscape:snap-perpendicular="true"
+     inkscape:snap-tangential="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1357"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-119.45267"
+       y="91.346153"
+       id="text867"><tspan
+         sodipodi:role="line"
+         id="tspan865"
+         x="-119.45267"
+         y="91.346153"
+         style="stroke-width:0.264583px" /><tspan
+         sodipodi:role="line"
+         x="-119.45267"
+         y="94.873924"
+         style="stroke-width:0.264583px"
+         id="tspan869" /><tspan
+         sodipodi:role="line"
+         x="-119.45267"
+         y="98.401695"
+         style="stroke-width:0.264583px"
+         id="tspan871" /><tspan
+         sodipodi:role="line"
+         x="-119.45267"
+         y="101.92947"
+         style="stroke-width:0.264583px"
+         id="tspan873" /><tspan
+         sodipodi:role="line"
+         x="-119.45267"
+         y="105.45723"
+         style="stroke-width:0.264583px"
+         id="tspan875" /><tspan
+         sodipodi:role="line"
+         x="-119.45267"
+         y="108.985"
+         style="stroke-width:0.264583px"
+         id="tspan877" /></text>
+    <g
+       id="g10715"
+       transform="translate(-115.49509)">
+      <rect
+         style="opacity:1;fill:#c8d1d4;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect3725"
+         width="554.45734"
+         height="312.96756"
+         x="315.59244"
+         y="-35.940788" />
+      <g
+         id="g3735"
+         transform="translate(611.73377)">
+        <rect
+           style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect3727"
+           width="84.534889"
+           height="32.306328"
+           x="-284.29568"
+           y="-24.229746" />
+        <rect
+           style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect3729"
+           width="84.534889"
+           height="32.306328"
+           x="161.93547"
+           y="-24.229746" />
+        <rect
+           style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect3731"
+           width="84.534889"
+           height="32.306328"
+           x="-284.29568"
+           y="233.0094" />
+        <rect
+           style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect3733"
+           width="84.534889"
+           height="32.306328"
+           x="161.93547"
+           y="233.0094" />
+      </g>
+      <ellipse
+         style="opacity:1;fill:#90a1a7;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="ellipse3737"
+         cx="592.82111"
+         cy="148.00337"
+         rx="147.39763"
+         ry="38.969509" />
+    </g>
+    <rect
+       style="fill:#c8d1d4;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+       id="rect1241"
+       width="554.45734"
+       height="312.96756"
+       x="-404.03098"
+       y="-35.940788" />
+    <ellipse
+       style="fill:#90a1a7;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+       id="path1503"
+       cx="-126.80231"
+       cy="148.00337"
+       rx="147.39763"
+       ry="38.969509" />
+    <g
+       id="g1479"
+       transform="translate(-107.88965)">
+      <rect
+         style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect851"
+         width="84.534889"
+         height="32.306328"
+         x="-284.29568"
+         y="-24.229746" />
+      <rect
+         style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect1367"
+         width="84.534889"
+         height="32.306328"
+         x="161.93547"
+         y="-24.229746" />
+      <rect
+         style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect1369"
+         width="84.534889"
+         height="32.306328"
+         x="-284.29568"
+         y="233.0094" />
+      <rect
+         style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect1371"
+         width="84.534889"
+         height="32.306328"
+         x="161.93547"
+         y="233.0094" />
+    </g>
+    <g
+       id="g3708"
+       transform="translate(-198.56805,144.54297)">
+      <rect
+         style="opacity:1;fill:#e76f51;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect1733"
+         width="117.51427"
+         height="33.113987"
+         x="15.749331"
+         y="41.190563"
+         rx="9.6918983"
+         ry="9.6918983" />
+      <text
+         xml:space="preserve"
+         style="font-size:12.8911px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:none;stroke-width:0.483415px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="31.437389"
+         y="62.420582"
+         id="text3297"><tspan
+           sodipodi:role="line"
+           id="tspan3295"
+           style="fill:#6a3325;stroke:none;stroke-width:0.483415px"
+           x="31.437389"
+           y="62.420582">Lancer les dés</tspan></text>
+    </g>
+    <g
+       id="g9346"
+       transform="matrix(0.64895408,0,0,0.64895408,-177.50305,27.868504)">
+      <rect
+         style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect8799"
+         width="80.525185"
+         height="101.37035"
+         x="-144.77399"
+         y="7.9954081"
+         rx="9.6918983"
+         ry="9.6918983" />
+      <rect
+         style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect8801"
+         width="74.814178"
+         height="94.180969"
+         x="-141.91849"
+         y="11.590101"
+         rx="9.00453"
+         ry="9.00453" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-104.54668"
+         y="63.721066"
+         id="text6103"><tspan
+           sodipodi:role="line"
+           id="tspan6101"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="63.721066">Payer un notaire</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="70.776627"
+           id="tspan7659">pour libérer une</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="77.832184"
+           id="tspan7665">ville</tspan></text>
+      <path
+         id="rect9003"
+         style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+         transform="scale(0.26458333)" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-95.460526"
+         y="100.12873"
+         id="text9112"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+           x="-95.460526"
+           y="100.12873"
+           id="tspan9110">Coûte $5000</tspan></text>
+    </g>
+    <g
+       id="g9466"
+       transform="matrix(0.64895408,0,0,0.64895408,-118.24113,27.868504)">
+      <rect
+         style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9448"
+         width="80.525185"
+         height="101.37035"
+         x="-144.77399"
+         y="7.9954081"
+         rx="9.6918983"
+         ry="9.6918983" />
+      <rect
+         style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9450"
+         width="74.814178"
+         height="94.180969"
+         x="-141.91849"
+         y="11.590101"
+         rx="9.00453"
+         ry="9.00453" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-104.54668"
+         y="63.721066"
+         id="text9458"><tspan
+           sodipodi:role="line"
+           id="tspan9452"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="63.721066">Payer un notaire</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="70.776627"
+           id="tspan9454">pour libérer une</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="77.832184"
+           id="tspan9456">ville</tspan></text>
+      <path
+         id="path9460"
+         style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+         transform="scale(0.26458333)" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-95.460526"
+         y="100.12873"
+         id="text9464"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+           x="-95.460526"
+           y="100.12873"
+           id="tspan9462">Coûte $5000</tspan></text>
+    </g>
+    <g
+       id="g9486"
+       transform="matrix(0.64895408,0,0,0.64895408,-58.979212,27.868504)">
+      <rect
+         style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9468"
+         width="80.525185"
+         height="101.37035"
+         x="-144.77399"
+         y="7.9954081"
+         rx="9.6918983"
+         ry="9.6918983" />
+      <rect
+         style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9470"
+         width="74.814178"
+         height="94.180969"
+         x="-141.91849"
+         y="11.590101"
+         rx="9.00453"
+         ry="9.00453" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-104.54668"
+         y="63.721066"
+         id="text9478"><tspan
+           sodipodi:role="line"
+           id="tspan9472"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="63.721066">Payer un notaire</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="70.776627"
+           id="tspan9474">pour libérer une</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="77.832184"
+           id="tspan9476">ville</tspan></text>
+      <path
+         id="path9480"
+         style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+         transform="scale(0.26458333)" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-95.460526"
+         y="100.12873"
+         id="text9484"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+           x="-95.460526"
+           y="100.12873"
+           id="tspan9482">Coûte $5000</tspan></text>
+    </g>
+    <g
+       id="g9506"
+       transform="matrix(0.64895408,0,0,0.64895408,0.28271,27.868504)">
+      <rect
+         style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9488"
+         width="80.525185"
+         height="101.37035"
+         x="-144.77399"
+         y="7.9954081"
+         rx="9.6918983"
+         ry="9.6918983" />
+      <rect
+         style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9490"
+         width="74.814178"
+         height="94.180969"
+         x="-141.91849"
+         y="11.590101"
+         rx="9.00453"
+         ry="9.00453" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-104.54668"
+         y="63.721066"
+         id="text9498"><tspan
+           sodipodi:role="line"
+           id="tspan9492"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="63.721066">Payer un notaire</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="70.776627"
+           id="tspan9494">pour libérer une</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="77.832184"
+           id="tspan9496">ville</tspan></text>
+      <path
+         id="path9500"
+         style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+         transform="scale(0.26458333)" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-95.460526"
+         y="100.12873"
+         id="text9504"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+           x="-95.460526"
+           y="100.12873"
+           id="tspan9502">Coûte $5000</tspan></text>
+    </g>
+    <g
+       id="g9446"
+       transform="matrix(0.64895408,0,0,0.64895408,59.54462,27.868504)">
+      <rect
+         style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9428"
+         width="80.525185"
+         height="101.37035"
+         x="-144.77399"
+         y="7.9954081"
+         rx="9.6918983"
+         ry="9.6918983" />
+      <rect
+         style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9430"
+         width="74.814178"
+         height="94.180969"
+         x="-141.91849"
+         y="11.590101"
+         rx="9.00453"
+         ry="9.00453" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-104.54668"
+         y="63.721066"
+         id="text9438"><tspan
+           sodipodi:role="line"
+           id="tspan9432"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="63.721066">Payer un notaire</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="70.776627"
+           id="tspan9434">pour libérer une</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="77.832184"
+           id="tspan9436">ville</tspan></text>
+      <path
+         id="path9440"
+         style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+         transform="scale(0.26458333)" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-95.460526"
+         y="100.12873"
+         id="text9444"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+           x="-95.460526"
+           y="100.12873"
+           id="tspan9442">Coûte $5000</tspan></text>
+    </g>
+    <g
+       id="g9446-4"
+       transform="matrix(0.64895408,0,0,0.64895408,31.272657,-171.5107)">
+      <rect
+         style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9428-6"
+         width="80.525185"
+         height="101.37035"
+         x="-144.77399"
+         y="7.9954081"
+         rx="9.6918983"
+         ry="9.6918983" />
+      <rect
+         style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect9430-2"
+         width="74.814178"
+         height="94.180969"
+         x="-141.91849"
+         y="11.590101"
+         rx="9.00453"
+         ry="9.00453" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-104.54668"
+         y="63.721066"
+         id="text9438-5"><tspan
+           sodipodi:role="line"
+           id="tspan9432-8"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="63.721066">Payer un notaire</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="70.776627"
+           id="tspan9434-6">pour libérer une</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+           x="-104.54668"
+           y="77.832184"
+           id="tspan9436-2">ville</tspan></text>
+      <path
+         id="path9440-8"
+         style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+         transform="scale(0.26458333)" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-95.460526"
+         y="100.12873"
+         id="text9444-4"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+           x="-95.460526"
+           y="100.12873"
+           id="tspan9442-7">Coûte $5000</tspan></text>
+    </g>
+    <g
+       id="g10972">
+      <g
+         id="g10508"
+         transform="translate(-398.98316,-41.408067)">
+        <rect
+           style="opacity:1;fill:#c8d1d4;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect9560"
+           width="554.45734"
+           height="312.96756"
+           x="-288.53589"
+           y="367.88831" />
+        <ellipse
+           style="opacity:1;fill:#90a1a7;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+           id="ellipse9562"
+           cx="-11.30722"
+           cy="551.83246"
+           rx="147.39763"
+           ry="38.969509" />
+        <g
+           id="g9572"
+           transform="translate(7.605442,403.8291)">
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9564"
+             width="84.534889"
+             height="32.306328"
+             x="-284.29568"
+             y="-24.229746" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9566"
+             width="84.534889"
+             height="32.306328"
+             x="161.93547"
+             y="-24.229746" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9568"
+             width="84.534889"
+             height="32.306328"
+             x="-284.29568"
+             y="233.0094" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9570"
+             width="84.534889"
+             height="32.306328"
+             x="161.93547"
+             y="233.0094" />
+        </g>
+        <g
+           id="g9944"
+           transform="translate(0,-11.136462)">
+          <g
+             id="g9600"
+             transform="matrix(0.56201072,-0.32447705,0.32447705,0.56201072,-51.585746,581.35688)">
+            <rect
+               style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9582"
+               width="80.525185"
+               height="101.37035"
+               x="-144.77399"
+               y="7.9954081"
+               rx="9.6918983"
+               ry="9.6918983" />
+            <rect
+               style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9584"
+               width="74.814178"
+               height="94.180969"
+               x="-141.91849"
+               y="11.590101"
+               rx="9.00453"
+               ry="9.00453" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-104.54668"
+               y="63.721066"
+               id="text9592"><tspan
+                 sodipodi:role="line"
+                 id="tspan9586"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="63.721066">Payer un notaire</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="70.776627"
+                 id="tspan9588">pour libérer une</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="77.832184"
+                 id="tspan9590">ville</tspan></text>
+            <path
+               id="path9594"
+               style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+               d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+               transform="scale(0.26458333)" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-95.460526"
+               y="100.12873"
+               id="text9598"><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+                 x="-95.460526"
+                 y="100.12873"
+                 id="tspan9596">Coûte $5000</tspan></text>
+          </g>
+          <g
+             id="g9620"
+             transform="matrix(0.62684151,-0.16796168,0.16796168,0.62684151,-3.9194589,581.06045)">
+            <rect
+               style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9602"
+               width="80.525185"
+               height="101.37035"
+               x="-144.77399"
+               y="7.9954081"
+               rx="9.6918983"
+               ry="9.6918983" />
+            <rect
+               style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9604"
+               width="74.814178"
+               height="94.180969"
+               x="-141.91849"
+               y="11.590101"
+               rx="9.00453"
+               ry="9.00453" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-104.54668"
+               y="63.721066"
+               id="text9612"><tspan
+                 sodipodi:role="line"
+                 id="tspan9606"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="63.721066">Payer un notaire</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="70.776627"
+                 id="tspan9608">pour libérer une</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="77.832184"
+                 id="tspan9610">ville</tspan></text>
+            <path
+               id="path9614"
+               style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+               d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+               transform="scale(0.26458333)" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-95.460526"
+               y="100.12873"
+               id="text9618"><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+                 x="-95.460526"
+                 y="100.12873"
+                 id="tspan9616">Coûte $5000</tspan></text>
+          </g>
+          <g
+             id="g9640"
+             transform="matrix(0.64895408,0,0,0.64895408,47.663821,591.60577)">
+            <rect
+               style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9622"
+               width="80.525185"
+               height="101.37035"
+               x="-144.77399"
+               y="7.9954081"
+               rx="9.6918983"
+               ry="9.6918983" />
+            <rect
+               style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9624"
+               width="74.814178"
+               height="94.180969"
+               x="-141.91849"
+               y="11.590101"
+               rx="9.00453"
+               ry="9.00453" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-104.54668"
+               y="63.721066"
+               id="text9632"><tspan
+                 sodipodi:role="line"
+                 id="tspan9626"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="63.721066">Payer un notaire</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="70.776627"
+                 id="tspan9628">pour libérer une</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="77.832184"
+                 id="tspan9630">ville</tspan></text>
+            <path
+               id="path9634"
+               style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+               d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+               transform="scale(0.26458333)" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-95.460526"
+               y="100.12873"
+               id="text9638"><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+                 x="-95.460526"
+                 y="100.12873"
+                 id="tspan9636">Coûte $5000</tspan></text>
+          </g>
+          <g
+             id="g9660"
+             transform="matrix(0.62684151,0.16796168,-0.16796168,0.62684151,94.625069,616.16827)">
+            <rect
+               style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9642"
+               width="80.525185"
+               height="101.37035"
+               x="-144.77399"
+               y="7.9954081"
+               rx="9.6918983"
+               ry="9.6918983" />
+            <rect
+               style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9644"
+               width="74.814178"
+               height="94.180969"
+               x="-141.91849"
+               y="11.590101"
+               rx="9.00453"
+               ry="9.00453" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-104.54668"
+               y="63.721066"
+               id="text9652"><tspan
+                 sodipodi:role="line"
+                 id="tspan9646"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="63.721066">Payer un notaire</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="70.776627"
+                 id="tspan9648">pour libérer une</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="77.832184"
+                 id="tspan9650">ville</tspan></text>
+            <path
+               id="path9654"
+               style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+               d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+               transform="scale(0.26458333)" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-95.460526"
+               y="100.12873"
+               id="text9658"><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+                 x="-95.460526"
+                 y="100.12873"
+                 id="tspan9656">Coûte $5000</tspan></text>
+          </g>
+          <g
+             id="g9680"
+             transform="matrix(0.56201072,0.32447705,-0.32447705,0.56201072,132.73795,650.60773)">
+            <rect
+               style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9662"
+               width="80.525185"
+               height="101.37035"
+               x="-144.77399"
+               y="7.9954081"
+               rx="9.6918983"
+               ry="9.6918983" />
+            <rect
+               style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+               id="rect9664"
+               width="74.814178"
+               height="94.180969"
+               x="-141.91849"
+               y="11.590101"
+               rx="9.00453"
+               ry="9.00453" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-104.54668"
+               y="63.721066"
+               id="text9672"><tspan
+                 sodipodi:role="line"
+                 id="tspan9666"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="63.721066">Payer un notaire</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="70.776627"
+                 id="tspan9668">pour libérer une</tspan><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+                 x="-104.54668"
+                 y="77.832184"
+                 id="tspan9670">ville</tspan></text>
+            <path
+               id="path9674"
+               style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+               d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+               transform="scale(0.26458333)" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="-95.460526"
+               y="100.12873"
+               id="text9678"><tspan
+                 sodipodi:role="line"
+                 style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+                 x="-95.460526"
+                 y="100.12873"
+                 id="tspan9676">Coûte $5000</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g10607"
+         transform="translate(186.56906,-462.8803)">
+        <rect
+           style="opacity:1;fill:#c8d1d4;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect9946"
+           width="554.45734"
+           height="312.96756"
+           x="-288.53589"
+           y="789.36053" />
+        <ellipse
+           style="opacity:1;fill:#90a1a7;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+           id="ellipse9948"
+           cx="-11.30722"
+           cy="973.30469"
+           rx="147.39763"
+           ry="38.969509" />
+        <g
+           id="g9958"
+           transform="translate(7.605442,825.30134)">
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9950"
+             width="84.534889"
+             height="32.306328"
+             x="-284.29568"
+             y="-24.229746" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9952"
+             width="84.534889"
+             height="32.306328"
+             x="161.93547"
+             y="-24.229746" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9954"
+             width="84.534889"
+             height="32.306328"
+             x="-284.29568"
+             y="233.0094" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9956"
+             width="84.534889"
+             height="32.306328"
+             x="161.93547"
+             y="233.0094" />
+        </g>
+        <g
+           id="g9978"
+           transform="matrix(0.56201072,-0.32447705,0.32447705,0.56201072,-51.585746,991.69266)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9960"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9962"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text9970"><tspan
+               sodipodi:role="line"
+               id="tspan9964"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan9966">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan9968">ville</tspan></text>
+          <path
+             id="path9972"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text9976"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan9974">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10150"
+           transform="matrix(0.60671451,-0.23030177,0.23030177,0.60671451,-23.107092,990.77362)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10132"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10134"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10142"><tspan
+               sodipodi:role="line"
+               id="tspan10136"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10138">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10140">ville</tspan></text>
+          <path
+             id="path10144"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10148"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10146">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g9998"
+           transform="matrix(0.62684151,-0.16796168,0.16796168,0.62684151,0.93489799,991.39623)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9980"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect9982"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text9990"><tspan
+               sodipodi:role="line"
+               id="tspan9984"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan9986">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan9988">ville</tspan></text>
+          <path
+             id="path9992"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text9996"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan9994">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10170"
+           transform="matrix(0.64149234,-0.09812736,0.09812736,0.64149234,24.84433,993.83729)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10152"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10154"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10162"><tspan
+               sodipodi:role="line"
+               id="tspan10156"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10158">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10160">ville</tspan></text>
+          <path
+             id="path10164"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10168"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10166">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10018"
+           transform="matrix(0.64895408,0,0,0.64895408,49.662673,1001.9415)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10000"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10002"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10010"><tspan
+               sodipodi:role="line"
+               id="tspan10004"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10006">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10008">ville</tspan></text>
+          <path
+             id="path10012"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10016"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10014">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10190"
+           transform="matrix(0.63726363,0.12262327,-0.12262327,0.63726363,73.91683,1017.8703)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10172"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10174"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10182"><tspan
+               sodipodi:role="line"
+               id="tspan10176"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10178">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10180">ville</tspan></text>
+          <path
+             id="path10184"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10188"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10186">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10038"
+           transform="matrix(0.62684151,0.16796168,-0.16796168,0.62684151,93.76842,1026.5041)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10020"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10022"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10030"><tspan
+               sodipodi:role="line"
+               id="tspan10024"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10026">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10028">ville</tspan></text>
+          <path
+             id="path10032"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10036"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10034">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10130"
+           transform="matrix(0.60363835,0.23824807,-0.23824807,0.60363835,113.74821,1039.6374)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10112"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10114"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10122"><tspan
+               sodipodi:role="line"
+               id="tspan10116"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10118">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10120">ville</tspan></text>
+          <path
+             id="path10124"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10128"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10126">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10058"
+           transform="matrix(0.56201072,0.32447705,-0.32447705,0.56201072,132.73795,1060.9435)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10040"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10042"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10050"><tspan
+               sodipodi:role="line"
+               id="tspan10044"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10046">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10048">ville</tspan></text>
+          <path
+             id="path10052"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10056"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10054">Coûte $5000</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g10706"
+         transform="translate(772.12131,-844.37547)">
+        <rect
+           style="opacity:1;fill:#c8d1d4;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect10192"
+           width="554.45734"
+           height="312.96756"
+           x="-288.53589"
+           y="1170.8557" />
+        <ellipse
+           style="opacity:1;fill:#90a1a7;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+           id="ellipse10194"
+           cx="-11.30722"
+           cy="1354.7999"
+           rx="147.39763"
+           ry="38.969509" />
+        <g
+           id="g10204"
+           transform="translate(7.605442,1206.7965)">
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10196"
+             width="84.534889"
+             height="32.306328"
+             x="-284.29568"
+             y="-24.229746" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10198"
+             width="84.534889"
+             height="32.306328"
+             x="161.93547"
+             y="-24.229746" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10200"
+             width="84.534889"
+             height="32.306328"
+             x="-284.29568"
+             y="233.0094" />
+          <rect
+             style="opacity:1;fill:#12171e;fill-opacity:1;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10202"
+             width="84.534889"
+             height="32.306328"
+             x="161.93547"
+             y="233.0094" />
+        </g>
+        <g
+           id="g10224"
+           transform="matrix(0.56201072,-0.32447705,0.32447705,0.56201072,-51.585746,1373.1879)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10206"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10208"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10216"><tspan
+               sodipodi:role="line"
+               id="tspan10210"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10212">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10214">ville</tspan></text>
+          <path
+             id="path10218"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10222"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10220">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10244"
+           transform="matrix(0.60671451,-0.23030177,0.23030177,0.60671451,-23.107092,1372.2688)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10226"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10228"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10236"><tspan
+               sodipodi:role="line"
+               id="tspan10230"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10232">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10234">ville</tspan></text>
+          <path
+             id="path10238"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10242"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10240">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10264"
+           transform="matrix(0.62684151,-0.16796168,0.16796168,0.62684151,0.93489799,1372.8914)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10246"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10248"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10256"><tspan
+               sodipodi:role="line"
+               id="tspan10250"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10252">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10254">ville</tspan></text>
+          <path
+             id="path10258"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10262"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10260">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10284"
+           transform="matrix(0.64149234,-0.09812736,0.09812736,0.64149234,24.84433,1375.3325)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10266"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10268"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10276"><tspan
+               sodipodi:role="line"
+               id="tspan10270"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10272">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10274">ville</tspan></text>
+          <path
+             id="path10278"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10282"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10280">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10304"
+           transform="matrix(0.64895408,0,0,0.64895408,49.662673,1383.4367)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10286"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10288"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10296"><tspan
+               sodipodi:role="line"
+               id="tspan10290"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10292">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10294">ville</tspan></text>
+          <path
+             id="path10298"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10302"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10300">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10324"
+           transform="matrix(0.63726363,0.12262327,-0.12262327,0.63726363,73.91683,1399.3655)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10306"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10308"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10316"><tspan
+               sodipodi:role="line"
+               id="tspan10310"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10312">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10314">ville</tspan></text>
+          <path
+             id="path10318"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10322"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10320">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10344"
+           transform="matrix(0.62684151,0.16796168,-0.16796168,0.62684151,93.76842,1352.0314)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10326"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10328"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10336"><tspan
+               sodipodi:role="line"
+               id="tspan10330"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10332">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10334">ville</tspan></text>
+          <path
+             id="path10338"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10342"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10340">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10364"
+           transform="matrix(0.60363835,0.23824807,-0.23824807,0.60363835,113.74821,1421.1326)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10346"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10348"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10356"><tspan
+               sodipodi:role="line"
+               id="tspan10350"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10352">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10354">ville</tspan></text>
+          <path
+             id="path10358"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10362"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10360">Coûte $5000</tspan></text>
+        </g>
+        <g
+           id="g10384"
+           transform="matrix(0.56201072,0.32447705,-0.32447705,0.56201072,132.73795,1442.4387)">
+          <rect
+             style="opacity:1;fill:#766436;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10366"
+             width="80.525185"
+             height="101.37035"
+             x="-144.77399"
+             y="7.9954081"
+             rx="9.6918983"
+             ry="9.6918983" />
+          <rect
+             style="opacity:1;fill:#e9c46a;fill-opacity:1;stroke:none;stroke-width:0.929078;stroke-linecap:round;stroke-linejoin:bevel"
+             id="rect10368"
+             width="74.814178"
+             height="94.180969"
+             x="-141.91849"
+             y="11.590101"
+             rx="9.00453"
+             ry="9.00453" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-104.54668"
+             y="63.721066"
+             id="text10376"><tspan
+               sodipodi:role="line"
+               id="tspan10370"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="63.721066">Payer un notaire</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="70.776627"
+               id="tspan10372">pour libérer une</tspan><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#766436;stroke:none;stroke-width:0.264583px"
+               x="-104.54668"
+               y="77.832184"
+               id="tspan10374">ville</tspan></text>
+          <path
+             id="path10378"
+             style="opacity:1;fill:#faf0d9;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel"
+             d="m -502.35156,43.804688 c -18.85421,0 -34.03321,15.178993 -34.03321,34.033203 V 198.58203 h 282.76172 V 77.837891 c 0,-18.85421 -15.17899,-34.033203 -34.0332,-34.033203 z"
+             transform="scale(0.26458333)" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.05556px;line-height:100%;font-family:Quantico;-inkscape-font-specification:Quantico;letter-spacing:0px;word-spacing:0px;fill:#6a3325;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-95.460526"
+             y="100.12873"
+             id="text10382"><tspan
+               sodipodi:role="line"
+               style="text-align:center;text-anchor:middle;fill:#6a3325;stroke:none;stroke-width:0.264583px"
+               x="-95.460526"
+               y="100.12873"
+               id="tspan10380">Coûte $5000</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g16041"
+       transform="translate(-271.27279,153.05495)">
+      <path
+         style="fill:url(#linearGradient14654);fill-opacity:1;stroke:none;stroke-width:0.670864;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect13739"
+         width="54.021484"
+         height="68.005768"
+         x="277.92786"
+         y="-320.6954"
+         rx="6.5019498"
+         ry="6.5019498"
+         sodipodi:type="rect"
+         d="m 284.42981,-320.6954 h 41.01758 c 3.60208,0 6.50195,2.89987 6.50195,6.50195 v 55.00186 c 0,3.60208 -2.89987,6.50195 -6.50195,6.50195 h -41.01758 c -3.60208,0 -6.50195,-2.89987 -6.50195,-6.50195 v -55.00186 c 0,-3.60208 2.89987,-6.50195 6.50195,-6.50195 z" />
+      <path
+         id="rect13741"
+         d="m 286.52783,-317.23033 1.08666,0.22848 0.57578,0.0571 1.08995,0.25909 1.16074,0.0478 0.88431,0.0449 0.86498,0.0848 1.27358,0.27669 0.61294,0.0835 1.1931,-0.0523 0.918,0.004 1.06462,-0.056 0.91338,-0.033 0.92687,0.17538 0.9273,0.25147 0.99708,-0.0589 1.03331,-0.12934 1.02102,-0.0645 0.96634,-0.047 1.14202,-0.042 0.77253,-0.1651 0.99113,-0.0633 0.92677,-0.0685 0.93051,-0.0207 1.02245,-0.0492 0.96903,-0.0779 0.89515,-0.24301 1.09214,0.0906 0.92897,0.17659 1.073,0.089 0.8855,-0.0695 0.92918,-0.27329 0.80663,0.0113 1.05485,-0.16224 0.98,-0.10372 1.12028,-0.0447 0.91821,-0.1167 0.7387,0.13535 1.15938,-0.11628 c 0.32336,0.002 0.68315,-0.0206 0.99199,0.0311 0.34361,-6e-5 0.77559,0.11703 1.05812,0.21211 0.42564,0.0748 0.37863,0.32989 0.60256,0.44248 0.17727,0.28894 0.59532,0.3463 0.84292,0.52223 0.28172,0.20949 0.65693,0.64986 0.85345,0.83655 0.34835,0.43783 0.46182,-0.0383 0.57174,0.0867 0.45814,-0.006 0.53044,0.95747 0.66319,1.298 0.17983,0.55642 0.17804,0.24692 0.21621,0.4204 0.12294,0.20595 0.0787,0.69204 0.068,1.08312 -0.008,0.29224 -0.0402,0.50851 -0.0402,0.84957 l 3.5e-4,0.96805 -10e-4,1.02374 0.0309,0.95513 0.1621,0.89478 -0.10896,1.0379 -0.0242,1.23505 0.005,0.6714 0.18523,1.16513 0.0949,0.64913 -0.18236,1.17577 0.01,0.91222 -0.10162,0.93437 -0.0156,0.97625 -0.12284,0.74182 0.19613,1.33603 0.0686,0.93687 -0.26031,0.63392 0.24216,1.44954 0.26509,0.86376 0.0567,1.10385 0.14197,0.56524 -0.0352,1.11717 0.11942,0.96801 -0.30004,0.86531 -0.0172,0.96023 0.0283,1.17967 -0.0583,0.89486 0.0478,0.82425 -0.0292,1.45265 -0.11943,0.53784 0.11414,0.98157 -0.0197,1.05827 0.0758,1.18745 -0.3266,0.91697 0.0765,0.60873 -0.14095,1.37072 0.046,0.69633 -0.0573,1.03978 0.12066,0.99766 0.10003,0.62235 -0.0274,1.22383 -0.31938,1.17575 0.0138,0.69762 0.003,1.01034 -0.0199,1.11229 -0.26149,1.07259 0.0869,0.88551 -0.14086,0.78886 0.16362,1.11462 0.0965,0.63399 0.14596,1.27928 c 4.6e-4,0.32461 -0.1866,0.62013 -0.23638,0.92998 -0.20979,0.27852 -0.22752,0.6483 -0.31633,0.93236 -0.19039,0.31121 -0.0983,0.4321 -0.20751,0.6716 -0.0583,0.22308 -0.47151,0.49527 -0.65222,0.76365 -0.33257,0.14487 -0.38144,0.39176 -0.56107,0.60129 -0.24596,0.1577 -0.52568,0.26356 -0.73675,0.4568 -0.35184,0.031 -0.40124,0.37702 -0.62789,0.55251 -0.20113,0.17018 -0.5026,0.35389 -0.76302,0.49413 -0.28083,0.14635 -0.28146,0.24386 -0.56321,0.32137 -0.29009,0.0798 -0.90059,0.11752 -1.23859,0.11752 l -0.87636,0.0883 -0.85007,0.20053 -1.36451,0.23641 -0.7606,-0.11392 -1.1663,-0.17124 -0.65952,0.12643 -1.08496,0.0624 -0.98633,-0.0272 -0.97431,-0.009 -1.04126,0.19576 -0.92503,-0.0502 -0.98518,-0.0592 -1.01381,0.11068 -0.75604,-0.14105 -1.33096,-0.26415 -0.92437,-0.17047 -0.82198,-0.0747 -1.14047,0.0395 -0.88826,0.144 -0.97991,-0.25209 -0.9087,-0.13289 -0.83771,-0.0451 -1.19698,-0.20001 -0.72237,0.15068 -1.03181,-0.0196 -0.98735,0.12049 -0.99557,-0.007 -0.72922,0.26083 -1.10391,0.1275 -0.90018,0.13537 -1.27615,7.9e-4 -0.80212,0.0985 -0.91493,-0.0909 -0.87565,0.27944 -1.01303,-0.0992 -1.07843,-0.15896 -0.94708,-0.13176 -0.91471,-0.15586 c -0.3271,8.2e-4 -0.63638,0.005 -0.94825,-0.0449 -0.30713,-0.0214 -0.45705,-0.3162 -0.75566,-0.4156 -0.1427,-0.294 -0.62585,-0.22197 -0.91821,-0.36934 -0.26939,-0.12279 -0.51196,-0.20026 -0.75144,-0.36438 -0.25361,-0.0945 -0.52214,-0.34131 -0.7467,-0.55364 -0.24127,-0.17539 -0.41931,-0.43375 -0.59998,-0.66942 -0.18453,-0.24343 -0.12578,-0.71307 -0.26666,-0.97303 0.0836,-0.47285 -0.35694,-0.41047 -0.47902,-0.64162 -0.23503,-0.20727 -0.32245,-0.45006 -0.39006,-0.75338 -0.0663,-0.29746 0.008,-0.84483 0.008,-1.17815 l -0.0119,-0.88249 -0.0322,-1.10376 0.1167,-0.94755 -0.0322,-0.94748 0.17536,-1.12877 0.27634,-0.87996 0.0557,-1.00307 -0.0223,-0.87435 -0.0847,-0.96102 0.11002,-0.99836 -0.22832,-0.93485 0.0437,-0.96965 0.0421,-0.89889 -0.0601,-1.0388 -0.008,-0.93884 0.0914,-0.94794 -0.005,-1.00955 0.0556,-0.81699 0.0836,-1.09057 -0.0132,-0.97335 0.0146,-1.04826 -0.26026,-1.16037 -0.0349,-0.55657 -0.007,-1.08685 0.24191,-1.24752 -0.006,-0.70958 -0.0878,-1.06749 0.0472,-0.92017 -0.0683,-0.83866 0.21977,-0.82938 0.04,-1.17462 0.0321,-0.79291 -0.1438,-1.06422 0.2469,-0.77649 -0.13273,-1.24045 0.17214,-1.11546 -0.0823,-0.97693 -0.0463,-0.80453 -0.0512,-1.23627 -0.2214,-0.94785 -0.20539,-0.80456 -0.15415,-0.76872 -0.0104,-1.08748 0.13182,-1.03486 -0.0318,-0.85583 0.0505,-0.75006 -0.0699,-1.31539 -0.15363,-0.70965 -0.0524,-1.16706 -0.20588,-1.23324 0.29474,-0.60388 c -0.005,-0.32697 -0.036,-0.62472 0.0103,-0.93648 -0.005,-0.30156 0.0778,-0.62702 0.17795,-0.93098 0.0542,-0.29083 0.1384,-0.6343 0.28645,-0.91324 0.0593,-0.31406 0.37652,-0.4898 0.56758,-0.73547 0.24468,-0.19027 0.39453,-0.28376 0.61222,-0.49192 0.24495,-0.0496 0.44852,-0.50012 0.71876,-0.70026 0.19504,-0.23361 0.59945,-0.23364 0.86354,-0.37494 0.36135,-0.0323 0.50754,-0.25873 0.76382,-0.37072 0.28221,-0.118 0.40553,-0.0236 0.69869,-0.098 0.3008,-0.0763 0.79056,-0.3022 1.11772,-0.3022 z"
+         style="fill:url(#linearGradient14646);fill-opacity:1;stroke:none;stroke-width:0.602929;stroke-linecap:round;stroke-linejoin:bevel" />
+      <path
+         id="path13743"
+         style="fill:url(#linearGradient14444);fill-opacity:1;stroke:none;stroke-width:0.718446;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m 321.50508,-318.0144 -0.7841,0.70421 -1.49325,-0.008 -0.90545,-0.0215 -0.56504,0.29872 -1.00053,-0.0186 -1.16441,0.35381 -1.11118,0.0571 -1.03929,-0.0656 -0.51364,-0.38495 -1.21642,-0.0113 -0.72751,0.15164 -1.09926,0.11177 -1.48194,-0.0935 -0.81615,0.0701 -0.84729,0.17327 -0.87895,-0.0589 -0.66518,0.26641 -1.16673,0.0676 -0.63748,0.0573 -1.43878,-0.1606 -0.98198,0.3135 -1.09851,0.048 -1.01772,-0.17436 -0.84201,-0.22151 -0.93058,-0.0199 -1.22788,-0.23017 -0.65962,0.54275 -1.2632,-0.10826 -0.51174,0.12764 -1.5051,-0.53625 -0.9538,-0.42373 -1.17125,0.39559 -1.02114,-0.31184 -1.069,-0.20952 -0.27576,0.0156 -1.21081,-0.36956 c -0.42325,0.15867 -1.29725,0.58903 -1.60455,0.66699 -0.29954,0.076 -0.0446,-0.25384 -0.33292,-0.13322 -0.26184,0.1144 -0.33277,0.29309 -0.70195,0.32607 -0.26981,0.14438 -0.40304,0.21899 -0.60233,0.45766 -0.27608,0.2045 -1.04862,0.93414 -1.29889,0.98483 -0.22239,0.21266 -0.064,0.13543 -0.314,0.32985 -0.1952,0.25099 -0.19042,0.88737 -0.251,1.20825 -0.15128,0.28497 -0.24875,-0.39166 -0.30411,-0.0945 -0.10235,0.31057 -0.40328,1.76095 -0.39817,2.06907 -0.0473,0.31852 -0.12571,-0.21058 -0.12051,0.12348 l -0.39518,0.84722 0.17668,1.09225 0.0779,1.32649 0.15343,0.81557 0.13607,1.31728 0.21294,0.63565 -0.50434,0.98805 0.0305,1.51154 0.0668,0.59758 0.52099,1.11868 0.0353,0.26828 -0.32173,1.31737 0.42711,1.16603 -0.17542,0.75936 0.25181,1.00864 -0.39191,0.74679 0.76849,1.89358 -0.49723,0.73435 -0.50978,0.50894 0.96099,1.63209 -0.20825,0.96475 -0.40007,1.11726 0.21449,-0.16762 1.95863,-0.0309 2.28377,-0.0323 1.14886,-0.22374 2.53297,-0.20182 2.07731,0.16085 1.7993,0.0207 2.1922,-0.22458 1.84384,0.60884 1.76769,-0.16338 2.45542,-0.12548 1.72818,0.0215 2.16833,0.39822 1.16722,0.27067 2.76442,-0.35925 1.55815,0.35856 2.33493,-0.14422 1.77941,-0.0104 2.32872,0.0365 1.95918,-0.5686 1.77391,-0.0561 1.38865,0.33131 2.56349,-0.17508 1.96777,-0.0411 1.93854,0.28935 1.46538,0.38795 0.52839,-0.77059 -0.42367,-1.44031 0.29077,-0.36616 -0.13567,-1.6726 -0.22369,-0.32644 -0.56258,-1.50483 0.36969,-0.51715 0.30619,-1.17721 -0.71056,-1.38613 0.36471,-0.71565 -0.14524,-1.17352 0.44246,-0.68773 -0.12401,-0.90063 0.71444,-1.22468 -0.70191,-0.67406 0.12387,-1.02065 0.23302,-0.48906 -0.76645,-1.1882 0.53946,-1.65616 -0.5686,-1.01267 0.5823,-0.47629 -0.22935,-1.14387 -0.0325,-1.14052 c -0.009,-0.32545 0.0201,-0.53922 0.0283,-0.83779 0.0108,-0.39956 -0.0905,-0.54524 -0.21612,-0.75566 -0.039,-0.17725 0.0641,-0.27246 -0.11957,-0.84095 -0.13562,-0.3479 -0.24633,-1.34825 -0.71439,-1.34211 -0.11232,-0.12773 -0.32349,0.64727 -0.6794,0.19992 -0.20079,-0.19074 -0.1473,-1.06548 -0.43511,-1.27952 -0.25297,-0.17974 -1.41935,-0.45097 -1.60046,-0.74616 -0.22878,-0.11505 -0.10547,-0.24021 -0.54034,-0.31664 -0.28868,-0.0971 -0.43891,-0.0624 -0.78998,-0.0624 -0.31555,-0.0528 -1.02843,0.16034 -1.35879,0.15834 l -1.02364,0.30141 z"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+      <g
+         id="g14754"
+         transform="translate(-59.566598,-0.42438194)">
+        <path
+           id="path112716-9"
+           style="opacity:0.2;fill:#766436;fill-opacity:1;fill-rule:evenodd;stroke:#766436;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter100100-2)"
+           d="m 2762.0215,-2541.4375 -27.625,15.9492 v 31.8985 l 27.625,15.9472 27.623,-15.9472 v -31.8985 z"
+           transform="matrix(0.29097692,0,0,0.29097692,-439.17918,426.67818)" />
+        <path
+           style="fill:#f4e1be;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.491144px;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1"
+           d="m 356.46723,-298.89916 c 0,0 8.03796,4.64077 8.03796,4.64077 0,0 0,-9.28151 0,-9.28151 l -8.03796,-4.64071 z"
+           id="path112718-3" />
+        <path
+           style="fill:#f4e9d4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.491144px;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1"
+           d="m 364.50519,-294.25839 8.03803,-4.64077 v -9.28145 l -8.03803,4.64071 z"
+           id="path112720-6" />
+        <path
+           style="fill:#f4f1eb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.491144px;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1"
+           d="m 356.46721,-308.18061 8.03795,4.64071 8.03804,-4.64071 -8.03804,-4.64074 z"
+           id="path112722-0" />
+        <ellipse
+           style="fill:#766436;fill-opacity:1;stroke:none;stroke-width:0.0842806;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="ellipse112724-6"
+           cx="364.50519"
+           cy="-308.18066"
+           rx="1.3771592"
+           ry="0.79510313" />
+        <path
+           id="path112726-2"
+           style="fill:#332912;fill-opacity:1;stroke:none;stroke-width:0.361454;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 358.51745,-305.76611 c -0.54366,-0.31387 -0.98436,-0.0594 -0.98436,0.56832 0,0.62776 0.4407,1.39112 0.98436,1.70498 0.54367,0.31391 0.98439,0.0594 0.98439,-0.56832 0,-0.62778 -0.44072,-1.39112 -0.98439,-1.70498 z m 3.9375,2.2733 c -0.54366,-0.31386 -0.98436,-0.0594 -0.98436,0.56832 0,0.62777 0.4407,1.39112 0.98436,1.70498 0.54366,0.3139 0.98439,0.0594 0.98439,-0.56833 0,-0.62776 -0.44073,-1.3911 -0.98439,-1.70497 z m -3.9375,2.27334 c -0.54366,-0.3139 -0.98436,-0.0594 -0.98436,0.56832 0,0.62776 0.4407,1.3911 0.98436,1.70498 0.54367,0.31386 0.98439,0.0594 0.98439,-0.56834 0,-0.62776 -0.44072,-1.3911 -0.98439,-1.70496 z m 3.9375,2.2733 c -0.54366,-0.31389 -0.98436,-0.0594 -0.98436,0.56832 0,0.62777 0.4407,1.39112 0.98436,1.70498 0.54366,0.31386 0.98439,0.0594 0.98439,-0.56832 0,-0.62777 -0.44073,-1.39112 -0.98439,-1.70498 z" />
+        <path
+           id="path112728-6"
+           style="fill:#4e4120;fill-opacity:1;stroke:none;stroke-width:0.361454;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 366.55546,-303.49281 c -0.54365,0.31387 -0.98436,1.07723 -0.98436,1.705 0,0.62776 0.44071,0.88218 0.98436,0.56832 0.54365,-0.31386 0.98439,-1.07721 0.98439,-1.705 0,-0.62775 -0.44074,-0.88218 -0.98439,-0.56832 z m 3.9375,2.27332 c -0.54371,0.31386 -0.98439,1.07721 -0.98439,1.70497 0,0.62776 0.44068,0.88218 0.98439,0.56832 0.54363,-0.31386 0.98433,-1.07721 0.98433,-1.70497 0,-0.62776 -0.44071,-0.88218 -0.98433,-0.56832 z" />
+      </g>
+    </g>
+    <g
+       id="g16028"
+       transform="translate(-72.059539,154.02989)">
+      <path
+         style="fill:url(#linearGradient15311);fill-opacity:1;stroke:none;stroke-width:0.670864;stroke-linecap:round;stroke-linejoin:bevel"
+         id="path15137"
+         width="54.021484"
+         height="68.005768"
+         x="209.39578"
+         y="-320.6954"
+         rx="6.5019498"
+         ry="6.5019498"
+         sodipodi:type="rect"
+         d="m 215.89773,-320.6954 h 41.01759 c 3.60208,0 6.50195,2.89987 6.50195,6.50195 v 55.00186 c 0,3.60208 -2.89987,6.50195 -6.50195,6.50195 h -41.01759 c -3.60208,0 -6.50195,-2.89987 -6.50195,-6.50195 v -55.00186 c 0,-3.60208 2.89987,-6.50195 6.50195,-6.50195 z" />
+      <path
+         id="path15139"
+         d="m 217.99576,-317.23033 1.08666,0.22848 0.57578,0.0571 1.08995,0.25909 1.16074,0.0478 0.88431,0.0449 0.86498,0.0848 1.27358,0.27669 0.61294,0.0835 1.1931,-0.0523 0.918,0.004 1.06462,-0.056 0.91338,-0.033 0.92687,0.17538 0.9273,0.25147 0.99708,-0.0589 1.03331,-0.12934 1.02102,-0.0645 0.96634,-0.047 1.14202,-0.042 0.77253,-0.1651 0.99113,-0.0633 0.92677,-0.0685 0.93051,-0.0207 1.02245,-0.0492 0.96903,-0.0779 0.89515,-0.24301 1.09214,0.0906 0.92897,0.17659 1.073,0.089 0.8855,-0.0695 0.92918,-0.27329 0.80663,0.0113 1.05485,-0.16224 0.98,-0.10372 1.12028,-0.0447 0.91821,-0.1167 0.7387,0.13535 1.15938,-0.11628 c 0.32336,0.002 0.68315,-0.0206 0.99199,0.0311 0.34361,-6e-5 0.77559,0.11703 1.05812,0.21211 0.42564,0.0748 0.37863,0.32989 0.60256,0.44248 0.17727,0.28894 0.59532,0.3463 0.84292,0.52223 0.28172,0.20949 0.65693,0.64986 0.85345,0.83655 0.34835,0.43783 0.46182,-0.0383 0.57174,0.0867 0.45814,-0.006 0.53044,0.95747 0.66319,1.298 0.17983,0.55642 0.17804,0.24692 0.21621,0.4204 0.12294,0.20595 0.0787,0.69204 0.068,1.08312 -0.008,0.29224 -0.0402,0.50851 -0.0402,0.84957 l 3.5e-4,0.96805 -10e-4,1.02374 0.0309,0.95513 0.1621,0.89478 -0.10896,1.0379 -0.0242,1.23505 0.005,0.6714 0.18523,1.16513 0.0949,0.64913 -0.18236,1.17577 0.01,0.91222 -0.10162,0.93437 -0.0156,0.97625 -0.12284,0.74182 0.19613,1.33603 0.0686,0.93687 -0.26031,0.63392 0.24216,1.44954 0.26509,0.86376 0.0567,1.10385 0.14197,0.56524 -0.0352,1.11717 0.11942,0.96801 -0.30004,0.86531 -0.0172,0.96023 0.0283,1.17967 -0.0583,0.89486 0.0478,0.82425 -0.0292,1.45265 -0.11943,0.53784 0.11414,0.98157 -0.0197,1.05827 0.0758,1.18745 -0.3266,0.91697 0.0765,0.60873 -0.14095,1.37072 0.046,0.69633 -0.0573,1.03978 0.12066,0.99766 0.10003,0.62235 -0.0274,1.22383 -0.31938,1.17575 0.0138,0.69762 0.003,1.01034 -0.0199,1.11229 -0.26149,1.07259 0.0869,0.88551 -0.14086,0.78886 0.16362,1.11462 0.0965,0.63399 0.14596,1.27928 c 4.6e-4,0.32461 -0.1866,0.62013 -0.23638,0.92998 -0.20979,0.27852 -0.22752,0.6483 -0.31633,0.93236 -0.19039,0.31121 -0.0983,0.4321 -0.20751,0.6716 -0.0583,0.22308 -0.47151,0.49527 -0.65222,0.76365 -0.33257,0.14487 -0.38144,0.39176 -0.56107,0.60129 -0.24596,0.1577 -0.52568,0.26356 -0.73675,0.4568 -0.35184,0.031 -0.40124,0.37702 -0.62789,0.55251 -0.20113,0.17018 -0.5026,0.35389 -0.76302,0.49413 -0.28083,0.14635 -0.28146,0.24386 -0.56321,0.32137 -0.29009,0.0798 -0.90059,0.11752 -1.23859,0.11752 l -0.87636,0.0883 -0.85007,0.20053 -1.36451,0.23641 -0.7606,-0.11392 -1.1663,-0.17124 -0.65952,0.12643 -1.08496,0.0624 -0.98633,-0.0272 -0.97431,-0.009 -1.04126,0.19576 -0.92503,-0.0502 -0.98518,-0.0592 -1.01381,0.11068 -0.75604,-0.14105 -1.33096,-0.26415 -0.92437,-0.17047 -0.82198,-0.0747 -1.14047,0.0395 -0.88826,0.144 -0.97991,-0.25209 -0.9087,-0.13289 -0.83771,-0.0451 -1.19698,-0.20001 -0.72237,0.15068 -1.03181,-0.0196 -0.98735,0.12049 -0.99557,-0.007 -0.72922,0.26083 -1.10391,0.1275 -0.90018,0.13537 -1.27615,7.9e-4 -0.80212,0.0985 -0.91493,-0.0909 -0.87565,0.27944 -1.01303,-0.0992 -1.07843,-0.15896 -0.94708,-0.13176 -0.91471,-0.15586 c -0.3271,8.2e-4 -0.63638,0.005 -0.94825,-0.0449 -0.30713,-0.0214 -0.45705,-0.3162 -0.75566,-0.4156 -0.1427,-0.294 -0.62585,-0.22197 -0.91821,-0.36934 -0.26939,-0.12279 -0.51196,-0.20026 -0.75144,-0.36438 -0.25361,-0.0945 -0.52214,-0.34131 -0.7467,-0.55364 -0.24127,-0.17539 -0.41931,-0.43375 -0.59998,-0.66942 -0.18453,-0.24343 -0.12578,-0.71307 -0.26666,-0.97303 0.0836,-0.47285 -0.35694,-0.41047 -0.47902,-0.64162 -0.23503,-0.20727 -0.32245,-0.45006 -0.39006,-0.75338 -0.0663,-0.29746 0.008,-0.84483 0.008,-1.17815 l -0.0119,-0.88249 -0.0322,-1.10376 0.1167,-0.94755 -0.0322,-0.94748 0.17536,-1.12877 0.27634,-0.87996 0.0557,-1.00307 -0.0223,-0.87435 -0.0847,-0.96102 0.11002,-0.99836 -0.22832,-0.93485 0.0437,-0.96965 0.0421,-0.89889 -0.0601,-1.0388 -0.008,-0.93884 0.0914,-0.94794 -0.005,-1.00955 0.0556,-0.81699 0.0836,-1.09057 -0.0132,-0.97335 0.0146,-1.04826 -0.26026,-1.16037 -0.0349,-0.55657 -0.007,-1.08685 0.24191,-1.24752 -0.006,-0.70958 -0.0878,-1.06749 0.0472,-0.92017 -0.0683,-0.83866 0.21977,-0.82938 0.04,-1.17462 0.0321,-0.79291 -0.1438,-1.06422 0.2469,-0.77649 -0.13273,-1.24045 0.17214,-1.11546 -0.0823,-0.97693 -0.0463,-0.80453 -0.0512,-1.23627 -0.2214,-0.94785 -0.20539,-0.80456 -0.15415,-0.76872 -0.0104,-1.08748 0.13182,-1.03486 -0.0318,-0.85583 0.0505,-0.75006 -0.0699,-1.31539 -0.15363,-0.70965 -0.0524,-1.16706 -0.20588,-1.23324 0.29474,-0.60388 c -0.005,-0.32697 -0.036,-0.62472 0.0103,-0.93648 -0.005,-0.30156 0.0778,-0.62702 0.17795,-0.93098 0.0542,-0.29083 0.1384,-0.6343 0.28645,-0.91324 0.0593,-0.31406 0.37652,-0.4898 0.56758,-0.73547 0.24468,-0.19027 0.39453,-0.28376 0.61222,-0.49192 0.24495,-0.0496 0.44852,-0.50012 0.71876,-0.70026 0.19504,-0.23361 0.59945,-0.23364 0.86354,-0.37494 0.36135,-0.0323 0.50754,-0.25873 0.76382,-0.37072 0.28221,-0.118 0.40553,-0.0236 0.69869,-0.098 0.3008,-0.0763 0.79056,-0.3022 1.11772,-0.3022 z"
+         style="fill:url(#linearGradient15544);fill-opacity:1;stroke:none;stroke-width:0.602929;stroke-linecap:round;stroke-linejoin:bevel" />
+      <path
+         id="path15141"
+         style="fill:url(#linearGradient15437);fill-opacity:1;stroke:none;stroke-width:0.718446;stroke-linecap:round;stroke-linejoin:bevel"
+         d="m 252.97301,-318.0144 -0.7841,0.70421 -1.49325,-0.008 -0.90545,-0.0215 -0.56504,0.29872 -1.00053,-0.0186 -1.16441,0.35381 -1.11118,0.0571 -1.03929,-0.0656 -0.51364,-0.38495 -1.21642,-0.0113 -0.72751,0.15164 -1.09926,0.11177 -1.48194,-0.0935 -0.81615,0.0701 -0.84729,0.17327 -0.87895,-0.0589 -0.66518,0.26641 -1.16673,0.0676 -0.63748,0.0573 -1.43878,-0.1606 -0.98198,0.3135 -1.09851,0.048 -1.01772,-0.17436 -0.84201,-0.22151 -0.93058,-0.0199 -1.22788,-0.23017 -0.65962,0.54275 -1.03911,-0.31705 -0.73583,0.33643 -1.5051,-0.53625 -0.9538,-0.42373 -1.17125,0.39559 -1.02114,-0.31184 -1.069,-0.20952 -0.27576,0.0156 -1.21081,-0.36956 c -0.42325,0.15867 -1.29725,0.58903 -1.60455,0.66699 -0.29954,0.076 -0.0446,-0.25384 -0.33292,-0.13322 -0.26184,0.1144 -0.33277,0.29309 -0.70195,0.32607 -0.26981,0.14438 -0.40304,0.21899 -0.60233,0.45766 -0.27608,0.2045 -1.04862,0.93414 -1.29889,0.98483 -0.22239,0.21266 -0.064,0.13543 -0.314,0.32985 -0.1952,0.25099 -0.19042,0.88737 -0.251,1.20825 -0.15128,0.28497 -0.24875,-0.39166 -0.30411,-0.0945 -0.10235,0.31057 -0.40328,1.76095 -0.39817,2.06907 -0.0473,0.31852 -0.12571,-0.21058 -0.12051,0.12348 l -0.39518,0.84722 0.17668,1.09225 0.0779,1.32649 0.15343,0.81557 0.13607,1.31728 0.21294,0.63565 -0.50434,0.98805 0.0305,1.51154 0.0668,0.59758 0.52099,1.11868 0.0353,0.26828 -0.32173,1.31737 0.42711,1.16603 -0.17542,0.75936 0.25181,1.00864 -0.39191,0.74679 0.76849,1.89358 -0.49723,0.73435 -0.50978,0.50894 0.96099,1.63209 -0.20825,0.96475 -0.40007,1.11726 0.21449,-0.16762 1.95863,-0.0309 2.28377,-0.0323 1.14886,-0.22374 2.53297,-0.20182 2.07731,0.16085 1.7993,0.0207 2.1922,-0.22458 1.84384,0.60884 1.76769,-0.16338 2.45542,-0.12548 1.72818,0.0215 2.16833,0.39822 1.16722,0.27067 2.76442,-0.35925 1.55815,0.35856 2.33493,-0.14422 1.77941,-0.0104 2.32872,0.0365 1.95918,-0.5686 1.77391,-0.0561 1.38865,0.33131 2.56349,-0.17508 1.96777,-0.0411 1.93854,0.28935 1.46538,0.38795 0.52839,-0.77059 -0.42367,-1.44031 0.29077,-0.36616 -0.13567,-1.6726 -0.22369,-0.32644 -0.56258,-1.50483 0.36969,-0.51715 0.30619,-1.17721 -0.71056,-1.38613 0.36471,-0.71565 -0.14524,-1.17352 0.44246,-0.68773 -0.12401,-0.90063 0.71444,-1.22468 -0.70191,-0.67406 0.12387,-1.02065 0.23302,-0.48906 -0.76645,-1.1882 0.53946,-1.65616 -0.5686,-1.01267 0.5823,-0.47629 -0.22935,-1.14387 -0.0325,-1.14052 c -0.009,-0.32545 0.0201,-0.53922 0.0283,-0.83779 0.0108,-0.39956 -0.0905,-0.54524 -0.21612,-0.75566 -0.039,-0.17725 0.0641,-0.27246 -0.11957,-0.84095 -0.13562,-0.3479 -0.24633,-1.34825 -0.71439,-1.34211 -0.11232,-0.12773 -0.32349,0.64727 -0.6794,0.19992 -0.20079,-0.19074 -0.1473,-1.06548 -0.43511,-1.27952 -0.25297,-0.17974 -1.41935,-0.45097 -1.60046,-0.74616 -0.22878,-0.11505 -0.10547,-0.24021 -0.54034,-0.31664 -0.28868,-0.0971 -0.43891,-0.0624 -0.78998,-0.0624 -0.31555,-0.0528 -1.02843,0.16034 -1.35879,0.15834 l -1.02364,0.30141 z"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+      <g
+         id="g112706"
+         transform="translate(-444.96006,321.2747)">
+        <path
+           id="path112702"
+           style="fill:url(#linearGradient112738);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 2569.8848,-2409.8652 v 0 c -0.045,0 -0.091,0.012 -0.1387,0.016 -1.3477,0.2377 -2.0382,1.7415 -2.6563,2.8281 -2.327,4.0907 -4.2738,8.3778 -6.0742,12.7246 -0.7841,-0.071 -1.5693,-0.1313 -2.3554,-0.1679 -1.2513,-0.051 -2.4942,-0.089 -3.7344,-0.096 -8.7224,-0.046 -17.2974,1.1554 -24.4356,5.1386 -5.321,2.9693 -9.2949,8.4254 -10.4882,14.416 -1.7598,8.8352 0.745,18.4044 5.1445,26.7754 3.9365,7.4902 9.2845,14.3163 15.7051,19.7696 -0.951,2.9099 -1.7391,5.8656 -2.1895,8.916 -0.3209,2.1729 -0.4421,4.389 -0.1699,6.5742 2.4788,-3.8501 5.0255,-7.6943 7.498,-11.5859 2.3558,1.5945 4.8232,3.0119 7.3926,4.2207 8.4704,3.9849 18.51,5.1028 26.8399,1.7285 1.7077,-0.6918 3.3948,-1.4378 5.0566,-2.2324 0.6185,1.75 1.4053,3.4384 2.5762,4.8828 1.8657,2.3017 -0.118,-0.844 -2.5352,-4.9024 4.5677,-2.1875 8.9404,-4.7604 12.9961,-7.7207 6.2989,-4.5976 11.7885,-10.2804 14.1582,-17.082 1.7493,-5.0207 1.1193,-10.9055 -1.2871,-15.9121 6.7416,-1.5692 13.4815,-3.1515 20.2266,-4.7031 0.3467,-0.08 0.6969,-0.155 1.0449,-0.2325 l 0.7207,-2.6894 c -0.3635,0.039 -0.7269,0.079 -1.0918,0.1055 -7.9754,0.5673 -15.9292,1.3533 -23.8594,2.3222 -1.167,-1.7343 -2.4576,-3.3292 -3.8887,-4.7129 -8.7203,-8.4326 -18.5711,-15.7707 -29.6191,-19.7636 -0.4013,-5.019 -0.6733,-10.0878 -2.5684,-14.7618 -0.5473,-1.3502 -0.8738,-3.9411 -2.2675,-3.8593 z m -10.3282,19.1738 c -0.2112,0.5318 -0.4237,1.0634 -0.6328,1.5957 -4.0806,10.3866 -5.99,21.4018 -8.5996,32.2148 -3.9341,0.9354 -7.8328,2.0057 -11.6601,3.3106 -1.3016,0.4437 -2.6106,0.8931 -3.8985,1.3965 -0.3692,-0.6697 -0.7293,-1.3453 -1.0703,-2.0313 -2.7809,-5.5979 -4.6971,-12.5099 -2.7695,-19.4804 1.67,-6.0392 6.2531,-10.4288 11.3769,-12.8731 5.589,-2.6663 11.5021,-3.7257 17.2539,-4.1328 z m 15.3204,1.3008 c 6.24,2.7458 10.3939,8.0225 13.2812,13.1953 2.034,3.6439 3.5705,7.5341 4.6211,11.5469 -4.967,0.7459 -9.9246,1.5471 -14.8731,2.4043 -0.9305,-8.212 -1.7239,-16.4417 -2.7617,-24.6407 -0.105,-0.831 -0.1901,-1.6666 -0.2675,-2.5058 z m -7.6504,12.414 c 0.059,-0.011 0.06,0.1728 -0.074,0.6875 -0.1243,0.4772 -0.2555,0.9534 -0.3828,1.4297 0.4029,4.1295 1.5657,8.1463 2.7227,12.1153 0.1852,0.6356 0.3779,1.2676 0.5664,1.9023 -0.7456,0.1372 -1.4911,0.2733 -2.2363,0.4121 -1.8747,0.35 -3.7526,0.7026 -5.6289,1.0606 1.6157,-5.1369 3.1849,-10.2899 4.5761,-15.4903 -0.015,-0.1614 -0.034,-0.3227 -0.045,-0.4844 -0.05,-0.6053 0.3716,-1.6035 0.502,-1.6328 z m 26.873,19.3145 c 0.291,2.4513 0.4135,4.9208 0.3555,7.3848 -0.1455,6.1971 -1.6232,13.0179 -6.1778,18.3808 -1.4194,1.6711 -3.0999,3.0535 -4.9472,4.125 -1.9888,-8.2306 -3.1495,-16.6461 -4.2715,-25.0312 -0.072,-0.5329 -0.1359,-1.0664 -0.2051,-1.5996 5.093,-1.0353 10.1728,-2.1321 15.2461,-3.2598 z m -21.666,4.5293 c 2.4731,7.758 5.1599,15.4476 7.9805,23.0859 0.3072,0.8323 0.8103,1.8897 1.4179,3.0528 -2.6997,1.2663 -5.677,1.9154 -8.6875,1.8671 -7.7505,-0.1247 -14.6384,-3.4694 -20.3593,-7.3671 -0.4662,-0.3175 -0.9277,-0.6435 -1.3848,-0.9747 3.1782,-5.5731 5.9999,-11.3159 8.0703,-17.371 2.0624,-0.3228 4.1238,-0.6583 6.1797,-1.0274 2.2643,-0.4067 4.5247,-0.8307 6.7832,-1.2656 z m -24.125,3.9062 c -0.2672,0.9177 -0.5407,1.8347 -0.8301,2.7461 -0.7961,2.5073 -1.7281,4.9768 -2.6836,7.4395 -2.712,-2.65 -5.1729,-5.5638 -7.3144,-8.707 3.6072,-0.5079 7.2185,-0.989 10.8281,-1.4786 z"
+           transform="scale(0.26458333)" />
+        <path
+           id="path112704"
+           style="opacity:0.412;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#6a3325;stroke-width:1.00157;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter79079)"
+           d="m 2569.8848,-2409.8652 v 0 c -0.045,0 -0.091,0.012 -0.1387,0.016 -1.3477,0.2377 -2.0382,1.7415 -2.6563,2.8281 -2.327,4.0907 -4.2738,8.3778 -6.0742,12.7246 -0.7841,-0.071 -1.5693,-0.1313 -2.3554,-0.1679 -1.2513,-0.051 -2.4942,-0.089 -3.7344,-0.096 -8.7224,-0.046 -17.2974,1.1554 -24.4356,5.1386 -5.321,2.9693 -9.2949,8.4254 -10.4882,14.416 -1.7598,8.8352 0.745,18.4044 5.1445,26.7754 3.9365,7.4902 9.2845,14.3163 15.7051,19.7696 -0.951,2.9099 -1.7391,5.8656 -2.1895,8.916 -0.3209,2.1729 -0.4421,4.389 -0.1699,6.5742 2.4788,-3.8501 5.0255,-7.6943 7.498,-11.5859 2.3558,1.5945 4.8232,3.0119 7.3926,4.2207 8.4704,3.9849 18.51,5.1028 26.8399,1.7285 1.7077,-0.6918 3.3948,-1.4378 5.0566,-2.2324 0.6185,1.75 1.4053,3.4384 2.5762,4.8828 1.8657,2.3017 -0.118,-0.844 -2.5352,-4.9024 4.5677,-2.1875 8.9404,-4.7604 12.9961,-7.7207 6.2989,-4.5976 11.7885,-10.2804 14.1582,-17.082 1.7493,-5.0207 1.1193,-10.9055 -1.2871,-15.9121 6.7416,-1.5692 13.4815,-3.1515 20.2266,-4.7031 0.3467,-0.08 0.6969,-0.155 1.0449,-0.2325 l 0.7207,-2.6894 c -0.3635,0.039 -0.7269,0.079 -1.0918,0.1055 -7.9754,0.5673 -15.9292,1.3533 -23.8594,2.3222 -1.167,-1.7343 -2.4576,-3.3292 -3.8887,-4.7129 -8.7203,-8.4326 -18.5711,-15.7707 -29.6191,-19.7636 -0.4013,-5.019 -0.6733,-10.0878 -2.5684,-14.7618 -0.5473,-1.3502 -0.8738,-3.9411 -2.2675,-3.8593 z m -10.3282,19.1738 c -0.2112,0.5318 -0.4237,1.0634 -0.6328,1.5957 -4.0806,10.3866 -5.99,21.4018 -8.5996,32.2148 -3.9341,0.9354 -7.8328,2.0057 -11.6601,3.3106 -1.3016,0.4437 -2.6106,0.8931 -3.8985,1.3965 -0.3692,-0.6697 -0.7293,-1.3453 -1.0703,-2.0313 -2.7809,-5.5979 -4.6971,-12.5099 -2.7695,-19.4804 1.67,-6.0392 6.2531,-10.4288 11.3769,-12.8731 5.589,-2.6663 11.5021,-3.7257 17.2539,-4.1328 z m 15.3204,1.3008 c 6.24,2.7458 10.3939,8.0225 13.2812,13.1953 2.034,3.6439 3.5705,7.5341 4.6211,11.5469 -4.967,0.7459 -9.9246,1.5471 -14.8731,2.4043 -0.9305,-8.212 -1.7239,-16.4417 -2.7617,-24.6407 -0.105,-0.831 -0.1901,-1.6666 -0.2675,-2.5058 z m -7.6504,12.414 c 0.059,-0.011 0.06,0.1728 -0.074,0.6875 -0.1243,0.4772 -0.2555,0.9534 -0.3828,1.4297 0.4029,4.1295 1.5657,8.1463 2.7227,12.1153 0.1852,0.6356 0.3779,1.2676 0.5664,1.9023 -0.7456,0.1372 -1.4911,0.2733 -2.2363,0.4121 -1.8747,0.35 -3.7526,0.7026 -5.6289,1.0606 1.6157,-5.1369 3.1849,-10.2899 4.5761,-15.4903 -0.015,-0.1614 -0.034,-0.3227 -0.045,-0.4844 -0.05,-0.6053 0.3716,-1.6035 0.502,-1.6328 z m 26.873,19.3145 c 0.291,2.4513 0.4135,4.9208 0.3555,7.3848 -0.1455,6.1971 -1.6232,13.0179 -6.1778,18.3808 -1.4194,1.6711 -3.0999,3.0535 -4.9472,4.125 -1.9888,-8.2306 -3.1495,-16.6461 -4.2715,-25.0312 -0.072,-0.5329 -0.1359,-1.0664 -0.2051,-1.5996 5.093,-1.0353 10.1728,-2.1321 15.2461,-3.2598 z m -21.666,4.5293 c 2.4731,7.758 5.1599,15.4476 7.9805,23.0859 0.3072,0.8323 0.8103,1.8897 1.4179,3.0528 -2.6997,1.2663 -5.677,1.9154 -8.6875,1.8671 -7.7505,-0.1247 -14.6384,-3.4694 -20.3593,-7.3671 -0.4662,-0.3175 -0.9277,-0.6435 -1.3848,-0.9747 3.1782,-5.5731 5.9999,-11.3159 8.0703,-17.371 2.0624,-0.3228 4.1238,-0.6583 6.1797,-1.0274 2.2643,-0.4067 4.5247,-0.8307 6.7832,-1.2656 z m -24.125,3.9062 c -0.2672,0.9177 -0.5407,1.8347 -0.8301,2.7461 -0.7961,2.5073 -1.7281,4.9768 -2.6836,7.4395 -2.712,-2.65 -5.1729,-5.5638 -7.3144,-8.707 3.6072,-0.5079 7.2185,-0.989 10.8281,-1.4786 z"
+           transform="scale(0.26458333)" />
+      </g>
+    </g>
+  </g>
+</svg>

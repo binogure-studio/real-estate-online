@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://dq8to6hx860q8"]
+
+[ext_resource type="Theme" uid="uid://3jk5cncrjgh2" path="res://theme/main.tres" id="1_vpf6a"]
+[ext_resource type="Script" path="res://script/card/main.gd" id="2_d1uhm"]
+
+[sub_resource type="Curve2D" id="Curve2D_320yu"]
+_data = {
+"points": PackedVector2Array(-257.709, 191.783, 257.709, -191.783, -448, 136, -260.705, -193.282, 260.705, 193.282, 576, 136)
+}
+
+[node name="control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( "1_vpf6a" )
+script = ExtResource( "2_d1uhm" )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hand" type="Path2D" parent="."]
+position = Vector2(960, 824)
+curve = SubResource( "Curve2D_320yu" )
+
+[node name="button" type="Button" parent="."]
+offset_left = 864.0
+offset_top = 448.0
+offset_right = 1056.0
+offset_bottom = 490.0
+rect_min_size = Vector2(192, 42)
+text = "Add card"

@@ -155,7 +155,7 @@ fr:
     rapportera rien durant vos deux prochains tours.
   LABEL_CARD_RANDOM_10_TITLE: MOVE DA BUS
   LABEL_CARD_RANDOM_10_DESCRIPTION: |
-    Une émission de télé-réalité s'est installe dans une de vos villes.
+    Une émission de télé-réalité s'est installée dans une de vos villes.
     Ils entament de grands chantiers pour vous construire une maison.
 
     Veuillez sélectionner une ville dans laquelle l'évènement se produira.
@@ -176,21 +176,21 @@ fr:
   LABEL_CARD_ANARCHY_1_TITLE: Office notarié
   LABEL_CARD_ANARCHY_1_DESCRIPTION: |
     Vous pouvez soudoyer le notaire pour [b]$%s[/b], ce qui va permettre de libérer une ville
-    au hasard sur le côte du plateau de votre choix
+    au hasard sur le côté du plateau de votre choix
 
     [i]À jouer durant le début de son tour,[/i]
   LABEL_CARD_ANARCHY_2_TITLE: Huissier de justice
   LABEL_CARD_ANARCHY_2_DESCRIPTION: |
-    Dû a un malentendu mal vu, vous pouvez prendre une carte
-    dans la main d'un de vos concurrents.
+    Fourbe comme vous êtes vous parvenez à passer inaperçu ou que vous alliez.
+    Veuillez sélectionner le concurrent à qui vous subtiliserez une carte au hasard.
 
     [i]À jouer durant le début de son tour, sur un adversaire.[/i]
-  LABEL_CARD_ANARCHY_3_TITLE: Comite mondial du fun
+  LABEL_CARD_ANARCHY_3_TITLE: Comité mondial du fun
   LABEL_CARD_ANARCHY_3_DESCRIPTION: |
-    Vous pouvez faire annuler les prochains jeux olympiques, ils retournent alors
+    Vous faites annuler les prochains jeux olympiques, ils retournent alors
     sur leur case de base.
 
-    [i]À jouer durant le début de son tour, sur une case où se déroulent des jeux olympiques.[/i]
+    [i]À jouer durant le début de son tour.[/i]
   LABEL_CARD_ANARCHY_4_TITLE: Jouer comporte des risques
   LABEL_CARD_ANARCHY_4_DESCRIPTION: |
     Vous forcez un de vos camarades à jouer en bourse afin qu'il perde la moitié

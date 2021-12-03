@@ -1,5 +1,7 @@
 # Do not commit generated folders
 .godot/
+.vscode/
+
 game/i18n/*.translation
 
 # Do not commit IDE customization files

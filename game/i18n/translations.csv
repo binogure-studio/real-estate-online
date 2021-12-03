@@ -107,19 +107,19 @@ LABEL_CARD_ANARCHY_0_DESCRIPTION,"Not yet translated","Des jeunes squattent votr
 [i]À jouer durant le début de son tour, sur un adversaire.[/i]"
 LABEL_CARD_ANARCHY_1_TITLE,"Not yet translated","Office notarié"
 LABEL_CARD_ANARCHY_1_DESCRIPTION,"Not yet translated: %s","Vous pouvez soudoyer le notaire pour [b]$%s[/b], ce qui va permettre de libérer une ville
-au hasard sur le côte du plateau de votre choix
+au hasard sur le côté du plateau de votre choix
 
 [i]À jouer durant le début de son tour,[/i]"
 LABEL_CARD_ANARCHY_2_TITLE,"Not yet translated","Huissier de justice"
-LABEL_CARD_ANARCHY_2_DESCRIPTION,"Not yet translated","Dû a un malentendu mal vu, vous pouvez prendre une carte
-dans la main d'un de vos concurrents.
+LABEL_CARD_ANARCHY_2_DESCRIPTION,"Not yet translated","Fourbe comme vous êtes vous parvenez à passer inaperçu ou que vous alliez.
+Veuillez sélectionner le concurrent à qui vous subtiliserez une carte au hasard.
 
 [i]À jouer durant le début de son tour, sur un adversaire.[/i]"
-LABEL_CARD_ANARCHY_3_TITLE,"Not yet translated","Comite mondial du fun"
-LABEL_CARD_ANARCHY_3_DESCRIPTION,"Not yet translated","Vous pouvez faire annuler les prochains jeux olympiques, ils retournent alors
+LABEL_CARD_ANARCHY_3_TITLE,"Not yet translated","Comité mondial du fun"
+LABEL_CARD_ANARCHY_3_DESCRIPTION,"Not yet translated","Vous faites annuler les prochains jeux olympiques, ils retournent alors
 sur leur case de base.
 
-[i]À jouer durant le début de son tour, sur une case où se déroulent des jeux olympiques.[/i]"
+[i]À jouer durant le début de son tour.[/i]"
 LABEL_CARD_ANARCHY_4_TITLE,"Not yet translated","Jouer comporte des risques"
 LABEL_CARD_ANARCHY_4_DESCRIPTION,"Not yet translated","Vous forcez un de vos camarades à jouer en bourse afin qu'il perde la moitié
 de son argent liquide.
@@ -198,7 +198,7 @@ LABEL_CARD_RANDOM_9_TITLE,"Not yet translated","Préfet de police"
 LABEL_CARD_RANDOM_9_DESCRIPTION,"Not yet translated: %s","Il y a des manifestations dans [b]%s[/b], cette dernière ne vous
 rapportera rien durant vos deux prochains tours."
 LABEL_CARD_RANDOM_10_TITLE,"Not yet translated","MOVE DA BUS"
-LABEL_CARD_RANDOM_10_DESCRIPTION,"Not yet translated","Une émission de télé-réalité s'est installe dans une de vos villes.
+LABEL_CARD_RANDOM_10_DESCRIPTION,"Not yet translated","Une émission de télé-réalité s'est installée dans une de vos villes.
 Ils entament de grands chantiers pour vous construire une maison.
 
 Veuillez sélectionner une ville dans laquelle l'évènement se produira."
@@ -208,4 +208,3 @@ LABEL_CARD_RANDOM_11_DESCRIPTION,"Not yet translated","Dû à une épidémie, to
 Cela inclut: Les jeux olympiques, les festivals ainsi que les merveilles."
 LABEL_CARD_RANDOM_12_TITLE,"Not yet translated","Les locataires mécontents"
 LABEL_CARD_RANDOM_12_DESCRIPTION,"Not yet translated","Un de vos locataires vous fait faux-bonds, le prochain loyer ne sera pas perçu."
-

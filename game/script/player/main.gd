@@ -111,7 +111,7 @@ func _throw_dice():
 
     dice_scene_instance.set_player_type(__player_type)
     dice_scene_instance.connect('throw_value', _dice_threw, [], CONNECT_ONESHOT)
-    root_node.call_deferred('add_child', dice_scene_instance)
+    root_node.add_child_deferred(dice_scene_instance)
 
 func get_turn_in_prison_left():
   return __turn_in_jail

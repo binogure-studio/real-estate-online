@@ -7,6 +7,9 @@ const encoding = {
   encoding: 'utf-8'
 }
 
+var output_file_path = process.argv.slice(2)[0]
+var output_file = fs.openSync(output_file_path, 'w', 0o666)
+
 const files = fs.readdirSync(language_directory)
 const result = files.reduce((acc, filename) => {
   console.error(`Reading ${filename}`)
@@ -35,7 +38,7 @@ const result = files.reduce((acc, filename) => {
 
 let amount_of_translations = result.id.length
 
-console.log(Object.keys(result).reduce((acc, key) => {
+fs.writeSync(output_file, Object.keys(result).reduce((acc, key) => {
   let value = result[key]
   let amount_of_percent = null
 
@@ -64,3 +67,6 @@ console.log(Object.keys(result).reduce((acc, key) => {
   return `${acc}${key},"${value.join('","')}"
 `
 }, ''))
+
+fs.closeSync(output_file)
+console.error('Conversion done!')
