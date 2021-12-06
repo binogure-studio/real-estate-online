@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cwsygv63mrr10"
+uid="uid://c6dfyysgsvugr"
 path="res://.godot/imported/character-0.glb-704efee4620530960986f545baee8393.scn"
 
 [deps]
@@ -26,4 +26,25 @@ animation/import=true
 animation/fps=30
 import_script/path=""
 _subresources={
+"animations": {
+"Idle": {
+"save_to_file/enabled": false,
+"save_to_file/keep_custom_tracks": "",
+"save_to_file/path": "",
+"settings/loops": true
+},
+"Walk": {
+"save_to_file/enabled": false,
+"save_to_file/keep_custom_tracks": "",
+"save_to_file/path": "",
+"settings/loops": true
+}
+},
+"meshes": {
+"character-0_Cube001": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": true,
+"save_to_file/path": "res://assets/3d/character-0.tres"
+}
+}
 }

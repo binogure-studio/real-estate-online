@@ -20,20 +20,52 @@ var TRANSITIONS = {
 
 signal state_changed()
 
-signal go_to_jail()
-signal pick_airport_case()
-signal random_card(card_data)
-signal anarchy_card(card_data)
+signal wheel_spinned(card_type)
 
 var static_data = load('res://data/classic.gd').get_data()
 var __current_state = SPINNING_WHEEL_STATE.WAITING_FOR_PLAYER
 var __angular_velocity = 0.0
+var __current_player
+var __card_type
+
+var __pin_original_position
+var __pin_head_original_position
+var __sprite_original_position
 
 func _ready():
-  connect('state_changed', _update_label)
+  __pin_original_position = $wheel/pin.position
+  __pin_head_original_position = $wheel/pin/pinHead.position
+  __sprite_original_position = $wheel/pin/triangle.position
 
-  set_process_input(true)
+  connect('state_changed', _update_label)
   _update_label()
+
+func initialize(player_index):
+  __angular_velocity = 0.0
+  __current_player = player_index
+  __current_state = SPINNING_WHEEL_STATE.WAITING_FOR_PLAYER
+
+  # Reset pin position
+  $wheel/pin.position = __pin_original_position
+  $wheel/pin/pinHead.position = __pin_head_original_position
+  $wheel/pin/triangle.position = __sprite_original_position
+
+  _activate_wheel(true)
+  _update_label()
+
+func _activate_wheel(value):
+  if value:
+    $wheelAnimation.play('setup')
+
+  else:
+    $wheelAnimation.play_backwards('setup')
+
+  set_process_input(value)
+  _show_guirlande(value)
+
+func _show_guirlande(value):
+  for child_node in $guirlande.get_children():
+    child_node.play_animation(value)
 
 func next_state(value):
   if TRANSITIONS[__current_state].has(value):
@@ -92,15 +124,15 @@ func _update_label():
         static_data.wheel[case_index].type, case_index
       ])
 
-      match case_data.type:
-        constant_utils.CARD_TYPE.RANDOM:
-          emit_signal('random_card', static_data.cards.random[randi_range(0, static_data.cards.random.size() - 1)])
+      __card_type = case_data.type
+      emit_signal('wheel_spinned', __card_type)
+      _activate_wheel(false)
 
-        constant_utils.CARD_TYPE.ANARCHY:
-          emit_signal('anarchy_card', static_data.cards.anarchy[randi_range(0, static_data.cards.anarchy.size() - 1)])
+func get_card_type():
+  return __card_type
 
-        constant_utils.CARD_TYPE.PRISON:
-          emit_signal('go_to_jail')
+func pick_random_card():
+  return static_data.cards.random[randi_range(0, static_data.cards.random.size() - 1)]
 
-        constant_utils.CARD_TYPE.AIRPORT:
-          emit_signal('pick_airport_case')
+func pick_anarchy_card():
+  static_data.cards.anarchy[randi_range(0, static_data.cards.anarchy.size() - 1)]

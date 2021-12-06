@@ -184,25 +184,25 @@ static func get_data():
       type = constant_utils.CARD_TYPE.RANDOM
     }, {
       icon = 'res://....png',
-      type = constant_utils.CARD_TYPE.AIRPORT
-    }, {
-      icon = 'res://....png',
-      type = constant_utils.CARD_TYPE.ANARCHY
-    }, {
-      icon = 'res://....png',
-      type = constant_utils.CARD_TYPE.RANDOM
-    }, {
-      icon = 'res://....png',
-      type = constant_utils.CARD_TYPE.ANARCHY
-    }, {
-      icon = 'res://....png',
-      type = constant_utils.CARD_TYPE.RANDOM
-    }, {
-      icon = 'res://....png',
-      type = constant_utils.CARD_TYPE.ANARCHY
-    }, {
-      icon = 'res://....png',
       type = constant_utils.CARD_TYPE.PRISON
+    }, {
+      icon = 'res://....png',
+      type = constant_utils.CARD_TYPE.ANARCHY
+    }, {
+      icon = 'res://....png',
+      type = constant_utils.CARD_TYPE.RANDOM
+    }, {
+      icon = 'res://....png',
+      type = constant_utils.CARD_TYPE.ANARCHY
+    }, {
+      icon = 'res://....png',
+      type = constant_utils.CARD_TYPE.RANDOM
+    }, {
+      icon = 'res://....png',
+      type = constant_utils.CARD_TYPE.ANARCHY
+    }, {
+      icon = 'res://....png',
+      type = constant_utils.CARD_TYPE.AIRPORT
     }],
 
     wonders = [{

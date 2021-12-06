@@ -97,8 +97,8 @@ func _dice_threw():
   # Note:
   # Ensure we are on the right camera before emitting any signal
   # Free the current dice since they are already been threw
-  # connect('tree_exited', emit_signal, ['throw_value', 9, 9], CONNECT_ONESHOT)
-  connect('tree_exited', emit_signal, ['throw_value', get_node('0').get_value(), get_node('1').get_value()], CONNECT_ONESHOT)
+  connect('tree_exited', emit_signal, ['throw_value', 4, 2], CONNECT_ONESHOT)
+  # connect('tree_exited', emit_signal, ['throw_value', get_node('0').get_value(), get_node('1').get_value()], CONNECT_ONESHOT)
   tween.tween_callback(queue_free).set_delay(DICE_THROW_DURATION)
 
   for node in dice_nodes:

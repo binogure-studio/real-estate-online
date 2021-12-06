@@ -18,8 +18,9 @@ __meta__ = {
 }
 
 [node name="hand" type="Path2D" parent="."]
-position = Vector2(960, 824)
+position = Vector2(896, 832)
 curve = SubResource( "Curve2D_320yu" )
+script = null
 
 [node name="button" type="Button" parent="."]
 offset_left = 864.0
@@ -27,4 +28,9 @@ offset_top = 448.0
 offset_right = 1056.0
 offset_bottom = 490.0
 rect_min_size = Vector2(192, 42)
+theme_override_font_sizes/font_size = 16
 text = "Add card"
+script = null
+__meta__ = {
+"_edit_use_anchors_": false
+}

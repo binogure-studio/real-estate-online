@@ -14,6 +14,9 @@ script = ExtResource( "2_37bal" )
 
 [node name="light" type="PointLight2D" parent="."]
 energy = 0.0
+range_layer_min = 1
+range_layer_max = 1
 shadow_enabled = true
 texture = ExtResource( "2_kriqb" )
 offset = Vector2(0, -88)
+script = null

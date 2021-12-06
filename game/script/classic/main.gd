@@ -385,13 +385,41 @@ func _player_play_case(player_index, case, callback):
     callback.call()
 
   elif case_data.data.type == constant_utils.CASE_TYPE.WHEEL:
-    logger.warning('Not yet implemented')
-    callback.call()
+    _play_wheel(player_index, case_node, case_data, case_name, callback)
 
   else:
     # TODO
     logger.warning('Not yet implemented')
     callback.call()
+
+func _play_wheel(player_index, case_node, case_data, case_name, callback):
+  $canvas/wheel.initialize(player_index)
+  $canvas/wheel.connect('wheel_spinned', _wheel_spinned, [player_index, callback], CONNECT_ONESHOT)
+
+func _wheel_spinned(card_type, player_index, callback):
+  match card_type:
+    constant_utils.CARD_TYPE.RANDOM:
+    # TODO
+      var card_data = $canvas/wheel.pick_random_card()
+
+      callback.call()
+
+    constant_utils.CARD_TYPE.ANARCHY:
+      # TODO
+      var card_data = $canvas/wheel.pick_anarchy_card()
+
+      callback.call()
+
+    constant_utils.CARD_TYPE.AIRPORT:
+      for child_node in $cities.get_children():
+        if child_node.is_connected('case_selected', _case_selected):
+          child_node.disconnect('case_selected', _case_selected)
+
+        child_node.set_input_event_collision(player_index, constant_utils.CASE_TYPE.AIRPORT, true)
+        child_node.connect('case_selected', _case_selected, [CASE_EVENT_TYPE.EVENT_PLAYER_MOVE, player_index, null, callback], CONNECT_ONESHOT)
+
+    constant_utils.CARD_TYPE.PRISON:
+      $players.get_node(str(player_index)).go_to_jail(callback)
 
 func _play_begin(player_index, case_node, case_data, case_name, callback):
   _player_pay_salary(player_index)

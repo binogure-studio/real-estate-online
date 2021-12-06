@@ -90,18 +90,21 @@ func begin_turn():
   $origin/skeleton/mesh/active.visible = true
 
   if __dice_threw > static_data.number_of_double_before_jail:
-    # Put player in jail
-    __turn_in_jail = static_data.number_of_turn_in_prison
-    __player_state = PLAYER_STATE.JAILED
-    unit_offset = 9.0 / NUMBER_OF_CASES
-
-    emit_signal('player_jailed', get_index(), _end_of_turn)
+    go_to_jail(_end_of_turn)
 
   elif is_player_in_jail():
     emit_signal('player_in_jail', get_index(), _throw_dice, _end_of_turn)
 
   else:
     _throw_dice()
+
+func go_to_jail(callback):
+  # Put player in jail
+  __turn_in_jail = static_data.number_of_turn_in_prison
+  __player_state = PLAYER_STATE.JAILED
+  unit_offset = 9.0 / NUMBER_OF_CASES
+
+  emit_signal('player_jailed', get_index(), callback)
 
 func _throw_dice():
     # Instanciate dices
@@ -111,7 +114,7 @@ func _throw_dice():
 
     dice_scene_instance.set_player_type(__player_type)
     dice_scene_instance.connect('throw_value', _dice_threw, [], CONNECT_ONESHOT)
-    root_node.add_child_deferred(dice_scene_instance)
+    root_node.call_deferred('add_child', dice_scene_instance)
 
 func get_turn_in_prison_left():
   return __turn_in_jail
