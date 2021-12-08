@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bghy4xywl0rp7"]
 
-[ext_resource type="Texture2D" uid="uid://d3xoheqw7la25" path="res://assets/theme/icon/white-mouse-click-128x137.png" id="1_ovfl8"]
-[ext_resource type="Texture2D" uid="uid://bdg1mgpbo7de6" path="res://assets/theme/blank/white-circle-128x128.png" id="2_qx154"]
+[ext_resource type="Texture2D" uid="uid://r4db4s6t1g6c" path="res://assets/theme/icon/white-mouse-click-128x137.png" id="1_ovfl8"]
+[ext_resource type="Texture2D" uid="uid://blxp4is8nkaj1" path="res://assets/theme/blank/white-circle-128x128.png" id="2_qx154"]
 
 [sub_resource type="Animation" id="Animation_wrngo"]
 length = 0.001
@@ -93,7 +93,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.4, 1.2, 2),
 "transitions": PackedFloat32Array(0.466517, 0.466517, 0.466517, 0.466517),
 "update": 0,
-"values": [Vector2(128, 137), Vector2(128, 137), Vector2(398, 143), Vector2(398, 143)]
+"values": [Vector2(128, 256), Vector2(200, 200), Vector2(398, 212), Vector2(398, 256)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false

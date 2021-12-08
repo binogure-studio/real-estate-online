@@ -135,4 +135,4 @@ func pick_random_card():
   return static_data.cards.random[randi_range(0, static_data.cards.random.size() - 1)]
 
 func pick_anarchy_card():
-  static_data.cards.anarchy[randi_range(0, static_data.cards.anarchy.size() - 1)]
+  return static_data.cards.anarchy[randi_range(0, static_data.cards.anarchy.size() - 1)]

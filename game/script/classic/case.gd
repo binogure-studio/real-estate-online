@@ -5,6 +5,7 @@ const BOARD_ANGLE = 360.0
 
 const constant_utils = preload('res://script/util/constants.gd')
 const number_utils = preload('res://script/util/number.gd')
+const signal_utils = preload('res://script/util/signal.gd')
 
 var static_data = load('res://data/classic.gd').get_data()
 
@@ -15,7 +16,9 @@ var __game_data = {
   houses = 0,
   number_of_owners = 0,
   olympic_case = null,
-  festival = false
+  festival = false,
+  protected = false,
+  turn_with_no_rent = 0
 }
 
 signal case_selected(case_node)
@@ -55,40 +58,51 @@ func _ready():
     $sprite/subViewport/price.queue_free()
     $sprite/subViewport/name.set_text(tr(__data.name))
 
+func inc_turn_with_no_rent(value, callback):
+  if __game_data.owner == constant_utils.BANK_ID:
+    __game_data.turn_with_no_rent = 0
+
+  else:
+    # TODO
+    # Add visual feedback
+    __game_data.turn_with_no_rent += value
+
+  callback.call()
+
+func protect_case(callback):
+  if not __game_data.protected:
+    __game_data.protected = true
+
+    # TODO
+    # Add visual feedback
+    callback.call()
+
 func is_player_own(player_index):
   return __game_data.owner == constant_utils.BANK_ID or __game_data.owner == player_index
 
-func set_input_event_collision(player_index, case_type, value):
+func set_input_event_collision(player_index, case_filter, player_filter, house_action, value):
   # TODO
   # Add visual feedback for the player to know on which case he/she can click
+  signal_utils.disconnect_all($sprite/clickable, 'input_event')
+
   if value:
-    var owner = get_case_owner()
-    var olympic_case = get_olympic_case()
-
-    # Event is either Olympics or a festival
-    if case_type == constant_utils.CASE_TYPE.OLYMPICS:
+    if match_filters(player_index, case_filter, player_filter, house_action):
+      $sprite/clickable.connect('input_event', _input_event_collision)
       $selectable.visible = true
-
-      if is_player_own(player_index) and __data.type == constant_utils.CASE_TYPE.PROPERTY:
-        $sprite/clickable.connect('input_event', _input_event_collision)
-
-    else:
-      if is_player_own(player_index) and \
-        (__data.type == constant_utils.CASE_TYPE.WONDER or \
-        __data.type == constant_utils.CASE_TYPE.PROPERTY or \
-        __data.type == constant_utils.CASE_TYPE.BEGIN or \
-        __data.type == constant_utils.CASE_TYPE.OLYMPICS or \
-        __data.type == constant_utils.CASE_TYPE.PRISON or \
-        __data.type == constant_utils.CASE_TYPE.FESTIVAL or \
-        __data.type == constant_utils.CASE_TYPE.WHEEL):
-        $sprite/clickable.connect('input_event', _input_event_collision)
-        $selectable.visible = true
-
-  elif $sprite/clickable.is_connected('input_event', _input_event_collision):
-    $sprite/clickable.disconnect('input_event', _input_event_collision)
 
   if not value:
     $selectable.visible = false
+
+func match_filters(player_index, case_filter, player_filter, house_action):
+  var valid_case = (case_filter & __data.type)
+  var valid_owner = ((player_filter & constant_utils.PLAYER_TYPE.NO_OWNER) and __game_data.owner == constant_utils.BANK_ID) or \
+                    ((player_filter & constant_utils.PLAYER_TYPE.OWNED_BY_PLAYER) and __game_data.owner == player_index) or \
+                    ((player_filter & constant_utils.PLAYER_TYPE.OWNED_BY_ANOTHER_PLAYER) and __game_data.owner != player_index and __game_data.owner != constant_utils.BANK_ID)
+  var valid_number_of_houses = ((house_action == constant_utils.HOUSE_ACTION.NO_ACTION) or \
+                                (house_action == constant_utils.HOUSE_ACTION.BUILD_HOUSE and __game_data.houses < 5) or \
+                                (house_action == constant_utils.HOUSE_ACTION.FREE_HOUSE and __game_data.houses > 0))
+
+  return valid_case and valid_owner and valid_number_of_houses
 
 func set_festival(value):
   # TODO
@@ -122,15 +136,49 @@ func get_case_owner():
 func organize_event(player_index, case_node):
   __game_data.olympic_case = case_node
 
-  if __data.type == constant_utils.CASE_TYPE.OLYMPICS:
+  if __data.type == constant_utils.CASE_TYPE.OLYMPICS and case_node != null:
     # Set the olympic animation to the right case
     _inc_number_of_owner(player_index)
+
+func free_property():
+  # Note:
+  # We shouldn't be able to free a 'free' case
+  # But it's better to take this case into account
+  if __game_data.owner != constant_utils.BANK_ID:
+    $ownership/animation.play_backwards('setup')
+
+  __game_data.houses = 0
+  __game_data.turn_with_no_rent = 0
+  __game_data.owner = constant_utils.BANK_ID
 
 func _inc_number_of_owner(player_index):
   if __game_data.owner != player_index:
     __game_data.number_of_owners += 1
 
+    # Note:
+    # Owner has changed, we better reset the number o turn with no rent
+    __game_data.turn_with_no_rent = 0
+
   __game_data.owner = player_index
+
+func inc_number_of_house(value, callback):
+  __game_data.houses += value
+  _update_number_of_houses()
+  callback.call()
+
+func _update_number_of_houses():
+  if __game_data.houses < 5:
+    for index in range(1, 6):
+      $ownership.get_node(str(index)).visible = index <= __game_data.houses
+
+  else:
+    $'ownership/1'.visible = false
+    $'ownership/2'.visible = false
+    $'ownership/3'.visible = false
+    $'ownership/4'.visible = false
+    $'ownership/5'.visible = true
+
+  $ownership/animation.play('setup')
 
 func buy_property(player_color, player_index, number_of_houses = 0):
   _inc_number_of_owner(player_index)
@@ -143,21 +191,10 @@ func buy_property(player_color, player_index, number_of_houses = 0):
     constant_utils.CASE_TYPE.PROPERTY:
       __game_data.houses = number_of_houses
 
-      if number_of_houses < 5:
-        for index in range(1, 6):
-          $ownership.get_node(str(index)).visible = index <= number_of_houses
-
-      else:
-        $'ownership/1'.visible = false
-        $'ownership/2'.visible = false
-        $'ownership/3'.visible = false
-        $'ownership/4'.visible = false
-        $'ownership/5'.visible = true
-
       logger.debug('Count: %s', $ownership.get_surface_override_material_count())
       $ownership.get_surface_override_material(0).albedo_color = player_color.lightened(0.95)
       $ownership.get_surface_override_material(1).albedo_color = player_color
-      $ownership/animation.play('setup')
+      _update_number_of_houses()
 
     constant_utils.CASE_TYPE.WONDER:
       logger.debug('Count: %s', $ownership.get_surface_override_material_count())

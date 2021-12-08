@@ -12,6 +12,7 @@ en:
   BUTTON_ONLINE_TYPE: Online game
   BUTTON_CLOSE: Close
   BUTTON_PAY: Pay
+  BUTTON_PLAY_CARD: Play card
 
   LABEL_IP_ADDRESS: IP Address
 
@@ -162,7 +163,7 @@ en:
     Not yet translated
   LABEL_CARD_RANDOM_6_TITLE: Not yet translated
   LABEL_CARD_RANDOM_6_DESCRIPTION: |
-    Not yet translated: %s
+    Not yet translated
   LABEL_CARD_RANDOM_7_TITLE: Not yet translated
   LABEL_CARD_RANDOM_7_DESCRIPTION: |
     Not yet translated
@@ -171,13 +172,13 @@ en:
     Not yet translated: %s
   LABEL_CARD_RANDOM_9_TITLE: Not yet translated
   LABEL_CARD_RANDOM_9_DESCRIPTION: |
-    Not yet translated: %s
+    Not yet translated: %s %s
   LABEL_CARD_RANDOM_10_TITLE: Not yet translated
   LABEL_CARD_RANDOM_10_DESCRIPTION: |
     Not yet translated
   LABEL_CARD_RANDOM_11_TITLE: Not yet translated
   LABEL_CARD_RANDOM_11_DESCRIPTION: |
-    Not yet translated
+    Not yet translated: %s
   LABEL_CARD_RANDOM_12_TITLE: Not yet translated
   LABEL_CARD_RANDOM_12_DESCRIPTION: |
     Not yet translated

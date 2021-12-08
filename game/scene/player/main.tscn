@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://cteukbhqw3bbc"]
+[gd_scene load_steps=10 format=3 uid="uid://cteukbhqw3bbc"]
 
 [ext_resource type="ArrayMesh" uid="uid://take8bm05mnt" path="res://assets/3d/character-0.tres" id="1_65pdo"]
 [ext_resource type="Script" path="res://script/player/main.gd" id="1_g7ncp"]
 [ext_resource type="Theme" uid="uid://3jk5cncrjgh2" path="res://theme/main.tres" id="3_6hoej"]
+[ext_resource type="PackedScene" uid="uid://dq8to6hx860q8" path="res://scene/card/main.tscn" id="4_lko0a"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m2ve0"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eovc3"]
 albedo_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Animation" id="Animation_fi2lm"]
@@ -161,7 +162,6 @@ player_color = Color(0, 0, 0, 1)
 
 [node name="origin" type="Node3D" parent="."]
 transform = Transform3D(0.025, 0, 0, 0, 0.025, 0, 0, 0, 0.025, 0.041, -0.002, -0.031)
-script = null
 
 [node name="skeleton" type="Skeleton3D" parent="origin"]
 transform = Transform3D(1, 0, 7.45058e-09, 0, 1, 0, 0, 0, 1, 0, 1.01886, 0)
@@ -249,46 +249,38 @@ bones/11/enabled = true
 bones/11/position = Vector3(-4.47366e-15, 0.218108, -6.85435e-09)
 bones/11/rotation = Quaternion(-0.663875, 5.47344e-09, 8.43385e-08, 0.747844)
 bones/11/scale = Vector3(1, 1, 1)
-script = null
 
 [node name="mesh" type="MeshInstance3D" parent="origin/skeleton"]
 transform = Transform3D(1, 0, 7.45058e-09, 0, 1, 0, 3.72529e-09, 0, 1, 0, 0.1, 0)
 gi_mode = 2
 mesh = ExtResource( "1_65pdo" )
-surface_material_override/0 = null
-surface_material_override/1 = null
-script = null
+surface_material_override/1 = SubResource( "StandardMaterial3D_eovc3" )
 
 [node name="active" type="CSGCylinder3D" parent="origin/skeleton/mesh"]
 visible = false
-material_override = SubResource( "StandardMaterial3D_m2ve0" )
+material_override = SubResource( "StandardMaterial3D_eovc3" )
 radius = 2.0
 height = 0.1
 sides = 4
-script = null
 
 [node name="animationPlayer" type="AnimationPlayer" parent="origin"]
 autoplay = "Idle"
 anims/Idle = SubResource( "Animation_fi2lm" )
 anims/Walk = SubResource( "Animation_7fr4a" )
-script = null
 
 [node name="active" type="AnimationPlayer" parent="origin"]
 root_node = NodePath("../..")
 autoplay = "active"
 anims/RESET = SubResource( "Animation_73osc" )
 anims/active = SubResource( "Animation_8ww7r" )
-script = null
 
 [node name="canvas" type="CanvasLayer" parent="."]
-script = null
 
 [node name="panel" type="PanelContainer" parent="canvas"]
 offset_right = 256.0
 offset_bottom = 96.0
 rect_min_size = Vector2(256, 96)
 theme = ExtResource( "3_6hoej" )
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -298,7 +290,6 @@ offset_left = 14.0
 offset_top = 14.0
 offset_right = 242.0
 offset_bottom = 82.0
-script = null
 
 [node name="color" type="ColorRect" parent="canvas/panel/container"]
 offset_top = 2.0
@@ -308,7 +299,6 @@ rect_min_size = Vector2(64, 64)
 size_flags_horizontal = 4
 size_flags_vertical = 6
 color = Color(0, 0, 0, 1)
-script = null
 
 [node name="container" type="VBoxContainer" parent="canvas/panel/container"]
 offset_left = 72.0
@@ -316,7 +306,6 @@ offset_right = 228.0
 offset_bottom = 68.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-script = null
 
 [node name="name" type="Label" parent="canvas/panel/container/container"]
 offset_right = 156.0
@@ -329,7 +318,6 @@ theme_override_font_sizes/font_size = 16
 align = 1
 valign = 1
 autowrap_mode = 3
-script = null
 
 [node name="currency" type="Label" parent="canvas/panel/container/container"]
 offset_top = 38.0
@@ -343,4 +331,8 @@ theme_override_font_sizes/font_size = 16
 align = 1
 valign = 1
 autowrap_mode = 3
-script = null
+
+[node name="hand" parent="canvas" instance=ExtResource( "4_lko0a" )]
+offset_right = 19200.0
+offset_bottom = 11880.0
+player_node_path = NodePath("../..")

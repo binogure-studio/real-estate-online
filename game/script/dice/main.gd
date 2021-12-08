@@ -97,9 +97,9 @@ func _dice_threw():
   # Note:
   # Ensure we are on the right camera before emitting any signal
   # Free the current dice since they are already been threw
-  connect('tree_exited', emit_signal, ['throw_value', 4, 2], CONNECT_ONESHOT)
+  connect('tree_exited', emit_signal, ['throw_value', 5, 1], CONNECT_ONESHOT)
   # connect('tree_exited', emit_signal, ['throw_value', get_node('0').get_value(), get_node('1').get_value()], CONNECT_ONESHOT)
-  tween.tween_callback(queue_free).set_delay(DICE_THROW_DURATION)
+  tween.chain().tween_callback(queue_free)
 
   for node in dice_nodes:
     node.stop_dice()
@@ -164,7 +164,7 @@ func set_player_type(player_type):
   __player_type = player_type
 
 func roll_dices():
-  if constant_utils.PLAYER_TYPE.HUMAN_LOCAL == __player_type:
+  if constant_utils.PLAYER_CONNECT_TYPE.HUMAN_LOCAL == __player_type:
     var tween = create_tween()
 
     tween.set_parallel(true)
@@ -178,5 +178,4 @@ func roll_dices():
 
   else:
     # TODO
-    # Not yet implemented
-    logger.warning('Not yet implemented')
+    logger.error('Not yet implemented')

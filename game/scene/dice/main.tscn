@@ -1,21 +1,15 @@
-[gd_scene load_steps=7 format=3 uid="uid://deis0fyx0wa03"]
+[gd_scene load_steps=6 format=3 uid="uid://deis0fyx0wa03"]
 
 [ext_resource type="Script" path="res://script/dice/main.gd" id="1_075m1"]
 [ext_resource type="PackedScene" uid="uid://dekey81kftv7a" path="res://scene/dice/item.tscn" id="4_i22wy"]
 [ext_resource type="PackedScene" uid="uid://bghy4xywl0rp7" path="res://scene/dice/tutoriel.tscn" id="5_idbvt"]
-
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_d23ea"]
-friction = 0.6
-rough = true
-bounce = 0.2
-absorbent = true
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_bbh0r"]
 margin = 1.0
 data = PackedVector3Array(-0.1875, -0.1875, -0.1875, 0.1875, -0.1875, 0.1875, 0.1875, -0.1875, -0.1875, -0.1875, -0.1875, -0.1875, -0.1875, -0.1875, 0.1875, 0.1875, -0.1875, 0.1875, 0.1875, -0.1875, 0.1875, -0.1875, 0.1875, 0.1875, 0.1875, 0.1875, 0.1875, 0.1875, -0.1875, 0.1875, -0.1875, -0.1875, 0.1875, -0.1875, 0.1875, 0.1875, 0.1875, -0.1875, -0.1875, 0.1875, 0.1875, 0.1875, 0.1875, 0.1875, -0.1875, 0.1875, -0.1875, -0.1875, 0.1875, -0.1875, 0.1875, 0.1875, 0.1875, 0.1875, -0.1875, -0.1875, -0.1875, 0.1875, 0.1875, -0.1875, -0.1875, 0.1875, -0.1875, -0.1875, -0.1875, -0.1875, 0.1875, -0.1875, -0.1875, 0.1875, 0.1875, -0.1875, -0.1875, -0.1875, 0.1875, -0.1875, 0.1875, -0.1875, -0.1875, 0.1875, 0.1875, -0.1875, -0.1875, 0.1875, -0.1875, -0.1875, -0.1875, -0.1875, 0.1875, -0.1875, -0.15, 0.15, 0.15, 0.15, -0.15, 0.15, 0.15, 0.15, 0.15, -0.15, 0.15, 0.15, -0.15, -0.15, 0.15, 0.15, -0.15, 0.15, 0.15, -0.15, 0.15, 0.15, 0.15, -0.15, 0.15, 0.15, 0.15, 0.15, -0.15, 0.15, 0.15, -0.15, -0.15, 0.15, 0.15, -0.15, 0.15, -0.15, -0.15, -0.15, 0.15, -0.15, 0.15, 0.15, -0.15, 0.15, -0.15, -0.15, -0.15, -0.15, -0.15, -0.15, 0.15, -0.15, 0.15, -0.15, -0.15, -0.15, -0.15, 0.15, -0.15, -0.15, -0.15, 0.15, -0.15, -0.15, 0.15, -0.15, 0.15, -0.15, -0.15, 0.15, -0.15, 0.15, 0.15, -0.15, -0.15, -0.15, -0.15, -0.15, 0.15, -0.15, 0.15, 0.15, -0.15, 0.15, -0.15, -0.15, -0.15, -0.15, 0.15, 0.15, -0.15, -0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, -0.15, -0.15, 0.15, -0.15, -0.15, 0.15, 0.15, 0.1875, 0.1875, 0.1875, -0.1875, 0.1875, -0.1875, 0.1875, 0.1875, -0.1875, 0.1875, 0.1875, 0.1875, -0.1875, 0.1875, 0.1875, -0.1875, 0.1875, -0.1875)
 backface_collision = true
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_i7eyv"]
+[sub_resource type="ViewportTexture" id="ViewportTexture_3r5en"]
 viewport_path = NodePath("tutoriel/subViewport")
 
 [node name="dices" type="Node3D"]
@@ -26,7 +20,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.432635, 0)
 collision_mask = 0
 input_ray_pickable = false
 input_capture_on_drag = true
-physics_material_override = SubResource( "PhysicsMaterial_d23ea" )
 sync_to_physics = false
 
 [node name="collisionShape3D" type="CollisionShape3D" parent="diceHolder"]
@@ -41,7 +34,7 @@ transform = Transform3D(0.865953, 0.495741, -0.0660747, -0.0194024, -0.0987172, 
 [node name="tutoriel" type="Sprite3D" parent="."]
 transform = Transform3D(0.0482963, -0.012941, 0, 0, 0, 0.05, -0.012941, -0.0482963, 0, 0.0472424, 0.782559, 0.148652)
 cast_shadow = 0
-texture = SubResource( "ViewportTexture_i7eyv" )
+texture = SubResource( "ViewportTexture_3r5en" )
 region_enabled = true
 region_rect = Rect2(0, 0, 512, 300)
 

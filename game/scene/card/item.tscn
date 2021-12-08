@@ -9,7 +9,6 @@ script = ExtResource( "1_bcu6e" )
 [node name="sprite" type="Sprite2D" parent="."]
 scale = Vector2(0.6, 0.6)
 texture = ExtResource( "1_22lmx" )
-script = null
 
 [node name="button" type="TextureButton" parent="sprite"]
 show_behind_parent = true
@@ -22,7 +21,20 @@ offset_bottom = -256.0
 rect_min_size = Vector2(407, 512)
 mouse_default_cursor_shape = 2
 toggle_mode = true
-script = null
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="title" type="Label" parent="sprite"]
+offset_left = -150.0
+offset_top = -70.0
+offset_right = 150.0
+offset_bottom = -19.0
+rect_min_size = Vector2(300, 42)
+theme_override_font_sizes/font_size = 32
+text = "PLACEHOLDER"
+align = 1
+valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -35,10 +47,9 @@ offset_bottom = 209.0
 rect_min_size = Vector2(322, 224)
 mouse_filter = 2
 theme_override_colors/default_color = Color(0.282353, 0.207843, 0.0156863, 1)
-theme_override_font_sizes/normal_font_size = 16
+theme_override_font_sizes/normal_font_size = 24
 text = "[center]PLACEHOLDER[/center]"
 bbcode_enabled = true
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }

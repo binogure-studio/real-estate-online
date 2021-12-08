@@ -26,8 +26,4 @@ local_coords = false
 process_material = SubResource( "ParticlesMaterial_5gjqf" )
 draw_pass_1 = ExtResource( "1_txx4q" )
 
-[node name="attractor" type="GPUParticlesAttractorBox" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.99682e-24)
-visible = false
-strength = 2.0
-extents = Vector3(2, 2, 2)
+[node name="attractor" type="GPUParticlesAttractorBox3D" parent="."]

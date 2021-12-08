@@ -12,6 +12,7 @@ fr:
   BUTTON_ONLINE_TYPE: Partie en ligne
   BUTTON_CLOSE: Fermer
   BUTTON_PAY: Payer
+  BUTTON_PLAY_CARD: Jouer la carte
 
   LABEL_IP_ADDRESS: Adresse IP
 
@@ -109,8 +110,7 @@ fr:
 
   LABEL_CARD_RANDOM_0_TITLE: Banque
   LABEL_CARD_RANDOM_0_DESCRIPTION: |
-    Erreur en votre faveur, la banque vous verse
-    des dividendes de [b]$%s[/b].
+    Erreur en votre faveur, la banque vous verse des dividendes de [b]$%s[/b].
   LABEL_CARD_RANDOM_1_TITLE: Agence de voyage
   LABEL_CARD_RANDOM_1_DESCRIPTION: |
     Rendez-vous à [b]%s[/b].
@@ -124,35 +124,30 @@ fr:
     \tAllez en prison, ne passez pas par la case départ, ne revez pas [b]$%s[/b]!
   LABEL_CARD_RANDOM_4_TITLE: WaterBnB
   LABEL_CARD_RANDOM_4_DESCRIPTION: |
-    Vous faites la bamboche, vous amenez tous vos potos,
-    le prochain loyer à payer sera doublé.
+    Vous faites la bamboche, vous amenez tous vos potos, le prochain loyer à payer sera doublé.
   LABEL_CARD_RANDOM_5_TITLE: Sécurité des territoires
   LABEL_CARD_RANDOM_5_DESCRIPTION: |
-    Le prefet de votre région vous aime bien, il met à disposition un régiment de police
-    complet pour protéger une de vos rues d'éventuelles catastrophes.
+    Le prefet de votre région vous aime bien, il met à disposition un régiment de police complet pour protéger une de vos villes d'éventuelles catastrophes.
 
-    Veuillez choisir la rue à protéger
+    Veuillez choisir la ville à protéger
   LABEL_CARD_RANDOM_6_TITLE: Jouer comporte des risques
   LABEL_CARD_RANDOM_6_DESCRIPTION: |
     Vous jouez en bourse, et ça ne vous réussit pas vraiment.
 
-    Vous perdez immédiatement la moitié de vos liquidités, soit [b]$%s[/b].
+    Vous perdez immédiatement le quart de vos liquidités.
   LABEL_CARD_RANDOM_7_TITLE: Finances publiques
   LABEL_CARD_RANDOM_7_DESCRIPTION: |
     Vous passez en mode d'impôsition proportionel.
 
-    Lorsque vous tomberez sur la case Taxes & Impôts vous paierez
-    une taxe proportionnelle à votre patrimoine financier.
+    Lorsque vous tomberez sur la case Taxes & Impôts vous paierez une taxe proportionnelle à votre patrimoine financier.
   LABEL_CARD_RANDOM_8_TITLE: Finances publiques
   LABEL_CARD_RANDOM_8_DESCRIPTION: |
     Vous passez en mode d'impôsition fixe.
 
-    Lorsque vous tomberez sur la case Taxes & Impôts vous paierez
-    un montant forfaitaire fixe de [b]$%s[/b].
+    Lorsque vous tomberez sur la case Taxes & Impôts vous paierez un montant forfaitaire fixe de [b]$%s[/b].
   LABEL_CARD_RANDOM_9_TITLE: Préfet de police
   LABEL_CARD_RANDOM_9_DESCRIPTION: |
-    Il y a des manifestations dans [b]%s[/b], cette dernière ne vous
-    rapportera rien durant vos deux prochains tours.
+    Il y a des manifestations dans [b]%s[/b], cette dernière ne vous rapportera rien durant vos [b]%s[/b] prochains tours.
   LABEL_CARD_RANDOM_10_TITLE: MOVE DA BUS
   LABEL_CARD_RANDOM_10_DESCRIPTION: |
     Une émission de télé-réalité s'est installée dans une de vos villes.
@@ -161,7 +156,7 @@ fr:
     Veuillez sélectionner une ville dans laquelle l'évènement se produira.
   LABEL_CARD_RANDOM_11_TITLE: Organisation Mondiale de la Santé
   LABEL_CARD_RANDOM_11_DESCRIPTION: |
-    Dû à une épidémie, tous les festivals et autres spectacles sont annulés pendant les 2 prochains tours.
+    Dû à une épidémie, tous les festivals et autres spectacles sont annulés pendant les [b]%s[/b] prochains tours.
 
     Cela inclut: Les jeux olympiques, les festivals ainsi que les merveilles.
   LABEL_CARD_RANDOM_12_TITLE: Les locataires mécontents
@@ -175,8 +170,7 @@ fr:
     [i]À jouer durant le début de son tour, sur un adversaire.[/i]
   LABEL_CARD_ANARCHY_1_TITLE: Office notarié
   LABEL_CARD_ANARCHY_1_DESCRIPTION: |
-    Vous pouvez soudoyer le notaire pour [b]$%s[/b], ce qui va permettre de libérer une ville
-    au hasard sur le côté du plateau de votre choix
+    Vous pouvez soudoyer le notaire pour [b]$%s[/b], ce qui va permettre de libérer une ville au hasard sur le côté du plateau de votre choix.
 
     [i]À jouer durant le début de son tour,[/i]
   LABEL_CARD_ANARCHY_2_TITLE: Huissier de justice
@@ -187,22 +181,19 @@ fr:
     [i]À jouer durant le début de son tour, sur un adversaire.[/i]
   LABEL_CARD_ANARCHY_3_TITLE: Comité mondial du fun
   LABEL_CARD_ANARCHY_3_DESCRIPTION: |
-    Vous faites annuler les prochains jeux olympiques, ils retournent alors
-    sur leur case de base.
+    Vous faites annuler les prochains jeux olympiques, ils retournent alors sur leur case de base.
 
     [i]À jouer durant le début de son tour.[/i]
   LABEL_CARD_ANARCHY_4_TITLE: Jouer comporte des risques
   LABEL_CARD_ANARCHY_4_DESCRIPTION: |
-    Vous forcez un de vos camarades à jouer en bourse afin qu'il perde la moitié
-    de son argent liquide.
+    Vous forcez un de vos camarades à jouer en bourse afin qu'il perde le quart de son argent liquide.
 
     [i]À jouer durant le début de son tour, sur un adversaire.[/i]
   LABEL_CARD_ANARCHY_5_TITLE: Finances publiques
   LABEL_CARD_ANARCHY_5_DESCRIPTION: |
     Vous forcez un de vos camarades à passer en mode d'impôsition proportionnel.
 
-    Lorsqu'il tombera sur la case Taxes & Impôts il paiera
-    une taxe proportionnelle à son patrimoine financier.
+    Lorsqu'il tombera sur la case Taxes & Impôts il paiera une taxe proportionnelle à son patrimoine financier.
 
     [i]À jouer durant le début de son tour, sur un adversaire.[/i]
   LABEL_CARD_ANARCHY_6_TITLE: Décision de justice
@@ -214,14 +205,12 @@ fr:
   LABEL_CARD_ANARCHY_7_DESCRIPTION: |
     Vous forcez un de vos camarades à passer en mode d'impôsition fixe.
 
-    Lorsqu'il tombera sur la case Taxes & Impôts il devra payer
-    un montant forfaitaire fixe de [b]$%s[/b].
+    Lorsqu'il tombera sur la case Taxes & Impôts il devra payer un montant forfaitaire fixe de [b]$%s[/b].
 
     [i]À jouer durant le début de son tour, sur un adversaire.[/i]
   LABEL_CARD_ANARCHY_8_TITLE: Syndicats
   LABEL_CARD_ANARCHY_8_DESCRIPTION: |
-    Il y a une grève des éboueurs sur un côte du plateau. Les loyers de ce bord
-    ne rapportent rien jusqu'au prochain tour de plateau.
+    Il y a une grève des éboueurs sur un côte du plateau. Les loyers de ce bord ne rapportent rien jusqu'au prochain tour de plateau.
 
     [i]À jouer durant le début de son tour, sur un côté de plateau.[/i]
   LABEL_CARD_ANARCHY_9_TITLE: Fête de la musique

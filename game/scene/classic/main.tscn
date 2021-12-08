@@ -247,7 +247,6 @@ transform = Transform3D(0.971533, 0.164182, 0.170789, 0, -0.720914, 0.693025, 0.
 light_energy = 0.89
 shadow_enabled = true
 shadow_color = Color(0.0745098, 0.137255, 0.160784, 1)
-script = null
 __meta__ = {
 "_edit_lock_": true
 }
@@ -260,7 +259,6 @@ directional_shadow_mode = 0
 directional_shadow_fade_start = 0.0
 directional_shadow_max_distance = 0.0
 directional_shadow_pancake_size = 0.0
-script = null
 __meta__ = {
 "_edit_lock_": true
 }
@@ -269,7 +267,6 @@ __meta__ = {
 transform = Transform3D(0.541943, -0.813542, 0.210825, 0.0234244, 0.265383, 0.963858, -0.840089, -0.517418, 0.162879, 0.413486, 1.42026, 0.313964)
 environment = ExtResource( "2_7g8dw" )
 current = true
-script = null
 
 [node name="money" parent="player/camera" instance=ExtResource( "4_yjmvx" )]
 board_node_path = NodePath("../../..")
@@ -278,8 +275,6 @@ board_node_path = NodePath("../../..")
 gi_mode = 1
 mesh = ExtResource( "4_23bds" )
 skeleton = NodePath("")
-surface_material_override/0 = null
-script = null
 __meta__ = {
 "_edit_lock_": true
 }
@@ -288,15 +283,12 @@ __meta__ = {
 collision_mask = 0
 input_ray_pickable = false
 physics_material_override = SubResource( "PhysicsMaterial_ytc5p" )
-script = null
 
 [node name="originalShape" type="CollisionShape3D" parent="plateau/staticBody3D"]
 shape = SubResource( "ConcavePolygonShape3D_ls3ab" )
-script = null
 
 [node name="players" type="Path3D" parent="."]
 curve = SubResource( "Curve3D_5qthu" )
-script = null
 __meta__ = {
 "_edit_group_": true,
 "_edit_lock_": true
@@ -320,16 +312,13 @@ player_color = Color(0.0431373, 0.847059, 0.301961, 1)
 
 [node name="cities" type="Node3D" parent="."]
 top_level = true
-script = null
 
 [node name="canvas" type="CanvasLayer" parent="."]
-script = null
 
 [node name="property" type="Control" parent="canvas"]
 visible = false
 offset_right = 40.0
 offset_bottom = 40.0
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -340,7 +329,6 @@ offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
 rect_min_size = Vector2(1920, 1080)
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -351,7 +339,6 @@ offset_top = 257.0
 offset_right = 1280.0
 offset_bottom = 822.0
 rect_min_size = Vector2(640, 480)
-script = null
 
 [node name="container" type="VBoxContainer" parent="canvas/property/center/panel"]
 offset_left = 7.0
@@ -359,7 +346,6 @@ offset_top = 7.0
 offset_right = 633.0
 offset_bottom = 535.0
 theme_override_constants/separation = 32
-script = null
 
 [node name="title" type="Label" parent="canvas/property/center/panel/container"]
 offset_right = 626.0
@@ -370,7 +356,6 @@ text = "PLACEHOLDER_TITLE"
 align = 1
 valign = 1
 autowrap_mode = 3
-script = null
 
 [node name="options" type="GridContainer" parent="canvas/property/center/panel/container"]
 offset_left = 105.0
@@ -382,7 +367,6 @@ size_flags_vertical = 5
 theme_override_constants/vseparation = 16
 theme_override_constants/hseparation = 16
 columns = 3
-script = null
 
 [node name="0" type="Button" parent="canvas/property/center/panel/container/options"]
 offset_right = 128.0
@@ -393,7 +377,6 @@ toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
 text = "LABEL_LAND_ONLY"
 clip_text = true
-script = null
 
 [node name="1" type="Button" parent="canvas/property/center/panel/container/options"]
 offset_left = 144.0
@@ -405,7 +388,6 @@ toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
 text = "LABEL_1_HOUSE"
 clip_text = true
-script = null
 
 [node name="2" type="Button" parent="canvas/property/center/panel/container/options"]
 offset_left = 288.0
@@ -417,7 +399,6 @@ toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
 text = "LABEL_2_HOUSE"
 clip_text = true
-script = null
 
 [node name="3" type="Button" parent="canvas/property/center/panel/container/options"]
 offset_top = 144.0
@@ -429,7 +410,6 @@ toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
 text = "LABEL_3_HOUSE"
 clip_text = true
-script = null
 
 [node name="4" type="Button" parent="canvas/property/center/panel/container/options"]
 offset_left = 144.0
@@ -442,7 +422,6 @@ toggle_mode = true
 button_group = SubResource( "ButtonGroup_1dy8u" )
 text = "LABEL_4_HOUSE"
 clip_text = true
-script = null
 
 [node name="5" type="Button" parent="canvas/property/center/panel/container/options"]
 offset_left = 288.0
@@ -456,7 +435,6 @@ button_group = SubResource( "ButtonGroup_1dy8u" )
 text = "LABEL_1_HOSTEL
 "
 clip_text = true
-script = null
 
 [node name="costs" type="Label" parent="canvas/property/center/panel/container"]
 offset_top = 370.0
@@ -465,7 +443,6 @@ offset_bottom = 396.0
 theme_override_font_sizes/font_size = 16
 text = "PLACEHOLDER COSTS"
 align = 1
-script = null
 
 [node name="actions" type="HBoxContainer" parent="canvas/property/center/panel/container"]
 offset_top = 428.0
@@ -473,7 +450,6 @@ offset_right = 626.0
 offset_bottom = 470.0
 theme_override_constants/separation = 16
 alignment = 1
-script = null
 
 [node name="close" type="Button" parent="canvas/property/center/panel/container/actions"]
 offset_left = 113.0
@@ -485,7 +461,6 @@ size_flags_vertical = 0
 theme = ExtResource( "6_uqywk" )
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_CLOSE"
-script = null
 
 [node name="buy" type="Button" parent="canvas/property/center/panel/container/actions"]
 offset_left = 321.0
@@ -498,7 +473,6 @@ theme = ExtResource( "7_o2sft" )
 theme_override_font_sizes/font_size = 16
 disabled = true
 text = "BUTTON_BUY"
-script = null
 
 [node name="buyback" type="Label" parent="canvas/property/center/panel/container"]
 offset_top = 502.0
@@ -507,7 +481,6 @@ offset_bottom = 528.0
 theme_override_font_sizes/font_size = 16
 text = "PLACEHOLDER BUY BACK"
 align = 1
-script = null
 
 [node name="marginContainer" type="MarginContainer" parent="canvas/property/center/panel"]
 offset_left = 633.0
@@ -519,7 +492,6 @@ size_flags_horizontal = 8
 size_flags_vertical = 0
 theme_override_constants/margin_right = -32
 theme_override_constants/margin_top = -32
-script = null
 
 [node name="close" type="TextureButton" parent="canvas/property/center/panel/marginContainer"]
 offset_top = -32.0
@@ -533,18 +505,15 @@ texture_hover = ExtResource( "9_41jxl" )
 texture_disabled = ExtResource( "9_41jxl" )
 expand = true
 stretch_mode = 5
-script = null
 
 [node name="animation" type="AnimationPlayer" parent="canvas/property"]
 root_node = NodePath("../..")
 anims/open = SubResource( "Animation_bjtqr" )
-script = null
 
 [node name="wonder" type="Control" parent="canvas"]
 visible = false
 offset_right = 40.0
 offset_bottom = 40.0
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -555,7 +524,6 @@ offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
 rect_min_size = Vector2(1920, 1080)
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -566,7 +534,6 @@ offset_top = 326.0
 offset_right = 1190.0
 offset_bottom = 754.0
 rect_min_size = Vector2(460, 420)
-script = null
 
 [node name="0" type="TextureRect" parent="canvas/wonder/center/panel"]
 modulate = Color(1, 1, 1, 0.490196)
@@ -580,7 +547,6 @@ size_flags_vertical = 6
 texture = ExtResource( "13_cg32b" )
 expand = true
 stretch_mode = 6
-script = null
 
 [node name="container" type="VBoxContainer" parent="canvas/wonder/center/panel"]
 offset_left = 7.0
@@ -591,7 +557,6 @@ size_flags_horizontal = 7
 size_flags_vertical = 7
 theme_override_constants/separation = 32
 alignment = 1
-script = null
 
 [node name="title" type="Label" parent="canvas/wonder/center/panel/container"]
 offset_top = 39.0
@@ -603,13 +568,11 @@ text = "PLACEHOLDER_TITLE"
 align = 1
 valign = 1
 autowrap_mode = 3
-script = null
 
 [node name="rent" type="VBoxContainer" parent="canvas/wonder/center/panel/container"]
 offset_top = 105.0
 offset_right = 446.0
 offset_bottom = 215.0
-script = null
 
 [node name="0" type="Label" parent="canvas/wonder/center/panel/container/rent"]
 offset_right = 446.0
@@ -617,7 +580,6 @@ offset_bottom = 23.0
 theme_override_font_sizes/font_size = 14
 text = "PLACEHOLDER COSTS"
 align = 1
-script = null
 
 [node name="1" type="Label" parent="canvas/wonder/center/panel/container/rent"]
 offset_top = 27.0
@@ -626,7 +588,6 @@ offset_bottom = 50.0
 theme_override_font_sizes/font_size = 14
 text = "PLACEHOLDER COSTS"
 align = 1
-script = null
 
 [node name="2" type="Label" parent="canvas/wonder/center/panel/container/rent"]
 offset_top = 54.0
@@ -635,7 +596,6 @@ offset_bottom = 83.0
 theme_override_font_sizes/font_size = 18
 text = "PLACEHOLDER COSTS"
 align = 1
-script = null
 
 [node name="3" type="Label" parent="canvas/wonder/center/panel/container/rent"]
 offset_top = 87.0
@@ -644,7 +604,6 @@ offset_bottom = 110.0
 theme_override_font_sizes/font_size = 14
 text = "PLACEHOLDER COSTS"
 align = 1
-script = null
 
 [node name="richTextLabel" type="RichTextLabel" parent="canvas/wonder/center/panel/container"]
 offset_top = 247.0
@@ -658,7 +617,6 @@ alors le [b]loyer de Paris[/b] sera [b]doublé[/b][/center]"
 bbcode_enabled = true
 fit_content_height = true
 scroll_active = false
-script = null
 
 [node name="actions" type="HBoxContainer" parent="canvas/wonder/center/panel/container"]
 offset_top = 325.0
@@ -666,7 +624,6 @@ offset_right = 446.0
 offset_bottom = 367.0
 theme_override_constants/separation = 16
 alignment = 1
-script = null
 
 [node name="close" type="Button" parent="canvas/wonder/center/panel/container/actions"]
 offset_left = 23.0
@@ -678,7 +635,6 @@ size_flags_vertical = 0
 theme = ExtResource( "6_uqywk" )
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_CLOSE"
-script = null
 
 [node name="buy" type="Button" parent="canvas/wonder/center/panel/container/actions"]
 offset_left = 231.0
@@ -691,7 +647,6 @@ theme = ExtResource( "7_o2sft" )
 theme_override_font_sizes/font_size = 16
 disabled = true
 text = "BUTTON_BUY"
-script = null
 
 [node name="marginContainer" type="MarginContainer" parent="canvas/wonder/center/panel"]
 offset_left = 453.0
@@ -703,7 +658,6 @@ size_flags_horizontal = 8
 size_flags_vertical = 0
 theme_override_constants/margin_right = -32
 theme_override_constants/margin_top = -32
-script = null
 
 [node name="close" type="TextureButton" parent="canvas/wonder/center/panel/marginContainer"]
 offset_top = -32.0
@@ -717,18 +671,15 @@ texture_hover = ExtResource( "9_41jxl" )
 texture_disabled = ExtResource( "9_41jxl" )
 expand = true
 stretch_mode = 5
-script = null
 
 [node name="animation" type="AnimationPlayer" parent="canvas/wonder"]
 root_node = NodePath("../..")
 anims/open = SubResource( "Animation_o31vr" )
-script = null
 
 [node name="airport" type="Control" parent="canvas"]
 visible = false
 offset_right = 40.0
 offset_bottom = 40.0
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -739,7 +690,6 @@ offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
 rect_min_size = Vector2(1920, 1080)
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -750,7 +700,6 @@ offset_top = 326.0
 offset_right = 1190.0
 offset_bottom = 754.0
 rect_min_size = Vector2(460, 420)
-script = null
 
 [node name="0" type="TextureRect" parent="canvas/airport/center/panel"]
 modulate = Color(1, 1, 1, 0.490196)
@@ -764,7 +713,6 @@ size_flags_vertical = 6
 texture = ExtResource( "13_cg32b" )
 expand = true
 stretch_mode = 6
-script = null
 
 [node name="container" type="VBoxContainer" parent="canvas/airport/center/panel"]
 offset_left = 7.0
@@ -775,7 +723,6 @@ size_flags_horizontal = 7
 size_flags_vertical = 7
 theme_override_constants/separation = 32
 alignment = 1
-script = null
 
 [node name="title" type="Label" parent="canvas/airport/center/panel/container"]
 offset_top = 121.0
@@ -787,7 +734,6 @@ text = "PLACEHOLDER_TITLE"
 align = 1
 valign = 1
 autowrap_mode = 3
-script = null
 
 [node name="richTextLabel" type="RichTextLabel" parent="canvas/airport/center/panel/container"]
 offset_top = 187.0
@@ -800,7 +746,6 @@ text = "LABEL_AIRPORT_DESCRIPTION"
 bbcode_enabled = true
 fit_content_height = true
 scroll_active = false
-script = null
 
 [node name="actions" type="HBoxContainer" parent="canvas/airport/center/panel/container"]
 offset_top = 242.0
@@ -808,7 +753,6 @@ offset_right = 446.0
 offset_bottom = 284.0
 theme_override_constants/separation = 16
 alignment = 1
-script = null
 
 [node name="close" type="Button" parent="canvas/airport/center/panel/container/actions"]
 offset_left = 23.0
@@ -820,7 +764,6 @@ size_flags_vertical = 0
 theme = ExtResource( "6_uqywk" )
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_CLOSE"
-script = null
 
 [node name="buy" type="Button" parent="canvas/airport/center/panel/container/actions"]
 offset_left = 231.0
@@ -833,7 +776,6 @@ theme = ExtResource( "7_o2sft" )
 theme_override_font_sizes/font_size = 16
 disabled = true
 text = "BUTTON_BUY"
-script = null
 
 [node name="marginContainer" type="MarginContainer" parent="canvas/airport/center/panel"]
 offset_left = 453.0
@@ -845,7 +787,6 @@ size_flags_horizontal = 8
 size_flags_vertical = 0
 theme_override_constants/margin_right = -32
 theme_override_constants/margin_top = -32
-script = null
 
 [node name="close" type="TextureButton" parent="canvas/airport/center/panel/marginContainer"]
 offset_top = -32.0
@@ -859,18 +800,15 @@ texture_hover = ExtResource( "9_41jxl" )
 texture_disabled = ExtResource( "9_41jxl" )
 expand = true
 stretch_mode = 5
-script = null
 
 [node name="animation" type="AnimationPlayer" parent="canvas/airport"]
 root_node = NodePath("../..")
 anims/open = SubResource( "Animation_bhlo0" )
-script = null
 
 [node name="jail" type="Control" parent="canvas"]
 visible = false
 offset_right = 40.0
 offset_bottom = 40.0
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -881,7 +819,6 @@ offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
 rect_min_size = Vector2(1920, 1080)
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -892,7 +829,6 @@ offset_top = 326.0
 offset_right = 1190.0
 offset_bottom = 754.0
 rect_min_size = Vector2(460, 420)
-script = null
 
 [node name="0" type="TextureRect" parent="canvas/jail/center/panel"]
 modulate = Color(1, 1, 1, 0.490196)
@@ -906,7 +842,6 @@ size_flags_vertical = 6
 texture = ExtResource( "13_cg32b" )
 expand = true
 stretch_mode = 6
-script = null
 
 [node name="container" type="VBoxContainer" parent="canvas/jail/center/panel"]
 offset_left = 7.0
@@ -917,7 +852,6 @@ size_flags_horizontal = 7
 size_flags_vertical = 7
 theme_override_constants/separation = 32
 alignment = 1
-script = null
 
 [node name="title" type="Label" parent="canvas/jail/center/panel/container"]
 offset_top = 121.0
@@ -929,7 +863,6 @@ text = "LABEL_JAIL"
 align = 1
 valign = 1
 autowrap_mode = 3
-script = null
 
 [node name="richTextLabel" type="RichTextLabel" parent="canvas/jail/center/panel/container"]
 offset_top = 187.0
@@ -942,7 +875,6 @@ text = "PLACEHOLDER"
 bbcode_enabled = true
 fit_content_height = true
 scroll_active = false
-script = null
 
 [node name="actions" type="HBoxContainer" parent="canvas/jail/center/panel/container"]
 offset_top = 242.0
@@ -950,7 +882,6 @@ offset_right = 446.0
 offset_bottom = 284.0
 theme_override_constants/separation = 16
 alignment = 1
-script = null
 
 [node name="close" type="Button" parent="canvas/jail/center/panel/container/actions"]
 offset_left = 127.0
@@ -962,7 +893,6 @@ size_flags_vertical = 0
 theme = ExtResource( "6_uqywk" )
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_CLOSE"
-script = null
 
 [node name="marginContainer" type="MarginContainer" parent="canvas/jail/center/panel"]
 offset_left = 453.0
@@ -974,7 +904,6 @@ size_flags_horizontal = 8
 size_flags_vertical = 0
 theme_override_constants/margin_right = -32
 theme_override_constants/margin_top = -32
-script = null
 
 [node name="close" type="TextureButton" parent="canvas/jail/center/panel/marginContainer"]
 offset_top = -32.0
@@ -988,18 +917,15 @@ texture_hover = ExtResource( "9_41jxl" )
 texture_disabled = ExtResource( "9_41jxl" )
 expand = true
 stretch_mode = 5
-script = null
 
 [node name="animation" type="AnimationPlayer" parent="canvas/jail"]
 root_node = NodePath("../..")
 anims/open = SubResource( "Animation_65yuo" )
-script = null
 
 [node name="inJail" type="Control" parent="canvas"]
 visible = false
 offset_right = 40.0
 offset_bottom = 40.0
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -1010,7 +936,6 @@ offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
 rect_min_size = Vector2(1920, 1080)
-script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -1021,7 +946,6 @@ offset_top = 326.0
 offset_right = 1190.0
 offset_bottom = 754.0
 rect_min_size = Vector2(460, 420)
-script = null
 
 [node name="0" type="TextureRect" parent="canvas/inJail/center/panel"]
 modulate = Color(1, 1, 1, 0.490196)
@@ -1035,7 +959,6 @@ size_flags_vertical = 6
 texture = ExtResource( "13_cg32b" )
 expand = true
 stretch_mode = 6
-script = null
 
 [node name="container" type="VBoxContainer" parent="canvas/inJail/center/panel"]
 offset_left = 7.0
@@ -1046,7 +969,6 @@ size_flags_horizontal = 7
 size_flags_vertical = 7
 theme_override_constants/separation = 32
 alignment = 1
-script = null
 
 [node name="title" type="Label" parent="canvas/inJail/center/panel/container"]
 offset_top = 121.0
@@ -1058,7 +980,6 @@ text = "LABEL_JAIL"
 align = 1
 valign = 1
 autowrap_mode = 3
-script = null
 
 [node name="richTextLabel" type="RichTextLabel" parent="canvas/inJail/center/panel/container"]
 offset_top = 187.0
@@ -1071,7 +992,6 @@ text = "PLACEHOLDER"
 bbcode_enabled = true
 fit_content_height = true
 scroll_active = false
-script = null
 
 [node name="actions" type="HBoxContainer" parent="canvas/inJail/center/panel/container"]
 offset_top = 242.0
@@ -1079,7 +999,6 @@ offset_right = 446.0
 offset_bottom = 284.0
 theme_override_constants/separation = 16
 alignment = 1
-script = null
 
 [node name="throwDices" type="Button" parent="canvas/inJail/center/panel/container/actions"]
 offset_left = 23.0
@@ -1091,7 +1010,6 @@ size_flags_vertical = 0
 theme = ExtResource( "6_uqywk" )
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_TRHOW_DICES"
-script = null
 
 [node name="pay" type="Button" parent="canvas/inJail/center/panel/container/actions"]
 offset_left = 231.0
@@ -1103,11 +1021,9 @@ size_flags_vertical = 0
 theme = ExtResource( "7_o2sft" )
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_PAY"
-script = null
 
 [node name="animation" type="AnimationPlayer" parent="canvas/inJail"]
 root_node = NodePath("../..")
 anims/open = SubResource( "Animation_ys44u" )
-script = null
 
 [node name="wheel" parent="canvas" instance=ExtResource( "14_isstv" )]

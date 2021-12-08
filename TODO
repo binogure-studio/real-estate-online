@@ -3,10 +3,10 @@ Bug list
 - Merveille double
 - Prison avec double
 - Quand on est sur les Jeux Olympiques on peut selectionner TOUTES les cases
+- On peut racheter les merveilles (popup bloquée)
 
 TODO
 - Gérer la banqueroute
-- Gérer les cartes chances
 - (mode multijoueur) Quand on ne joue pas, on devrait pouvoir explorer le plateau
   - Cliquer sur les cases pour voir leur description
   - Cliquer sur les joueurs pour voir leur argent et leur propriétés sur le plateau

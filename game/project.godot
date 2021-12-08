@@ -6,7 +6,7 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
+config_version=5
 
 [application]
 
@@ -23,12 +23,14 @@ logger="*res://script/logger.gd"
 globals_manager="*res://script/singleton/global-manager.gd"
 configuration_manager="*res://script/singleton/configuration-manager.gd"
 soundfx_manager="*res://scene/soundfx-manager.tscn"
+async="*res://script/singleton/async.gd"
 
 [debug]
 
 file_logging/max_log_files=10
 gdscript/warnings/unreachable_code=false
 gdscript/warnings/unreachable_pattern=false
+gdscript/warnings/integer_division=false
 gdscript/warnings/empty_file=false
 
 [display]
