@@ -284,6 +284,8 @@ func _apply_on_case(case_node, callback):
   async.series(function_list, callback)
 
 func _apply_on_player(player_node, callback):
+  var function_list = []
+
   if __data.effects.has('steal_card'):
     function_list.push_back([player_node.steal_card, [player_node.get_index()]])
 
