@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bubu1gnw051ic"
+uid="uid://cdnnl6v6o7mah"
 path="res://.godot/imported/plateau.glb-d92f21b0b392e414d7a4490ba92ed6c9.scn"
 
 [deps]
@@ -27,14 +27,15 @@ animation/fps=30
 import_script/path=""
 _subresources={
 "meshes": {
-"plateau_Cylinder": {
+"plateau_Cube013": {
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": true,
 "save_to_file/path": "res://assets/3d/plateau.tres"
 }
 },
 "nodes": {
-"PATH:Cylinder": {
+"PATH:Cube008": {
+"generate/navmesh": 1,
 "generate/physics": true,
 "physics/shape_type": 2
 }

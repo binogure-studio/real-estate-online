@@ -300,8 +300,6 @@ offset_right = 1920.0
 offset_bottom = 572.0
 rect_min_size = Vector2(256, 64)
 theme_override_font_sizes/font_size = 16
-align = 1
-valign = 1
 
 [node name="wheelAnimation" type="AnimationPlayer" parent="."]
 playback_process_mode = 0

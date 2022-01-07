@@ -14,10 +14,10 @@ const DICE_SCENE = preload('res://scene/dice/main.tscn')
 const NUMBER_OF_CASES = 36.0
 const ANIMATION_DURATION = 2.0
 const PLAYER_POSITIONS = [
-  Vector3(0.041, -0.002, -0.031),
-  Vector3(0.158, -0.002, -0.045),
-  Vector3(0.059, -0.002, 0.024),
-  Vector3(0.172, -0.002, 0.015)
+  Vector3(-0.062, 0.0, -0.053),
+  Vector3(0.053, 0.0, -0.06),
+  Vector3(0.0624, 0.0, 0.0794),
+  Vector3(-0.062, 0.0, 0.08276)
 ]
 
 const PANEL_POSITIONS = [

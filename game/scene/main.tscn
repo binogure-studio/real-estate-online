@@ -39,8 +39,6 @@ theme_override_fonts/font = ExtResource( "3_5xbph" )
 theme_override_font_sizes/font_size = 72
 text = "Real Estate Online
 The multiplayer board game"
-align = 1
-valign = 1
 autowrap_mode = 3
 
 [node name="top" type="HBoxContainer" parent="container"]

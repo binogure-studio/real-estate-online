@@ -166,8 +166,6 @@ theme_override_constants/shadow_outline_size = 6
 theme_override_fonts/font = ExtResource( "1_sqr7k" )
 theme_override_font_sizes/font_size = 26
 text = "9999.99 K$"
-horizontal_alignment = 1
-vertical_alignment = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -183,8 +181,6 @@ theme_override_constants/shadow_outline_size = 6
 theme_override_fonts/font = ExtResource( "1_sqr7k" )
 theme_override_font_sizes/font_size = 28
 text = "PLACEHOLDER_NAME"
-horizontal_alignment = 1
-vertical_alignment = 1
 autowrap_mode = 3
 __meta__ = {
 "_edit_use_anchors_": false

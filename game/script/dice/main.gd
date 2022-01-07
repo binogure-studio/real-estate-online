@@ -5,15 +5,15 @@ const constant_utils = preload('res://script/util/constants.gd')
 const DICE_THROW_DURATION = 2.0
 const ANIMATION_DURATION = 0.667
 const DEFAULT_CAMERA_DATA = {
-  fov = 75.0,
+  fov = 6.0,
   near = 0.05,
   far = 4000.0,
-  position = Vector3(0.4134860038757324, 1.420259952545166, 0.3139640092849731),
-  rotation = Vector3(deg2rad(-74.5), deg2rad(52.3), deg2rad(5))
+  position = Vector3(1.8, 2.5, 1.8),
+  rotation = Vector3(deg2rad(-60), deg2rad(40), deg2rad(0))
 }
 
 const DICE_CAMERA_DATA = {
-  fov = 35.0,
+  fov = 2.0,
   near = 0.05,
   far = 4000.0,
   position = Vector3(0.0081785898655653, 1.7606600522994995, 0.2201520055532455),
@@ -87,7 +87,7 @@ func _dice_threw():
   var tween = create_tween()
 
   tween.set_parallel(true)
-  tween.tween_property(__board_camera, 'fov', DEFAULT_CAMERA_DATA.fov, ANIMATION_DURATION).set_trans(Tween.TRANS_SINE)
+  tween.tween_property(__board_camera, 'size', DEFAULT_CAMERA_DATA.fov, ANIMATION_DURATION).set_trans(Tween.TRANS_SINE)
   tween.tween_property(__board_camera, 'near', DEFAULT_CAMERA_DATA.near, ANIMATION_DURATION).set_trans(Tween.TRANS_SINE)
   tween.tween_property(__board_camera, 'far', DEFAULT_CAMERA_DATA.far, ANIMATION_DURATION).set_trans(Tween.TRANS_SINE)
   tween.tween_property(__board_camera, 'position', DEFAULT_CAMERA_DATA.position, ANIMATION_DURATION).set_trans(Tween.TRANS_SINE)

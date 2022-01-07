@@ -201,6 +201,10 @@ static func get_data():
     }],
 
     wonders = [{
+      name = 'LABEL_WONDER_TAJ_MAHAL',
+      case_id = '334e6140-4d38-4e7b-8e65-54572c1e9775',
+      side = 1
+    }, {
       name = 'LABEL_WONDER_EIFFEL_TOWER',
       case_id = '0e0d0f69-8b9e-43d8-9848-d1e932e1cadc',
       side = 3
