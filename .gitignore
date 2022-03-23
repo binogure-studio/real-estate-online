@@ -4,5 +4,7 @@
 
 game/i18n/*.translation
 
+*.unwrap_cache
+
 # Do not commit IDE customization files
 *.code-workspace
