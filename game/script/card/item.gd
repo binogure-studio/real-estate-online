@@ -42,7 +42,7 @@ var __linked_player_index = constant_utils.BANK_ID
 var __linked_side_index = constant_utils.INVALID_CASE_ID
 
 func _ready():
-  $sprite/button.pressed = true
+  $sprite/button.button_pressed = true
   __original_z_index = z_index
 
   _initialize()
@@ -354,7 +354,7 @@ func _update_state(arg0 = null):
     _emit_signals()
 
 func release_card():
-  $sprite/button.pressed = false
+  $sprite/button.button_pressed = false
 
   _update_state()
 

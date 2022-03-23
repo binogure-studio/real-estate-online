@@ -2,7 +2,7 @@
 
 [ext_resource type="ArrayMesh" uid="uid://take8bm05mnt" path="res://assets/3d/character-0.tres" id="1_65pdo"]
 [ext_resource type="Script" path="res://script/player/main.gd" id="1_g7ncp"]
-[ext_resource type="Theme" uid="uid://3jk5cncrjgh2" path="res://theme/main.tres" id="3_6hoej"]
+[ext_resource type="Theme" uid="uid://3jk5cncrjgh2" path="res://theme/main.tres" id="3_mxhpo"]
 [ext_resource type="PackedScene" uid="uid://dq8to6hx860q8" path="res://scene/card/main.tscn" id="4_lko0a"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_73wes"]
@@ -191,7 +191,7 @@ bones/3/parent = 2
 bones/3/rest = Transform3D(1, 0, -2.38419e-07, 0, 1, 0, 2.38419e-07, 0, 1, 0, 0.3, 0)
 bones/3/enabled = true
 bones/3/position = Vector3(0, 0.3, 0)
-bones/3/rotation = Quaternion(-2.77775e-09, -1.18549e-07, 0.0233015, 0.999728)
+bones/3/rotation = Quaternion(0, -1.19209e-07, 0, 1)
 bones/3/scale = Vector3(1, 1, 1)
 bones/4/name = "Bone.003"
 bones/4/parent = 0
@@ -205,7 +205,7 @@ bones/5/parent = 4
 bones/5/rest = Transform3D(0.441675, 0.897175, -2.84527e-07, -0.897175, 0.441675, -6.18922e-07, -4.29613e-07, 5.28633e-07, 1, -3.2918e-08, 0.487853, -1.96148e-14)
 bones/5/enabled = true
 bones/5/position = Vector3(-3.2918e-08, 0.487853, -1.96148e-14)
-bones/5/rotation = Quaternion(-0.0146963, 0.0248123, -0.528139, 0.848669)
+bones/5/rotation = Quaternion(3.37905e-07, 4.27214e-08, -0.528358, 0.849021)
 bones/5/scale = Vector3(1, 1, 1)
 bones/6/name = "Bone.005"
 bones/6/parent = 0
@@ -219,7 +219,7 @@ bones/7/parent = 6
 bones/7/rest = Transform3D(0.416234, -0.909257, -2.7197e-07, 0.909257, 0.416234, -2.67257e-07, 3.56209e-07, -1.36049e-07, 1, -9.31323e-08, 0.484851, -3.77476e-15)
 bones/7/enabled = true
 bones/7/position = Vector3(-9.31323e-08, 0.484851, -3.77476e-15)
-bones/7/rotation = Quaternion(0.0218584, 0.0379923, 0.539743, 0.840689)
+bones/7/rotation = Quaternion(3.89805e-08, -1.86626e-07, 0.540262, 0.841497)
 bones/7/scale = Vector3(1, 1, 1)
 bones/8/name = "Bone.007"
 bones/8/parent = -1
@@ -254,7 +254,6 @@ bones/11/scale = Vector3(1, 1, 1)
 transform = Transform3D(1, 0, 7.45058e-09, 0, 1, 0, 3.72529e-09, 0, 1, 0, 0.1, 0)
 gi_mode = 2
 mesh = ExtResource( "1_65pdo" )
-surface_material_override/0 = null
 surface_material_override/1 = SubResource( "StandardMaterial3D_73wes" )
 
 [node name="active" type="CSGCylinder3D" parent="origin/skeleton/mesh"]
@@ -280,37 +279,31 @@ anims/active = SubResource( "Animation_8ww7r" )
 [node name="panel" type="PanelContainer" parent="canvas"]
 offset_right = 256.0
 offset_bottom = 96.0
-rect_min_size = Vector2(256, 96)
-theme = ExtResource( "3_6hoej" )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+theme = ExtResource( "3_mxhpo" )
+minimum_size = Vector2(256, 96)
 
 [node name="container" type="HBoxContainer" parent="canvas/panel"]
-offset_left = 14.0
-offset_top = 14.0
-offset_right = 242.0
-offset_bottom = 82.0
+offset_right = 256.0
+offset_bottom = 96.0
 
 [node name="color" type="ColorRect" parent="canvas/panel/container"]
-offset_top = 2.0
-offset_right = 64.0
-offset_bottom = 66.0
-rect_min_size = Vector2(64, 64)
+offset_top = 48.0
+offset_bottom = 48.0
 size_flags_horizontal = 4
 size_flags_vertical = 6
+minimum_size = Vector2(64, 64)
 color = Color(0, 0, 0, 1)
 
 [node name="container" type="VBoxContainer" parent="canvas/panel/container"]
-offset_left = 72.0
-offset_right = 228.0
-offset_bottom = 68.0
+offset_left = 4.0
+offset_right = 256.0
+offset_bottom = 96.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="name" type="Label" parent="canvas/panel/container/container"]
-offset_right = 156.0
-offset_bottom = 30.0
+offset_right = 252.0
+offset_bottom = 46.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
@@ -319,9 +312,9 @@ theme_override_font_sizes/font_size = 16
 autowrap_mode = 3
 
 [node name="currency" type="Label" parent="canvas/panel/container/container"]
-offset_top = 38.0
-offset_right = 156.0
-offset_bottom = 68.0
+offset_top = 50.0
+offset_right = 252.0
+offset_bottom = 96.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
@@ -330,6 +323,6 @@ theme_override_font_sizes/font_size = 16
 autowrap_mode = 3
 
 [node name="hand" parent="canvas" instance=ExtResource( "4_lko0a" )]
-offset_right = 24960.0
-offset_bottom = 15120.0
+offset_right = 26880.0
+offset_bottom = 16200.0
 player_node_path = NodePath("../..")

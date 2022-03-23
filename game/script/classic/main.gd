@@ -78,9 +78,6 @@ func update_player_currency(from, to, amount, callback):
   if callback != null:
     $player/camera/money.set_callback(callback)
 
-func set(value):
-  pass
-
 func _update_players_currency(from_player, to_player, amount):
   if from_player != constant_utils.BANK_ID:
     var player_node = str(from_player)

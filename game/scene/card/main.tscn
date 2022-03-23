@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://dq8to6hx860q8"]
 
-[ext_resource type="Theme" uid="uid://3jk5cncrjgh2" path="res://theme/main.tres" id="1_vpf6a"]
-[ext_resource type="Script" path="res://script/card/main.gd" id="2_d1uhm"]
+[ext_resource type="Script" path="res://script/card/main.gd" id="1_i25n6"]
+[ext_resource type="Theme" uid="uid://3jk5cncrjgh2" path="res://theme/main.tres" id="1_ode75"]
 
 [sub_resource type="Curve2D" id="Curve2D_320yu"]
 _data = {
@@ -25,7 +25,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath(".:rect_position")
+tracks/1/path = NodePath(".:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -53,7 +53,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath(".:rect_position")
+tracks/1/path = NodePath(".:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -69,7 +69,7 @@ length = 0.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath(".:rect_position")
+tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -81,14 +81,14 @@ tracks/0/keys = {
 
 [node name="main" type="Control"]
 visible = false
+minimum_size = Vector2(1920, 1080)
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
-rect_min_size = Vector2(1920, 1080)
-theme = ExtResource( "1_vpf6a" )
-script = ExtResource( "2_d1uhm" )
+theme = ExtResource( "1_ode75" )
+script = ExtResource( "1_i25n6" )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -99,19 +99,19 @@ curve = SubResource( "Curve2D_320yu" )
 
 [node name="action" type="Control" parent="."]
 visible = false
+minimum_size = Vector2(1920, 1080)
 offset_right = 40.0
 offset_bottom = 40.0
-rect_min_size = Vector2(1920, 1080)
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="close" type="Button" parent="action"]
+minimum_size = Vector2(192, 42)
 offset_left = 864.0
 offset_top = 928.0
 offset_right = 1056.0
 offset_bottom = 970.0
-rect_min_size = Vector2(192, 42)
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_CLOSE"
 __meta__ = {
@@ -119,11 +119,11 @@ __meta__ = {
 }
 
 [node name="play" type="Button" parent="action"]
+minimum_size = Vector2(192, 42)
 offset_left = 864.0
 offset_top = 928.0
 offset_right = 1056.0
 offset_bottom = 970.0
-rect_min_size = Vector2(192, 42)
 theme_override_font_sizes/font_size = 16
 text = "BUTTON_PLAY_CARD"
 __meta__ = {

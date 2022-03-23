@@ -1,55 +1,47 @@
 [gd_scene load_steps=3 format=3 uid="uid://ejylkwsrgg04"]
 
-[ext_resource type="Texture2D" uid="uid://dq4m8fb8csded" path="res://assets/theme/icon/card-random-407x512.png" id="1_22lmx"]
 [ext_resource type="Script" path="res://script/card/item.gd" id="1_bcu6e"]
+[ext_resource type="Texture2D" uid="uid://dq4m8fb8csded" path="res://assets/theme/icon/card-random-407x512.png" id="2_qrl2f"]
 
 [node name="card" type="PathFollow2D"]
 script = ExtResource( "1_bcu6e" )
 
 [node name="sprite" type="Sprite2D" parent="."]
 scale = Vector2(0.6, 0.6)
-texture = ExtResource( "1_22lmx" )
-
-[node name="button" type="TextureButton" parent="sprite"]
-show_behind_parent = true
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -203.5
-offset_top = -256.0
-offset_right = -203.5
-offset_bottom = -256.0
-rect_min_size = Vector2(407, 512)
-mouse_default_cursor_shape = 2
-toggle_mode = true
+texture = ExtResource( "2_qrl2f" )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="button" type="TextureButton" parent="sprite"]
+show_behind_parent = true
+offset_left = -203.0
+offset_top = -256.0
+offset_right = 204.0
+offset_bottom = 256.0
+minimum_size = Vector2(407, 512)
+mouse_default_cursor_shape = 2
+toggle_mode = true
+ignore_texture_size = true
+stretch_mode = 0
 
 [node name="title" type="Label" parent="sprite"]
 offset_left = -150.0
 offset_top = -70.0
 offset_right = 150.0
 offset_bottom = -19.0
-rect_min_size = Vector2(300, 42)
+minimum_size = Vector2(300, 42)
 theme_override_font_sizes/font_size = 32
 text = "PLACEHOLDER"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="effect" type="RichTextLabel" parent="sprite"]
 offset_left = -160.0
 offset_top = -15.0
 offset_right = 162.0
 offset_bottom = 209.0
-rect_min_size = Vector2(322, 224)
+minimum_size = Vector2(322, 224)
 mouse_filter = 2
 theme_override_colors/default_color = Color(0.282353, 0.207843, 0.0156863, 1)
 theme_override_font_sizes/normal_font_size = 24
-text = "[center]PLACEHOLDER[/center]"
 bbcode_enabled = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+text = "[center]PLACEHOLDER[/center]"

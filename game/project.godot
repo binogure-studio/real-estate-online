@@ -35,10 +35,12 @@ gdscript/warnings/empty_file=false
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/resizable=false
+window/vsync/vsync_mode=2
 window/size/width=1920
 window/size/height=1080
-window/dpi/allow_hidpi=true
-window/vsync/vsync_mode=2
 
 [editor]
 
@@ -58,8 +60,7 @@ wav={
 [internationalization]
 
 locale/translations=PackedStringArray("res://i18n/translations.en.translation", "res://i18n/translations.fr.translation")
-locale/translation_remaps={
-}
+locale/translation_remaps={}
 locale/locale_filter=[1, ["en", "fr", "fr_FR"]]
 
 [rendering]

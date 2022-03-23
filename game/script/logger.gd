@@ -18,12 +18,13 @@ enum LOG_LEVEL {
   LEVEL_ERROR = 4
 }
 
-var current_filename = get_logfilename()
+var current_filename
 var logfile = File.new()
 var message_amount = 0
 var log_level = LOG_LEVEL.LEVEL_WARNING
 
 func _init():
+  current_filename = get_logfilename()
   logfile.open(current_filename, File.WRITE)
 
 func _ready():

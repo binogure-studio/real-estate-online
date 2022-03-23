@@ -141,7 +141,7 @@ tracks/4/keys = {
 
 [node name="main" type="MarginContainer"]
 visible = false
-rect_min_size = Vector2(1920, 1080)
+minimum_size = Vector2(1920, 1080)
 theme_override_constants/margin_right = 0
 theme_override_constants/margin_top = 0
 theme_override_constants/margin_left = 0
@@ -151,9 +151,9 @@ script = ExtResource( "1_nqqwf" )
 [node name="background" type="ColorRect" parent="."]
 offset_right = 1920.0
 offset_bottom = 1080.0
-mouse_filter = 1
 size_flags_horizontal = 7
 size_flags_vertical = 7
+mouse_filter = 1
 color = Color(0.105882, 0.12549, 0.129412, 0.494118)
 
 [node name="wheel" type="Node2D" parent="."]
@@ -295,10 +295,10 @@ rotation = 3.32447
 
 [node name="result" type="Label" parent="."]
 visible = false
+minimum_size = Vector2(256, 64)
 offset_top = 508.0
 offset_right = 1920.0
 offset_bottom = 572.0
-rect_min_size = Vector2(256, 64)
 theme_override_font_sizes/font_size = 16
 
 [node name="wheelAnimation" type="AnimationPlayer" parent="."]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=14 format=3 uid="uid://bbqtb2d1fo326"]
 
 [ext_resource type="Script" path="res://script/classic/case.gd" id="1_7xr1y"]
-[ext_resource type="Font" uid="uid://woqrkj461ijl" path="res://font/normal/font.tres" id="1_sqr7k"]
+[ext_resource type="Font" uid="uid://woqrkj461ijl" path="res://font/normal/font.tres" id="2_3akht"]
 [ext_resource type="ArrayMesh" uid="uid://hdtb2weychuy" path="res://assets/3d/plateau-case.tres" id="3_nl084"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_sr5na"]
@@ -157,13 +157,13 @@ size_2d_override = Vector2i(256, 300)
 render_target_update_mode = 4
 
 [node name="price" type="Label" parent="sprite/subViewport"]
+minimum_size = Vector2(256, 96)
 offset_top = 16.0
 offset_right = 256.0
 offset_bottom = 112.0
-rect_min_size = Vector2(256, 96)
 theme_override_colors/font_shadow_color = Color(0, 0.235294, 0.203922, 1)
 theme_override_constants/shadow_outline_size = 6
-theme_override_fonts/font = ExtResource( "1_sqr7k" )
+theme_override_fonts/font = ExtResource( "2_3akht" )
 theme_override_font_sizes/font_size = 26
 text = "9999.99 K$"
 __meta__ = {
@@ -171,14 +171,14 @@ __meta__ = {
 }
 
 [node name="name" type="Label" parent="sprite/subViewport"]
+minimum_size = Vector2(96, 96)
 offset_left = 80.0
 offset_top = 90.0
 offset_right = 176.0
 offset_bottom = 192.0
-rect_min_size = Vector2(96, 96)
 theme_override_colors/font_shadow_color = Color(0, 0.235294, 0.203922, 1)
 theme_override_constants/shadow_outline_size = 6
-theme_override_fonts/font = ExtResource( "1_sqr7k" )
+theme_override_fonts/font = ExtResource( "2_3akht" )
 theme_override_font_sizes/font_size = 28
 text = "PLACEHOLDER_NAME"
 autowrap_mode = 3

@@ -1,4 +1,3 @@
-@tool
 extends PathFollow3D
 
 enum PLAYER_STATE {
@@ -58,7 +57,7 @@ func _ready():
   var standard_material = StandardMaterial3D.new()
 
   $origin.position = PLAYER_POSITIONS[player_index]
-  $canvas/panel.rect_position = PANEL_POSITIONS[player_index]
+  $canvas/panel.position = PANEL_POSITIONS[player_index]
 
   standard_material.albedo_color = player_color
   $origin/skeleton/mesh.set_surface_override_material(1, standard_material)
